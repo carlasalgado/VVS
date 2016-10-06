@@ -79,6 +79,8 @@ E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\Interop.Accessibility.dll
 E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\PracticaMaD.Model.dll
 E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\PracticaMaD.Model.pdb
+E:\Software\Repositorio VVS\Model\obj\Debug\Interop.Accessibility.dll
+E:\Software\Repositorio VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 E:\Software\Repositorio VVS\Model\bin\Debug\PracticaMaD.Model.dll.config
 E:\Software\Repositorio VVS\Model\bin\Debug\PracticaMaD.Model.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\PracticaMaD.Model.pdb
@@ -92,7 +94,9 @@ E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Intercepti
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Software\Repositorio VVS\Model\bin\Debug\ModelUtil.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\Newtonsoft.Json.dll
+E:\Software\Repositorio VVS\Model\bin\Debug\ModelUtil.pdb
 E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.SqlServer.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
@@ -103,7 +107,6 @@ E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Intercepti
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
-E:\Software\Repositorio VVS\Model\obj\Debug\Interop.Accessibility.dll
-E:\Software\Repositorio VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
+E:\Software\Repositorio VVS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 E:\Software\Repositorio VVS\Model\obj\Debug\PracticaMaD.Model.dll
 E:\Software\Repositorio VVS\Model\obj\Debug\PracticaMaD.Model.pdb

@@ -92,8 +92,10 @@ E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interceptio
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Software\Repositorio VVS\Test\bin\Debug\ModelUtil.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Model.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\Newtonsoft.Json.dll
+E:\Software\Repositorio VVS\Test\bin\Debug\ModelUtil.pdb
 E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Model.pdb
 E:\Software\Repositorio VVS\Test\bin\Debug\EntityFramework.xml
 E:\Software\Repositorio VVS\Test\bin\Debug\EntityFramework.SqlServer.xml
