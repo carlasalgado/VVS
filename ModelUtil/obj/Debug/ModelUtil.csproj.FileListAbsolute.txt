@@ -2,12 +2,17 @@ E:\Software\Repositorio VVS\ModelUtil\bin\Debug\ModelUtil.dll.config
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\ModelUtil.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\ModelUtil.pdb
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\EntityFramework.dll
+E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Newtonsoft.Json.dll
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\EntityFramework.xml
+E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.xml
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 E:\Software\Repositorio VVS\ModelUtil\bin\Debug\Microsoft.Practices.Unity.Interception.xml

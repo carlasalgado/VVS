@@ -84,8 +84,6 @@ E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\Web.csproj.GenerateResource.
 E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\PracticaMaD.Web.dll
 E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\PracticaMaD.Web.pdb
 E:\Software\Repositorio VVS\Web\bin\EntityFramework.SqlServer.xml
-E:\Software\Repositorio VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
-E:\Software\Repositorio VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.dll.config
 E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.dll
 E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.pdb
@@ -114,5 +112,7 @@ E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Confi
 E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
 E:\Software\Repositorio VVS\Web\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
 E:\Software\Repositorio VVS\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\Software\Repositorio VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
+E:\Software\Repositorio VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.dll
 E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.pdb
