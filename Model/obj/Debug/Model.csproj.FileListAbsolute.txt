@@ -1,0 +1,81 @@
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\PracticaMaD.Model.dll.config
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\PracticaMaD.Model.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\PracticaMaD.Model.pdb
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\EntityFramework.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\EntityFramework.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\obj\Debug\Interop.Accessibility.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\obj\Debug\Model.csproj.ResolveComReference.cache
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\obj\Debug\PracticaMaD.Model.dll
+C:\Users\Pedro\Desktop\MaD Guardado\PracticaMaD\Model\obj\Debug\PracticaMaD.Model.pdb
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\PracticaMaD.Model.dll.config
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\PracticaMaD.Model.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\PracticaMaD.Model.pdb
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\EntityFramework.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\EntityFramework.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Pedro\Desktop\Hola\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Pedro\Desktop\Hola\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Desktop\Hola\Model\obj\Debug\Interop.Accessibility.dll
+C:\Users\Pedro\Desktop\Hola\Model\obj\Debug\Model.csproj.ResolveComReference.cache
+C:\Users\Pedro\Desktop\Hola\Model\obj\Debug\PracticaMaD.Model.dll
+C:\Users\Pedro\Desktop\Hola\Model\obj\Debug\PracticaMaD.Model.pdb
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\PracticaMaD.Model.dll.config
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\PracticaMaD.Model.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\PracticaMaD.Model.pdb
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\EntityFramework.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Newtonsoft.Json.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\EntityFramework.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\Interop.Accessibility.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\Model.csproj.ResolveComReference.cache
+E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\PracticaMaD.Model.dll
+E:\Software\Marcos de Desarrollo\Hola\Model\obj\Debug\PracticaMaD.Model.pdb

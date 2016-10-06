@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95A1E26C-670C-4150-89DB-43F955ACC0AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Es.Udc.DotNet.PracticaMaD.Model</RootNamespace>
+    <AssemblyName>PracticaMaD.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging">
+      <HintPath>..\packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\packages\Unity.Interception.3.5.1404.0\lib\Net45\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration">
+      <HintPath>..\packages\Unity.Interception.3.5.1404.0\lib\Net45\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="ModelUtil">
+      <HintPath>..\..\..\PracticaMaD\PracticaMaD\lib\ModelUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comentario.cs">
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComentarioDao\ComentarioDaoEntityFramework.cs" />
+    <Compile Include="ComentarioDao\IComentarioDao.cs" />
+    <Compile Include="Etiqueta.cs">
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EtiquetaDao\EtiquetaDaoEntityFramework.cs" />
+    <Compile Include="EtiquetaDao\IEtiquetaDao.cs" />
+    <Compile Include="Evento.cs">
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventoDao\EventoDaoEntityFramework.cs" />
+    <Compile Include="EventoDao\IEventoDao.cs" />
+    <Compile Include="EventoService\BloqueComentarios.cs" />
+    <Compile Include="EventoService\BloqueEventos.cs" />
+    <Compile Include="EventoService\ComentarioDTO.cs" />
+    <Compile Include="EventoService\Excepciones\SinGruposException.cs" />
+    <Compile Include="EventoService\RecomendacionDTO.cs" />
+    <Compile Include="EventoService\EventoDTO.cs" />
+    <Compile Include="EventoService\EventoService.cs" />
+    <Compile Include="EventoService\IEventoService.cs" />
+    <Compile Include="EventoService\Excepciones\UsuarioNoPropietarioException.cs" />
+    <Compile Include="Grupo.cs">
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoDao\GrupoDaoEntityFramework.cs" />
+    <Compile Include="GrupoDao\IGrupoDao.cs" />
+    <Compile Include="GrupoService\BloqueGrupos.cs" />
+    <Compile Include="GrupoService\GrupoDTO.cs" />
+    <Compile Include="GrupoService\GrupoService.cs" />
+    <Compile Include="GrupoService\IGrupoService.cs" />
+    <Compile Include="PracticaMaD.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PracticaMaD.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PracticaMaD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PracticaMaD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PracticaMaD.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recomendacion.cs">
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecomendacionDao\IRecomendacionDao.cs" />
+    <Compile Include="RecomendacionDao\RecomendacionDaoEntityFramework.cs" />
+    <Compile Include="UserProfile.cs">
+      <DependentUpon>PracticaMaD.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfileDao\IUserProfileDao.cs" />
+    <Compile Include="UserProfileDao\UserProfileDaoEntityFramework.cs" />
+    <Compile Include="UserService\Exceptions\IncorrectPasswordException.cs" />
+    <Compile Include="UserService\IUserService.cs" />
+    <Compile Include="UserService\LoginResult.cs" />
+    <Compile Include="UserService\UserProfileDetails.cs" />
+    <Compile Include="UserService\UserService.cs" />
+    <Compile Include="UserService\Util\PasswordEncrypter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <EntityDeploy Include="PracticaMaD.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PracticaMaD.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="PracticaMaD.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PracticaMaD.edmx</DependentUpon>
+      <LastGenOutput>PracticaMaD.Context.cs</LastGenOutput>
+    </None>
+    <None Include="PracticaMaD.edmx.diagram">
+      <DependentUpon>PracticaMaD.edmx</DependentUpon>
+    </None>
+    <None Include="PracticaMaD.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PracticaMaD.edmx</DependentUpon>
+      <LastGenOutput>PracticaMaD.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Accessibility">
+      <Guid>{1EA4DBF0-3C3B-11CF-810C-00AA00389B71}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sql\InsertInto.sql" />
+    <Content Include="Sql\SqlServerCreateDatabase.sql" />
+    <Content Include="Sql\SqlServerCreateTables.sql" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

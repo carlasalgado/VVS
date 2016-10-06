@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f01dd16ab67c4e7bbc3efc773b265572" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Es.Udc.DotNet.PracticaMaD.Comentario" Width="1.5" PointX="5.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Es.Udc.DotNet.PracticaMaD.Etiqueta" Width="1.5" PointX="7" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Es.Udc.DotNet.PracticaMaD.Evento" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Es.Udc.DotNet.PracticaMaD.Grupo" Width="1.5" PointX="0.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Es.Udc.DotNet.PracticaMaD.Recomendacion" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Es.Udc.DotNet.PracticaMaD.UserProfile" Width="1.5" PointX="2.75" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="Es.Udc.DotNet.PracticaMaD.FK_Evento" ManuallyRouted="false" />
+        <AssociationConnector Association="Es.Udc.DotNet.PracticaMaD.FK_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="Es.Udc.DotNet.PracticaMaD.FK_Evento_Recomendacion" ManuallyRouted="false" />
+        <AssociationConnector Association="Es.Udc.DotNet.PracticaMaD.Contiene" ManuallyRouted="false" />
+        <AssociationConnector Association="Es.Udc.DotNet.PracticaMaD.Etiquetado" ManuallyRouted="false" />
+        <AssociationConnector Association="Es.Udc.DotNet.PracticaMaD.Pertenece" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
