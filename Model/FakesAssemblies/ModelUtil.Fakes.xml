@@ -1,0 +1,1004 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ModelUtil.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Dao.GenericDaoEntityFramework`2</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.#ctor(Es.Udc.DotNet.ModelUtil.Dao.GenericDaoEntityFramework{`0,`1})">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.Bind(Es.Udc.DotNet.ModelUtil.Dao.IGenericDao{`0,`1})">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.Constructor">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.GenericDaoEntityFramework`2()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.ContextGet">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.get_Context()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.ContextSetDbContext">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.set_Context(DbContext value)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.CreateT0">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Create(!0 entity)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.ExistsT1">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Exists(!1 id)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.FindT1">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Find(!1 id)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.GetAllElements">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.GetAllElements()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.RemoveT1">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Remove(!1 id)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.UpdateT0">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Update(!0 entity)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.ContextGet">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.get_Context()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.ContextSetDbContext">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.set_Context(DbContext value)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.CreateT0">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Create(!0 entity)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.ExistsT1">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Exists(!1 id)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.FindT1">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Find(!1 id)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.GetAllElements">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.GetAllElements()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.RemoveT1">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Remove(!1 id)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.ShimGenericDaoEntityFramework`2.AllInstances.UpdateT0">
+            <summary>Establecer el shim de GenericDaoEntityFramework`2.Update(!0 entity)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubGenericDaoEntityFramework`2">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Dao.GenericDaoEntityFramework`2</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubGenericDaoEntityFramework`2.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubGenericDaoEntityFramework`2.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubGenericDaoEntityFramework</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubGenericDaoEntityFramework`2.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubGenericDaoEntityFramework`2.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubGenericDaoEntityFramework`2.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Dao.IGenericDao`2</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.#ctor">
+            <summary>Inicializa una nueva instancia de type StubIGenericDao</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.CreateT0">
+            <summary>Establecer el stub de IGenericDao`2.Create(!0 entity)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.mu::Es#Udc#DotNet#ModelUtil#Dao#IGenericDao{E@PK}#Create(`0)">
+            <summary>Establecer el stub de IGenericDao`2.Create(!0 entity)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.mu::Es#Udc#DotNet#ModelUtil#Dao#IGenericDao{E@PK}#Exists(`1)">
+            <summary>Establecer el stub de IGenericDao`2.Exists(!1 id)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.mu::Es#Udc#DotNet#ModelUtil#Dao#IGenericDao{E@PK}#Find(`1)">
+            <summary>Establecer el stub de IGenericDao`2.Find(!1 id)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.mu::Es#Udc#DotNet#ModelUtil#Dao#IGenericDao{E@PK}#GetAllElements">
+            <summary>Establecer el stub de IGenericDao`2.GetAllElements()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.mu::Es#Udc#DotNet#ModelUtil#Dao#IGenericDao{E@PK}#Remove(`1)">
+            <summary>Establecer el stub de IGenericDao`2.Remove(!1 id)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.mu::Es#Udc#DotNet#ModelUtil#Dao#IGenericDao{E@PK}#Update(`0)">
+            <summary>Establecer el stub de IGenericDao`2.Update(!0 entity)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.ExistsT1">
+            <summary>Establecer el stub de IGenericDao`2.Exists(!1 id)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.FindT1">
+            <summary>Establecer el stub de IGenericDao`2.Find(!1 id)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.GetAllElements">
+            <summary>Establecer el stub de IGenericDao`2.GetAllElements()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.RemoveT1">
+            <summary>Establecer el stub de IGenericDao`2.Remove(!1 id)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Dao.Fakes.StubIGenericDao`2.UpdateT0">
+            <summary>Establecer el stub de IGenericDao`2.Update(!0 entity)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Exceptions.DuplicateInstanceException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.#ctor(Es.Udc.DotNet.ModelUtil.Exceptions.DuplicateInstanceException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.ConstructorObjectString">
+            <summary>Establecer el shim de DuplicateInstanceException.DuplicateInstanceException(Object key, String className)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimDuplicateInstanceException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Exceptions.InstanceException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.#ctor(Es.Udc.DotNet.ModelUtil.Exceptions.InstanceException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.ClassNameGet">
+            <summary>Establecer el shim de InstanceException.get_ClassName()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.ClassNameSetString">
+            <summary>Establecer el shim de InstanceException.set_ClassName(String value)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.ConstructorStringObjectString">
+            <summary>Establecer el shim de InstanceException.InstanceException(String specificMessage, Object key, String className)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.KeyGet">
+            <summary>Establecer el shim de InstanceException.get_Key()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.KeySetObject">
+            <summary>Establecer el shim de InstanceException.set_Key(Object value)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.AllInstances.ClassNameGet">
+            <summary>Establecer el shim de InstanceException.get_ClassName()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.AllInstances.ClassNameSetString">
+            <summary>Establecer el shim de InstanceException.set_ClassName(String value)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.AllInstances.KeyGet">
+            <summary>Establecer el shim de InstanceException.get_Key()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceException.AllInstances.KeySetObject">
+            <summary>Establecer el shim de InstanceException.set_Key(Object value)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Exceptions.InstanceNotFoundException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.#ctor(Es.Udc.DotNet.ModelUtil.Exceptions.InstanceNotFoundException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.ConstructorObjectString">
+            <summary>Establecer el shim de InstanceNotFoundException.InstanceNotFoundException(Object key, String className)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInstanceNotFoundException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Exceptions.InternalErrorException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.#ctor(Es.Udc.DotNet.ModelUtil.Exceptions.InternalErrorException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.ConstructorException">
+            <summary>Establecer el shim de InternalErrorException.InternalErrorException(Exception exception)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.ConstructorString">
+            <summary>Establecer el shim de InternalErrorException.InternalErrorException(String msg)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.EncapsulatedExceptionGet">
+            <summary>Establecer el shim de InternalErrorException.get_EncapsulatedException()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.MessageGet">
+            <summary>Establecer el shim de InternalErrorException.get_Message()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.AllInstances.EncapsulatedExceptionGet">
+            <summary>Establecer el shim de InternalErrorException.get_EncapsulatedException()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimInternalErrorException.AllInstances.MessageGet">
+            <summary>Establecer el shim de InternalErrorException.get_Message()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Exceptions.ModelException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.#ctor(Es.Udc.DotNet.ModelUtil.Exceptions.ModelException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.Constructor">
+            <summary>Establecer el shim de ModelException.ModelException()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.ConstructorString">
+            <summary>Establecer el shim de ModelException.ModelException(String message)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimModelException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Exceptions.SqlException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.#ctor(Es.Udc.DotNet.ModelUtil.Exceptions.SqlException)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.ConstructorString">
+            <summary>Establecer el shim de SqlException.SqlException(String msg)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.ShimSqlException.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Exceptions.DuplicateInstanceException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.#ctor(System.Object,System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubDuplicateInstanceException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubDuplicateInstanceException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubDuplicateInstanceException</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubDuplicateInstanceException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Exceptions.InstanceException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.#ctor(System.String,System.Object,System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubInstanceException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubInstanceException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubInstanceException</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Exceptions.InstanceNotFoundException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.#ctor(System.Object,System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubInstanceNotFoundException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubInstanceNotFoundException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubInstanceNotFoundException</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInstanceNotFoundException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Exceptions.InternalErrorException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.#ctor(System.Exception)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.#ctor(System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubInternalErrorException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubInternalErrorException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubInternalErrorException</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.MessageGet">
+            <summary>Establecer el stub de InternalErrorException.get_Message()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.Message">
+            <summary>Establecer el stub de InternalErrorException.get_Message()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubInternalErrorException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Exceptions.ModelException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.#ctor(System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubModelException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubModelException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubModelException</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.ToString">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.ToString01">
+            <summary>Establecer el stub de Exception.ToString()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubModelException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Exceptions.SqlException</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.#ctor(System.String)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.AttachBackingFieldToHelpLink">
+            <summary>Asocia delegados para emular StubSqlException.HelpLink como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.AttachBackingFieldToSource">
+            <summary>Asocia delegados para emular StubSqlException.Source como una propiedad con un campo de respaldo.</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.DataGet">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.ErrorCodeGet">
+            <summary>Establecer el stub de ExternalException.get_ErrorCode()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.GetBaseException">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.GetBaseException01">
+            <summary>Establecer el stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Establecer el stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.HelpLinkGet">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.HelpLinkSetString">
+            <summary>Establecer el stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubSqlException</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.MessageGet">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.SourceGet">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.SourceSetString">
+            <summary>Establecer el stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.StackTraceGet">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.ToString">
+            <summary>Establecer el stub de ExternalException.ToString()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.ToString01">
+            <summary>Establecer el stub de ExternalException.ToString()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.Data">
+            <summary>Establecer el stub de Exception.get_Data()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.ErrorCode">
+            <summary>Establecer el stub de ExternalException.get_ErrorCode()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.HelpLink">
+            <summary>Establecer el stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.Message">
+            <summary>Establecer el stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.Source">
+            <summary>Establecer el stub de Exception.get_Source()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Exceptions.Fakes.StubSqlException.StackTrace">
+            <summary>Establecer el stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Log.LogManager</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.#ctor(Es.Udc.DotNet.ModelUtil.Log.LogManager)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.Constructor">
+            <summary>Establecer el shim de LogManager.LogManager()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.RecordMessageString">
+            <summary>Establecer el shim de LogManager.RecordMessage(String message)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.RecordMessageStringMessageType">
+            <summary>Establecer el shim de LogManager.RecordMessage(String message, MessageType messageType)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.RecordMessageStringMessageTypeString">
+            <summary>Establecer el shim de LogManager.RecordMessage(String message, MessageType messageType, String category)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.StaticConstructor">
+            <summary>Establecer el shim de LogManager.LogManager()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Log.Fakes.ShimLogManager.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Transactions.TransactionalAttribute</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.#ctor(Es.Udc.DotNet.ModelUtil.Transactions.TransactionalAttribute)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.Constructor">
+            <summary>Establecer el shim de TransactionalAttribute.TransactionalAttribute()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.CreateHandlerIUnityContainer">
+            <summary>Establecer el shim de TransactionalAttribute.CreateHandler(IUnityContainer container)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalAttribute.AllInstances.CreateHandlerIUnityContainer">
+            <summary>Establecer el shim de TransactionalAttribute.CreateHandler(IUnityContainer container)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Es.Udc.DotNet.ModelUtil.Transactions.TransactionalHandler</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.#ctor(Es.Udc.DotNet.ModelUtil.Transactions.TransactionalHandler)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.Bind(Microsoft.Practices.Unity.InterceptionExtension.ICallHandler)">
+            <summary>Asocia los miembros de la interfaz a las correcciones de compatibilidad (shim).</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.Constructor">
+            <summary>Establecer el shim de TransactionalHandler.TransactionalHandler()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.InvokeIMethodInvocationGetNextHandlerDelegate">
+            <summary>Establecer el shim de TransactionalHandler.Invoke(IMethodInvocation input, GetNextHandlerDelegate getNext)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.OrderGet">
+            <summary>Establecer el shim de TransactionalHandler.get_Order()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.OrderSetInt32">
+            <summary>Establecer el shim de TransactionalHandler.set_Order(Int32 value)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.AllInstances.InvokeIMethodInvocationGetNextHandlerDelegate">
+            <summary>Establecer el shim de TransactionalHandler.Invoke(IMethodInvocation input, GetNextHandlerDelegate getNext)</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.AllInstances.OrderGet">
+            <summary>Establecer el shim de TransactionalHandler.get_Order()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.ShimTransactionalHandler.AllInstances.OrderSetInt32">
+            <summary>Establecer el shim de TransactionalHandler.set_Order(Int32 value)</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Transactions.TransactionalAttribute</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.CreateHandler(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>Establecer el stub de TransactionalAttribute.CreateHandler(IUnityContainer container)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.CreateHandlerIUnityContainer">
+            <summary>Establecer el stub de TransactionalAttribute.CreateHandler(IUnityContainer container)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.Equals(System.Object)">
+            <summary>Establecer el stub de Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.EqualsObject">
+            <summary>Establecer el stub de Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.GetHashCode">
+            <summary>Establecer el stub de Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.GetHashCode01">
+            <summary>Establecer el stub de Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubTransactionalAttribute</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.IsDefaultAttribute">
+            <summary>Establecer el stub de Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.IsDefaultAttribute01">
+            <summary>Establecer el stub de Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.Match(System.Object)">
+            <summary>Establecer el stub de Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.MatchObject">
+            <summary>Establecer el stub de Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.TypeIdGet">
+            <summary>Establecer el stub de Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalAttribute.TypeId">
+            <summary>Establecer el stub de Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalHandler">
+            <summary>Tipo stub de Es.Udc.DotNet.ModelUtil.Transactions.TransactionalHandler</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalHandler.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalHandler.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubTransactionalHandler</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalHandler.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalHandler.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Es.Udc.DotNet.ModelUtil.Transactions.Fakes.StubTransactionalHandler.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+    </members>
+</doc>
