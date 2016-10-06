@@ -1,3 +1,5 @@
 language: java
-mvn test
-mvn install -DskipTests=true -Dmaven.javadoc.script=true -B -V
+script: mvn test
+
+jdk: 
+  - oraclejdk8
