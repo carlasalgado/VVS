@@ -92,7 +92,6 @@ E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Intercepti
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\ModelUtil.Fakes.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\Newtonsoft.Json.dll
 E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.SqlServer.xml
@@ -103,7 +102,6 @@ E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Configurat
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\ModelUtil.Fakes.xml
 E:\Software\Repositorio VVS\Model\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
 E:\Software\Repositorio VVS\Model\obj\Debug\Interop.Accessibility.dll
 E:\Software\Repositorio VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache

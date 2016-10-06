@@ -92,7 +92,6 @@ E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interceptio
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\ModelUtil.Fakes.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Model.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\Newtonsoft.Json.dll
 E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Model.pdb
@@ -105,7 +104,6 @@ E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Configurati
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\ModelUtil.Fakes.xml
 E:\Software\Repositorio VVS\Test\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
 E:\Software\Repositorio VVS\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 E:\Software\Repositorio VVS\Test\obj\Debug\PracticaMaD.Test.dll

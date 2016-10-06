@@ -70,9 +70,6 @@
     <Reference Include="ModelUtil">
       <HintPath>..\..\..\PracticaMaD\PracticaMaD\lib\ModelUtil.dll</HintPath>
     </Reference>
-    <Reference Include="ModelUtil.Fakes">
-      <HintPath>FakesAssemblies\ModelUtil.Fakes.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />

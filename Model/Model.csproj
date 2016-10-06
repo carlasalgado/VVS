@@ -62,9 +62,6 @@
     <Reference Include="ModelUtil">
       <HintPath>..\..\..\PracticaMaD\PracticaMaD\lib\ModelUtil.dll</HintPath>
     </Reference>
-    <Reference Include="ModelUtil.Fakes">
-      <HintPath>FakesAssemblies\ModelUtil.Fakes.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />

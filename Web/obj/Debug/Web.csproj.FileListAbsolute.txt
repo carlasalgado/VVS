@@ -97,7 +97,6 @@ E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Confi
 E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.dll
 E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
 E:\Software\Repositorio VVS\Web\bin\Microsoft.QualityTools.Testing.Fakes.dll
-E:\Software\Repositorio VVS\Web\bin\ModelUtil.Fakes.dll
 E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Model.dll
 E:\Software\Repositorio VVS\Web\bin\Newtonsoft.Json.dll
 E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Model.pdb
@@ -109,7 +108,6 @@ E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Configuration.xml
 E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.xml
 E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.xml
 E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
-E:\Software\Repositorio VVS\Web\bin\ModelUtil.Fakes.xml
 E:\Software\Repositorio VVS\Web\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
 E:\Software\Repositorio VVS\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 E:\Software\Repositorio VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
