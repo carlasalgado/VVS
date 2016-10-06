@@ -1,0 +1,23 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+    xmlns:p="tapestry:parameter"
+	t:type="Layout" t:title="title" showTitleInBody="false">
+
+ <form t:type="Form" class="form-horizontal" t:id="createCheckForm">
+
+	<t:errors/>  
+	
+         <label t:type='label' t:for='checklist'/><br/>
+          
+         <t:checklist t:id='checklist'
+              t:selected='selectedOptions' t:encoder='optionEncoder'
+              t:model='optionModel'/><br/>
+                    
+        <div class="form-group">
+	    	<div class="col-md-offset-5 col-md-1">
+				<button type="submit" class="btn btn-primary">${message:create}</button>
+			</div>
+	    </div>
+	    
+      </form>
+    
+</html>

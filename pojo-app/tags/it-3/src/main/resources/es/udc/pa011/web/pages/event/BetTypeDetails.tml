@@ -1,0 +1,102 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+    xmlns:p="tapestry:parameter"
+	t:type="Layout" t:title="title" showTitleInBody="false">
+ 
+ <form t:type="Form" class="form-horizontal" t:id="createBetTypeForm">
+
+	<t:errors/>  
+	<table class="table table-striped table-hover">
+			
+				<thead>
+					<tr>
+					    <th>${message:eventName}</th>
+					    <th>${message:eventDate}</th>
+					    <th>${message:eventCategory}</th>
+					    <th>${message:betTypeQuestion}</th>
+					    <th>${message:betTypeMultWinOpt}</th>
+					</tr>
+				</thead>
+				
+				<tbody>			
+					<td>${bettype.event.name}</td>
+					<td><t:output value="bettype.event.date.time" format="format"/></td>
+					<td>${bettype.event.category.name}</td>
+					<td>${bettype.question}</td>
+					<td>${bettype.multWinOptions}</td>
+				</tbody>
+			
+	</table>
+		
+	<t:if test="options">
+	
+		<!-- Print user accounts. -->
+		
+		<table class="table table-striped table-hover">
+		
+			<thead>
+				<tr>
+				    <th>${message:option-label}</th>
+				    <th>${message:share-label}</th>
+					<th>${message:estateOpt-label}</th>
+				</tr>
+			</thead>
+			
+			<tbody>			
+				<tr t:type="Loop" t:source="options" t:value="option">
+					<t:if test="comenzado" negate="true">
+						<t:if test="admin" negate="true">
+							<td><a href="#" t:type="PageLink" t:page="bet/MakeBet"
+				   				t:context="${option.optionId}">${option.option}</a></td>
+				   			<p:else>
+				   				<td>${option.option}</td>
+							</p:else>
+				   		</t:if>
+						<p:else>
+							<t:if test="ganada">
+				   				<td style="font-weight: bold">${option.option}</td>
+				   				<p:else>
+				   					<td>${option.option}</td>
+				   				</p:else>
+				   			</t:if>
+						</p:else>
+					</t:if>
+					
+					<td>${option.share}</td>
+					
+					<t:if test="comenzado" negate="true">
+						<td>${message:sinResolver}</td>
+						<p:else>
+							<t:if test="sinResolver">
+								<td>${message:sinResolver}</td>
+								<p:else>
+									<t:if test="ganada">
+										<td>${message:ganada}</td>
+										<p:else>
+											<td>${message:perdida}</td>
+										</p:else>
+									</t:if>
+								</p:else>
+							</t:if> 
+						</p:else>
+					</t:if>			
+				</tr>
+			</tbody>
+		</table>	
+			
+		<p:else>	
+			<h4 class="alert alert-danger text-center">${message:noOptions}</h4>
+		</p:else>
+		
+	</t:if>
+	<t:if test="admin">
+		<t:if test="comenzado">
+			<t:if test = "options">
+				<t:if test="sinResolver">
+					<td><a href="#" t:type="PageLink" t:page="event/checkListOptions"
+					t:context="${bettypeId}">${message:button-establecerGanadoras}</a></td>
+				</t:if>
+			</t:if>
+		</t:if>
+	</t:if>
+</form>
+</html>
