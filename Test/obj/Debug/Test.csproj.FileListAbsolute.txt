@@ -79,34 +79,3 @@ E:\Software\Marcos de Desarrollo\Hola\Test\bin\Debug\Microsoft.Practices.Unity.R
 E:\Software\Marcos de Desarrollo\Hola\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 E:\Software\Marcos de Desarrollo\Hola\Test\obj\Debug\PracticaMaD.Test.dll
 E:\Software\Marcos de Desarrollo\Hola\Test\obj\Debug\PracticaMaD.Test.pdb
-E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Test.dll.config
-E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Test.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Test.pdb
-E:\Software\Repositorio VVS\Test\bin\Debug\EntityFramework.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\EntityFramework.SqlServer.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\ModelUtil.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Model.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\Newtonsoft.Json.dll
-E:\Software\Repositorio VVS\Test\bin\Debug\ModelUtil.pdb
-E:\Software\Repositorio VVS\Test\bin\Debug\PracticaMaD.Model.pdb
-E:\Software\Repositorio VVS\Test\bin\Debug\EntityFramework.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\EntityFramework.SqlServer.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-E:\Software\Repositorio VVS\Test\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
-E:\Software\Repositorio VVS\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-E:\Software\Repositorio VVS\Test\obj\Debug\PracticaMaD.Test.dll
-E:\Software\Repositorio VVS\Test\obj\Debug\PracticaMaD.Test.pdb
