@@ -2,5 +2,10 @@ language: csharp
 solution: PracticaMaD.sln
 
 install:
+  - sudo apt-get install nunit-console
   - sudo apt-get install -y gtk-sharp2
   - nuget restore PracticaMaD.sln
+
+script:
+  - xbuild PracticaMaD.sln
+  - nunit-console ./src/SomeLibrary.Tests/bin/Debug/SomeLibrary.Tests.dll
