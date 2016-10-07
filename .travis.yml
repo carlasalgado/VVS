@@ -3,4 +3,8 @@ solution: PracticaMaD.sln
 
 install:
   - sudo apt-get install -y gtk-sharp2
-  - nuget restore PracticaMaD.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+  
+script:
+  - xbuild /p:Configuration=Release PracticaMaD.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./PracticaMaD.Tests/bin/Release/PracticaMaD.Tests.dll
