@@ -7,4 +7,4 @@ install:
   
 script:
   - xbuild /p:Configuration=Release PracticaMaD.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./PracticaMaD.Tests/bin/Release/PracticaMaD.Tests.dll
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Tests/bin/Release/PracticaMaD.Tests.dll
