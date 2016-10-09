@@ -1,14 +1,8 @@
 language: csharp
 solution: PracticaMaD.sln
-
-mono: none
-dotnet: 1.0.0-preview2-003121
-
 install:
-  - sudo apt-get install -y gtk-sharp2
-  - nuget install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
-  
+  - nuget restore PracticaMaD.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Nunit-Net45 /p:TargetFrameworkVersion="v4.5" PracticaMaD.sln
-  - cd Test
-  - mono ../testrunner/NUnit.Cosole.3.0.1/tools/nunit3-console.exe ./bin/Nunit/Test.dll
+  - xbuild /p:Configuration=Release PracticaMaD.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Test/bin/Release/Test.dll
