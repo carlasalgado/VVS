@@ -1,6 +1,9 @@
 language: csharp
 solution: PracticaMaD.sln
 
+mono: none
+dotnet: 1.0.0-preview2-003121
+
 install:
   - sudo apt-get install -y gtk-sharp2
   - nuget install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
