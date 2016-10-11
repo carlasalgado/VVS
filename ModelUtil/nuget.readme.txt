@@ -1,0 +1,25 @@
+
+To generate .nuget folder within solution
+
+	Right-click over solution -> "Enable .nuget packages restoration"
+
+1) Generate a nuget package (via command line)
+  
+   1.1) .nuget\nuget.exe spec
+    
+   1.2) open and edit the specification file: modelutil.1.0.0.spec
+
+   1.3) nuget pack modelutil.csproj
+
+
+   Another option: To generate nuget package with user interface. Download and install NuGet Package Explorer
+   (Available at: npe.codeplex.com/)
+
+2) Export .nupkg file to the local/remote repository (i.e. d:\sourcecode\nuget.packages or https://www.nuget.org/packages)
+
+3) Search package and install it from any project
+
+
+----
+
+This project can be found at nuget repository in the following url: https://www.nuget.org/packages/modelutil/

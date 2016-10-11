@@ -1,0 +1,6 @@
+E:\Software\Repositorio VVS\Test\Fakes\ModelUtil.fakes : warning : No se puede generar stub para Es.Udc.DotNet.ModelUtil.Properties.Settings: el tipo está sellado.
+E:\Software\Repositorio VVS\Test\Fakes\ModelUtil.fakes : warning : No se puede generar stub para Es.Udc.DotNet.ModelUtil.Log.LogManager: el tipo está sellado.
+E:\Software\Repositorio VVS\Test\Fakes\ModelUtil.fakes : warning : No se puede generar stub para Es.Udc.DotNet.ModelUtil.Log.MessageType: el tipo es un tipo de valor.
+E:\Software\Repositorio VVS\Test\Fakes\ModelUtil.fakes : warning : No se puede generar shim para Es.Udc.DotNet.ModelUtil.Properties.Settings: el tipo no es visible para exported or assembly(ModelUtil.Fakes).
+E:\Software\Repositorio VVS\Test\Fakes\ModelUtil.fakes : warning : No se puede generar shim para Es.Udc.DotNet.ModelUtil.Log.MessageType: el tipo es una enumeración.
+E:\Software\Repositorio VVS\Test\Fakes\ModelUtil.fakes : warning : No se puede generar shim para Es.Udc.DotNet.ModelUtil.Dao.IGenericDao`2: el tipo es una interfaz.
