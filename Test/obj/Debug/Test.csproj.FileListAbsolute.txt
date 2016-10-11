@@ -79,3 +79,32 @@ E:\Software\Marcos de Desarrollo\Hola\Test\bin\Debug\Microsoft.Practices.Unity.R
 E:\Software\Marcos de Desarrollo\Hola\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 E:\Software\Marcos de Desarrollo\Hola\Test\obj\Debug\PracticaMaD.Test.dll
 E:\Software\Marcos de Desarrollo\Hola\Test\obj\Debug\PracticaMaD.Test.pdb
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\PracticaMaD.Test.dll.config
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\PracticaMaD.Test.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\PracticaMaD.Test.pdb
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\EntityFramework.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\ModelUtil.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\PracticaMaD.Model.dll
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\PracticaMaD.Model.pdb
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\EntityFramework.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Carla\Documents\GitVVS\Test\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Carla\Documents\GitVVS\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Carla\Documents\GitVVS\Test\obj\Debug\PracticaMaD.Test.dll
+C:\Users\Carla\Documents\GitVVS\Test\obj\Debug\PracticaMaD.Test.pdb
