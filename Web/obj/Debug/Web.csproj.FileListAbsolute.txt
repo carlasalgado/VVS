@@ -83,36 +83,32 @@ E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.We
 E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\PracticaMaD.Web.dll
 E:\Software\Marcos de Desarrollo\Hola\Web\obj\Debug\PracticaMaD.Web.pdb
-E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.dll.config
-E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.dll
-E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.pdb
-E:\Software\Repositorio VVS\Web\bin\EntityFramework.dll
-E:\Software\Repositorio VVS\Web\bin\EntityFramework.SqlServer.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Configuration.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
-E:\Software\Repositorio VVS\Web\bin\Microsoft.QualityTools.Testing.Fakes.dll
-E:\Software\Repositorio VVS\Web\bin\ModelUtil.dll
-E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Model.dll
-E:\Software\Repositorio VVS\Web\bin\Newtonsoft.Json.dll
-E:\Software\Repositorio VVS\Web\bin\ModelUtil.pdb
-E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Model.pdb
-E:\Software\Repositorio VVS\Web\bin\EntityFramework.xml
-E:\Software\Repositorio VVS\Web\bin\EntityFramework.SqlServer.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Configuration.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.xml
-E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
-E:\Software\Repositorio VVS\Web\bin\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
-E:\Software\Repositorio VVS\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
-E:\Software\Repositorio VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
-E:\Software\Repositorio VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
-E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.dll
-E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.pdb
+C:\Users\Carla\Documents\GitVVS\Web\bin\PracticaMaD.Web.dll.config
+C:\Users\Carla\Documents\GitVVS\Web\bin\PracticaMaD.Web.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\PracticaMaD.Web.pdb
+C:\Users\Carla\Documents\GitVVS\Web\bin\EntityFramework.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\ModelUtil.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\PracticaMaD.Model.dll
+C:\Users\Carla\Documents\GitVVS\Web\bin\PracticaMaD.Model.pdb
+C:\Users\Carla\Documents\GitVVS\Web\bin\EntityFramework.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Carla\Documents\GitVVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
+C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\PracticaMaD.Web.dll
+C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\PracticaMaD.Web.pdb

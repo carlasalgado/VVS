@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Es.Udc.DotNet.PracticaMaD.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Comentario">
+    <Key>
+      <PropertyRef Name="idComentario" />
+    </Key>
+    <Property Name="idComentario" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idEvento" Type="bigint" Nullable="false" />
+    <Property Name="usrId" Type="bigint" Nullable="false" />
+    <Property Name="texto" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Contiene">
+    <Key>
+      <PropertyRef Name="idGrupo" />
+      <PropertyRef Name="idRecomendacion" />
+    </Key>
+    <Property Name="idGrupo" Type="bigint" Nullable="false" />
+    <Property Name="idRecomendacion" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Etiqueta">
+    <Key>
+      <PropertyRef Name="idEtiqueta" />
+    </Key>
+    <Property Name="idEtiqueta" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Etiquetado">
+    <Key>
+      <PropertyRef Name="idComentario" />
+      <PropertyRef Name="idEtiqueta" />
+    </Key>
+    <Property Name="idComentario" Type="bigint" Nullable="false" />
+    <Property Name="idEtiqueta" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="idEvento" />
+    </Key>
+    <Property Name="idEvento" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="reseña" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="idGrupo" />
+    </Key>
+    <Property Name="idGrupo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pertenece">
+    <Key>
+      <PropertyRef Name="idGrupo" />
+      <PropertyRef Name="usrId" />
+    </Key>
+    <Property Name="idGrupo" Type="bigint" Nullable="false" />
+    <Property Name="usrId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Recomendacion">
+    <Key>
+      <PropertyRef Name="idRecomendacion" />
+    </Key>
+    <Property Name="idRecomendacion" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idEvento" Type="bigint" Nullable="false" />
+    <Property Name="texto" Type="varchar" MaxLength="100" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="usrId" />
+    </Key>
+    <Property Name="usrId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="loginName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="enPassword" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="lastName" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="language" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="country" Type="varchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Comentario_Etiquetado">
+    <End Role="Comentario" Type="Self.Comentario" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Etiquetado" Type="Self.Etiquetado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comentario">
+        <PropertyRef Name="idComentario" />
+      </Principal>
+      <Dependent Role="Etiquetado">
+        <PropertyRef Name="idComentario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Etiqueta_Etiquetado">
+    <End Role="Etiqueta" Type="Self.Etiqueta" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Etiquetado" Type="Self.Etiquetado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Etiqueta">
+        <PropertyRef Name="idEtiqueta" />
+      </Principal>
+      <Dependent Role="Etiquetado">
+        <PropertyRef Name="idEtiqueta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Comentario" Type="Self.Comentario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="Comentario">
+        <PropertyRef Name="idEvento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Evento_Recomendacion">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Recomendacion" Type="Self.Recomendacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="idEvento" />
+      </Principal>
+      <Dependent Role="Recomendacion">
+        <PropertyRef Name="idEvento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Grupo_Contiene">
+    <End Role="Grupo" Type="Self.Grupo" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Contiene" Type="Self.Contiene" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="idGrupo" />
+      </Principal>
+      <Dependent Role="Contiene">
+        <PropertyRef Name="idGrupo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Grupo_Pertenece">
+    <End Role="Grupo" Type="Self.Grupo" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Pertenece" Type="Self.Pertenece" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="idGrupo" />
+      </Principal>
+      <Dependent Role="Pertenece">
+        <PropertyRef Name="idGrupo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recomendacion_Pertenece">
+    <End Role="Recomendacion" Type="Self.Recomendacion" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Contiene" Type="Self.Contiene" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recomendacion">
+        <PropertyRef Name="idRecomendacion" />
+      </Principal>
+      <Dependent Role="Contiene">
+        <PropertyRef Name="idRecomendacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Comentario" Type="Self.Comentario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="usrId" />
+      </Principal>
+      <Dependent Role="Comentario">
+        <PropertyRef Name="usrId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Pertenece">
+    <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Pertenece" Type="Self.Pertenece" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserProfile">
+        <PropertyRef Name="usrId" />
+      </Principal>
+      <Dependent Role="Pertenece">
+        <PropertyRef Name="usrId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EsUdcDotNetPracticaMaDStoreContainer">
+    <EntitySet Name="Comentario" EntityType="Self.Comentario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contiene" EntityType="Self.Contiene" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Etiqueta" EntityType="Self.Etiqueta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Etiquetado" EntityType="Self.Etiquetado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Grupo" EntityType="Self.Grupo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pertenece" EntityType="Self.Pertenece" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recomendacion" EntityType="Self.Recomendacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Comentario_Etiquetado" Association="Self.FK_Comentario_Etiquetado">
+      <End Role="Comentario" EntitySet="Comentario" />
+      <End Role="Etiquetado" EntitySet="Etiquetado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Etiqueta_Etiquetado" Association="Self.FK_Etiqueta_Etiquetado">
+      <End Role="Etiqueta" EntitySet="Etiqueta" />
+      <End Role="Etiquetado" EntitySet="Etiquetado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento" Association="Self.FK_Evento">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Comentario" EntitySet="Comentario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Evento_Recomendacion" Association="Self.FK_Evento_Recomendacion">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Recomendacion" EntitySet="Recomendacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Grupo_Contiene" Association="Self.FK_Grupo_Contiene">
+      <End Role="Grupo" EntitySet="Grupo" />
+      <End Role="Contiene" EntitySet="Contiene" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Grupo_Pertenece" Association="Self.FK_Grupo_Pertenece">
+      <End Role="Grupo" EntitySet="Grupo" />
+      <End Role="Pertenece" EntitySet="Pertenece" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recomendacion_Pertenece" Association="Self.FK_Recomendacion_Pertenece">
+      <End Role="Recomendacion" EntitySet="Recomendacion" />
+      <End Role="Contiene" EntitySet="Contiene" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario" Association="Self.FK_Usuario">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Comentario" EntitySet="Comentario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Pertenece" Association="Self.FK_Usuario_Pertenece">
+      <End Role="UserProfile" EntitySet="UserProfile" />
+      <End Role="Pertenece" EntitySet="Pertenece" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
