@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Para obtener más información sobre cómo configurar la aplicación de ASP.NET, visite
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <configSections>
+    <section name="loggingConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.LoggingSettings, Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration" />
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="Es.Udc.DotNet.PracticaMaD.Web.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+      <section name="Es.Udc.DotNet.PracticaMaD.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+
+  <loggingConfiguration name="" tracingEnabled="true" defaultCategory="General">
+    <listeners>
+      <add name="Flat File Trace Listener" type="Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener, Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" listenerDataType="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.FlatFileTraceListenerData, Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" fileName="c:\sourcecode\log\PracticaMaD.Web.log" header="" footer="" formatter="SimpleLogFormatter" />
+    </listeners>
+    <formatters>
+      <add type="Microsoft.Practices.EnterpriseLibrary.Logging.Formatters.TextFormatter, Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" template="[{timestamp(FixedFormatISOInternationalDate)} - {timestamp(FixedFormatTime)}] [{category}] ({severity}) - {message}" name="SimpleLogFormatter" />
+    </formatters>
+    <categorySources>
+      <add switchValue="All" name="General">
+        <listeners>
+          <add name="Flat File Trace Listener" />
+        </listeners>
+      </add>
+    </categorySources>
+    <specialSources>
+      <allEvents switchValue="All" name="All Events">
+        <listeners>
+          <add name="Flat File Trace Listener" />
+        </listeners>
+      </allEvents>
+      <notProcessed switchValue="All" name="Unprocessed Category" />
+      <errors switchValue="All" name="Logging Errors &amp; Warnings" />
+    </specialSources>
+  </loggingConfiguration>
+
+  <connectionStrings>
+    <add name="practicamadEntities" connectionString="metadata=res://*/PracticaMaD.csdl|res://*/PracticaMaD.ssdl|res://*/PracticaMaD.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=SATELLITE\EUROMILLONSERVER;initial catalog=practicamad;integrated security=True;MultipleActiveResultSets=True&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+
+  <unity xmlns="http://schemas.microsoft.com/practices/2010/unity">
+    <sectionExtension type="Microsoft.Practices.Unity.InterceptionExtension.Configuration.InterceptionConfigurationExtension, Microsoft.Practices.Unity.Interception.Configuration" />
+    <!-- <alias alias="aliasName" type="Class FullName, Assembly Name" /> -->
+    <alias alias="IUserProfileDao" type="Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao.IUserProfileDao, PracticaMaD.Model" />
+    <alias alias="UserProfileDaoEntityFramework" type="Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao.UserProfileDaoEntityFramework, PracticaMaD.Model" />
+
+    <alias alias="IComentarioDao" type="Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao.IComentarioDao, PracticaMaD.Model" />
+    <alias alias="ComentarioDaoEntityFramework" type="Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao.ComentarioDaoEntityFramework, PracticaMaD.Model" />
+
+    <alias alias="IEtiquetaDao" type="Es.Udc.DotNet.PracticaMaD.Model.EtiquetaDao.IEtiquetaDao, PracticaMaD.Model" />
+    <alias alias="EtiquetaDaoEntityFramework" type="Es.Udc.DotNet.PracticaMaD.Model.EtiquetaDao.EtiquetaDaoEntityFramework, PracticaMaD.Model" />
+
+    <alias alias="IEventoDao" type="Es.Udc.DotNet.PracticaMaD.Model.EventoDao.IEventoDao, PracticaMaD.Model" />
+    <alias alias="EventoDaoEntityFramework" type="Es.Udc.DotNet.PracticaMaD.Model.EventoDao.EventoDaoEntityFramework, PracticaMaD.Model" />
+
+    <alias alias="IGrupoDao" type="Es.Udc.DotNet.PracticaMaD.Model.GrupoDao.IGrupoDao, PracticaMaD.Model" />
+    <alias alias="GrupoDaoEntityFramework" type="Es.Udc.DotNet.PracticaMaD.Model.GrupoDao.GrupoDaoEntityFramework, PracticaMaD.Model" />
+
+    <alias alias="IRecomendacionDao" type="Es.Udc.DotNet.PracticaMaD.Model.RecomendacionDao.IRecomendacionDao, PracticaMaD.Model" />
+    <alias alias="RecomendacionDaoEntityFramework" type="Es.Udc.DotNet.PracticaMaD.Model.RecomendacionDao.RecomendacionDaoEntityFramework, PracticaMaD.Model" />
+
+    <alias alias="IGrupoService" type="Es.Udc.DotNet.PracticaMaD.Model.GrupoService.IGrupoService, PracticaMaD.Model" />
+    <alias alias="GrupoService" type="Es.Udc.DotNet.PracticaMaD.Model.GrupoService.GrupoService, PracticaMaD.Model" />
+
+    <alias alias="IEventoService" type="Es.Udc.DotNet.PracticaMaD.Model.EventoService.IEventoService, PracticaMaD.Model" />
+    <alias alias="EventoService" type="Es.Udc.DotNet.PracticaMaD.Model.EventoService.EventoService, PracticaMaD.Model" />
+
+    <alias alias="IUserService" type="Es.Udc.DotNet.PracticaMaD.Model.UserService.IUserService, PracticaMaD.Model" />
+    <alias alias="UserService" type="Es.Udc.DotNet.PracticaMaD.Model.UserService.UserService, PracticaMaD.Model" />
+
+    <alias alias="DbContext" type="System.Data.Entity.DbContext,EntityFramework" />
+    <alias alias="singleton" type="Microsoft.Practices.Unity.ContainerControlledLifetimeManager, Microsoft.Practices.Unity" />
+    <container>
+      <!-- ************   Mappings for Bussiness Objects ************* -->
+      <!-- IUserProfileDao -->
+      <register type="IUserProfileDao" mapTo="UserProfileDaoEntityFramework"></register>
+      <!-- IComentarioDao -->
+      <register type="IComentarioDao" mapTo="ComentarioDaoEntityFramework"></register>
+      <!-- IEtiquetaDao -->
+      <register type="IEtiquetaDao" mapTo="EtiquetaDaoEntityFramework"></register>
+      <!-- IEventoDao -->
+      <register type="IEventoDao" mapTo="EventoDaoEntityFramework"></register>
+      <!-- IGrupoDao -->
+      <register type="IGrupoDao" mapTo="GrupoDaoEntityFramework"></register>
+      <!-- IRecomendacionDao -->
+      <register type="IRecomendacionDao" mapTo="RecomendacionDaoEntityFramework"></register>
+
+
+      <!-- IUserService -->
+      <extension type="Interception" />
+      <register type="IUserService" mapTo="UserService">
+        <interceptor type="InterfaceInterceptor" />
+        <!-- policyInjection registers a Microsoft.Practices.Unity.InterceptionExtension.AttributeDrivenPolicy no <policy> needed -->
+        <policyInjection />
+      </register>
+
+      <!-- IGrupoService -->
+      <extension type="Interception" />
+      <register type="IGrupoService" mapTo="GrupoService">
+        <interceptor type="InterfaceInterceptor" />
+        <!-- policyInjection registers a Microsoft.Practices.Unity.InterceptionExtension.AttributeDrivenPolicy no <policy> needed -->
+        <policyInjection />
+      </register>
+
+      <!-- IEventoService -->
+      <extension type="Interception" />
+      <register type="IEventoService" mapTo="EventoService">
+        <interceptor type="InterfaceInterceptor" />
+        <!-- policyInjection registers a Microsoft.Practices.Unity.InterceptionExtension.AttributeDrivenPolicy no <policy> needed -->
+        <policyInjection />
+      </register>
+
+      <!-- DbContext -->
+      <register type="DbContext" mapTo="DbContext">
+        <lifetime type="singleton" />
+        <constructor>
+          <param name="nameOrConnectionString" type="System.String" value="practicaMaDEntities"></param>
+        </constructor>
+      </register>
+    </container>
+  </unity>
+  
+  <!--
+    Para obtener una descripción de los cambios de web.config para .NET 4.5, vea http://go.microsoft.com/fwlink/?LinkId=235367.
+
+    Los siguientes atributos se pueden establecer en la etiqueta <httpRuntime>.
+      <system.Web>
+        <httpRuntime targetFramework="4.5" />
+      </system.Web>
+  -->
+  <system.web>
+    <!-- Cultural preferences of the Web site -->
+    <globalization culture="auto" uiCulture="auto" />
+    <!-- 
+            Set compilation debug="true" to insert debugging 
+            symbols into the compiled page. Because this 
+            affects performance, set this value to true only 
+            during development.
+        -->
+    <compilation debug="true" targetFramework="4.5" />
+    <!-- The <authentication> section enables configuration of the security 
+         authentication mode used by ASP.NET to identify an incoming user.  
+         
+         cookieless valid values : 
+            "True" or "UseUri"      ==> AuthTicket included in URL (UrlRewriting)
+            "False" or "UseCookies" ==> AuthTicket included in a local Cookie
+            "AutoDetect"            ==> Cookies will be used if client browsers
+                                        allows it
+         -->
+    <authentication mode="Forms">
+      <forms name=".ASPXAUTH" loginUrl="~/Pages/User/Authentication.aspx" timeout="30" path="/" defaultUrl="~/Pages/MainPage.aspx" cookieless="UseUri" />
+    </authentication>
+    <!-- Session will not use cookies if the client does not allow it. 
+         
+         cookieless valid values : 
+            "True" or "UseUri"      ==> SessionID included in URL (UrlRewriting)
+            "False" or "UseCookies" ==> SessionID included in a local Cookie
+            "AutoDetect"            ==> Cookies will be used if client browsers
+                                        allows it
+    -->
+    <sessionState cookieless="UseUri" timeout="30" />
+    <!-- The <customErrors> section enables configuration of what to do 
+         if/when an unhandled error occurs during the execution of a request.
+    
+         Specifically, it enables developers to configure HTML error pages 
+         to be displayed in place of a error stack trace.
+         
+         Mode = "On"         Set custom error page for all users
+         Mode = "Off"        Default page error (exception info) will be used
+         Mode = "RemoteOnly" Set custom error page for remote clients
+                             Local requests will show the exception details
+         -->
+    <!-- InternalError is showed when an Unhandled exception is raised -->
+    <customErrors mode="Off" defaultRedirect="~/Pages/Errors/InternalError.aspx" />
+    <!-- This section denies access to all files in this application except 
+         for those that you have not explicitly specified by using another 
+         setting. -->
+    <authorization>
+      <deny users="?" />
+    </authorization>
+    <pages controlRenderingCompatibilityVersion="4.0" clientIDMode="AutoID" />
+  </system.web>
+
+  <!-- This section gives the unauthenticated user access to the register page
+       only. -->
+  <location path="Pages/User">
+    <system.web>
+      <authorization>
+        <deny users="?" />
+      </authorization>
+    </system.web>
+  </location>
+  <location path="Pages/User/Register.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <!-- This section gives the unauthenticated user access to the error page -->
+  <location path="Pages/Errors/InternalError.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <!-- This section gives the unauthenticated user access to the styles -->
+  <location path="css/Styles.css">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <!-- This section gives the unauthenticated user access to the Main Page -->
+  <location path="Pages/MainPage.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <!-- This section gives the unauthenticated user access to the Events Pages -->
+  <location path="Pages/EventPages/BuscarEventos.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <location path="Pages/EventPages/MostrarEventos.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <location path="Pages/EventPages/VerComentarios.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <location path="Pages/EventPages/VerComentariosEtiqueta.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <location path="Pages/EventPages/VerComentario.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <!-- This section gives the unauthenticated user access to the Group Pages -->
+  <location path="Pages/GroupPages/VerGrupos.aspx">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+   
+  <!-- This section gives the unauthenticated user access to the trace.axd -->
+  <location path="trace.axd">
+    <system.web>
+      <authorization>
+        <allow users="*" />
+      </authorization>
+    </system.web>
+  </location>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Practices.Unity.Interception" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.5.0.0" newVersion="3.5.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Practices.Unity" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.5.0.0" newVersion="3.5.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.SqlConnectionFactory, EntityFramework" />
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+  <applicationSettings>
+    <Es.Udc.DotNet.PracticaMaD.Web.Properties.Settings>
+      <setting name="PracticaMaD_defaultCount" serializeAs="String">
+        <value>2</value>
+      </setting>
+      <setting name="PracticaMaD_applicationURL" serializeAs="String">
+        <value>http://localhost:1167</value>
+      </setting>
+    </Es.Udc.DotNet.PracticaMaD.Web.Properties.Settings>
+  </applicationSettings>
+</configuration>
