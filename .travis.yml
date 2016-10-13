@@ -2,3 +2,8 @@ language: csharp
 solution: PracticaMaD.sln
 install:
   - nuget restore PracticaMaD.sln
+  - nuget install NUnit.Runners -Version 2.6.4 - OutputDirectory testrunner
+
+script:
+  - xbuild /p:Configuration=Release PracticaMad.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./TestNUnit/bin/Release/TestNUnit.dll
