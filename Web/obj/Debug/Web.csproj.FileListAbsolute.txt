@@ -112,3 +112,33 @@ C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Page
 C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\PracticaMaD.Web.dll
 C:\Users\Carla\Documents\GitVVS\Web\obj\Debug\PracticaMaD.Web.pdb
+E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.dll.config
+E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.dll
+E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Web.pdb
+E:\Software\Repositorio VVS\Web\bin\EntityFramework.dll
+E:\Software\Repositorio VVS\Web\bin\EntityFramework.SqlServer.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.dll
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+E:\Software\Repositorio VVS\Web\bin\ModelUtil.dll
+E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Model.dll
+E:\Software\Repositorio VVS\Web\bin\Newtonsoft.Json.dll
+E:\Software\Repositorio VVS\Web\bin\PracticaMaD.Model.pdb
+E:\Software\Repositorio VVS\Web\bin\EntityFramework.xml
+E:\Software\Repositorio VVS\Web\bin\EntityFramework.SqlServer.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.xml
+E:\Software\Repositorio VVS\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\Software\Repositorio VVS\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\Software\Repositorio VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
+E:\Software\Repositorio VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.dll
+E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.pdb
