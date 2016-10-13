@@ -105,30 +105,3 @@ C:\Users\Carla\Documents\GitVVS\Model\obj\Debug\Interop.Accessibility.dll
 C:\Users\Carla\Documents\GitVVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 C:\Users\Carla\Documents\GitVVS\Model\obj\Debug\PracticaMaD.Model.dll
 C:\Users\Carla\Documents\GitVVS\Model\obj\Debug\PracticaMaD.Model.pdb
-E:\Software\Repositorio VVS\Model\bin\Debug\PracticaMaD.Model.dll.config
-E:\Software\Repositorio VVS\Model\bin\Debug\PracticaMaD.Model.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\PracticaMaD.Model.pdb
-E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.SqlServer.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\ModelUtil.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\Newtonsoft.Json.dll
-E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\EntityFramework.SqlServer.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
-E:\Software\Repositorio VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-E:\Software\Repositorio VVS\Model\obj\Debug\Interop.Accessibility.dll
-E:\Software\Repositorio VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
-E:\Software\Repositorio VVS\Model\obj\Debug\PracticaMaD.Model.dll
-E:\Software\Repositorio VVS\Model\obj\Debug\PracticaMaD.Model.pdb
