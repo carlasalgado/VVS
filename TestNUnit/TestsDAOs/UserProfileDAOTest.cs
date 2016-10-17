@@ -1,24 +1,23 @@
-﻿using System;
-using NUnit.Framework;
-using Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao;
-using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
+﻿using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
-using Es.Udc.DotNet.PracticaMaD.Model;
 using Microsoft.Practices.Unity;
+using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Transactions;
-using System.Configuration;
-using Es.Udc.DotNet.PracticaMaD.TestNUnit;
 
-namespace TestNUnit
-{ 
-
-
+namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestDAOs
+{
     [TestFixture]
-    public class NUnitTest1
+    public class UserProfileDAOTest
     {
-
         private static IUnityContainer container;
         private static IUserProfileDao userProfileDao;
+
+
         private UserProfile userProfile;
 
         // Variables used in several tests are initialized here
@@ -67,7 +66,7 @@ namespace TestNUnit
             TestManager.ClearUnityContainer(container);
         }
 
-          //Use TestInitialize to run code before running each test
+        //Use TestInitialize to run code before running each test
         [SetUp]
         public void MyTestInitialize()
         {
@@ -92,20 +91,17 @@ namespace TestNUnit
         {
             transaction.Dispose();
         }
-        #region Additional test attributes
 
-
-
-        #endregion
 
         /// <summary>
         ///A test for FindByLoginName
         ///</summary>
         [Test]
-        public void DAOUserProfile_FindByLoginNameTest()
+        public void PR_UN_12()
         {
             UserProfile actual = userProfileDao.FindByLoginName(userProfile.loginName);
             Assert.AreEqual(userProfile, actual);
         }
+
     }
 }
