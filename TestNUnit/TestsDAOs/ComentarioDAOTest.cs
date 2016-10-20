@@ -8,6 +8,7 @@ using Es.Udc.DotNet.PracticaMaD.Model;
 using System.Transactions;
 using System.Collections.Generic;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
+using Moq;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
 {
@@ -17,15 +18,27 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         private static IUnityContainer container;
 
         TransactionScope transaction;
+        private static long NON_EXISTING_EVENT = -1;
+        private static long NON_EXISTING_USER = -1;
         private static IComentarioDao comentarioDao;
         private static IEventoDao eventoDao;
         private static IUserProfileDao usuarioDao;
         private Comentario comentario1;
         private Comentario comentario2;
+        private Comentario comentario3;
+        private Comentario comentario4;
         private UserProfile userProfile;
         private Evento evento1;
         private Evento evento2;
+        private Evento evento3;
         private TestContext testContextInstance;
+
+        //Mocks
+        //private static Mock<IEventoDao> mockEventoDao;
+        //private static Mock<IUserProfileDao> mockUserProfileDao;
+        //private static Mock<IComentarioDao> mockComentarioDao;
+
+
 
         /// <summary>
         ///Gets or sets the test context which provides
@@ -78,9 +91,11 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
             userProfile.country = "US";
 
             usuarioDao.Create(userProfile);
+
             //Evento
             evento1 = new Evento();
             evento1.fecha = DateTime.Now;
+            evento1.fecha.AddDays(-20);
             evento1.nombre = "Evento 1";
             evento1.reseña = "Esto es la reseña del evento 1";
 
@@ -93,11 +108,19 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
 
             eventoDao.Create(evento2);
 
+            evento3 = new Evento();
+            evento3.fecha = DateTime.Now;
+            evento3.nombre = "Evento 3";
+            evento3.reseña = "Esto es la reseña del evento 3";
+
+            eventoDao.Create(evento3);
+
             //Comentario
             comentario1 = new Comentario();
             comentario1.UserProfile = userProfile;
             comentario1.Evento = evento1;
             comentario1.fecha = DateTime.Now;
+            comentario1.fecha.AddDays(-15);
             comentario1.texto = "Esto es un comentario";
 
 
@@ -108,10 +131,32 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
             comentario2.UserProfile = userProfile;
             comentario2.Evento = evento2;
             comentario2.fecha = DateTime.Now;
+            comentario2.fecha.AddDays(-14);
             comentario2.texto = "Esto es un comentario2";
 
 
             comentarioDao.Create(comentario2);
+
+            //Comentario
+            comentario3 = new Comentario();
+            comentario3.UserProfile = userProfile;
+            comentario3.Evento = evento1;
+            comentario3.fecha = DateTime.Now;
+            comentario3.fecha.AddDays(-13);
+            comentario3.texto = "Esto es un comentario3";
+
+
+            comentarioDao.Create(comentario3);
+
+            comentario4 = new Comentario();
+            comentario4.UserProfile = userProfile;
+            comentario4.Evento = evento1;
+            comentario4.fecha = DateTime.Now;
+            comentario4.fecha.AddDays(-12);
+            comentario4.texto = "Esto es un comentario4";
+
+
+            comentarioDao.Create(comentario4);
         }
 
         //Use TestCleanup to run code after each test has run
@@ -131,8 +176,10 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
             {
                 List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 10);
 
-                Assert.IsTrue(comentarios.Count == 1);
-                Assert.AreEqual(comentarios[0], comentario1);
+                Assert.IsTrue(comentarios.Count == 3);
+                Assert.AreEqual(comentarios[0], comentario4);
+                Assert.AreEqual(comentarios[1], comentario3);
+                Assert.AreEqual(comentarios[2], comentario1);
 
             }
             catch (InstanceNotFoundException)
@@ -141,6 +188,86 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
             }
         }
 
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_01_01()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 0);
+
+                Assert.IsTrue(comentarios.Count == 3);
+                Assert.AreEqual(comentarios[0], comentario4);
+                Assert.AreEqual(comentarios[1], comentario3);
+                Assert.AreEqual(comentarios[2], comentario1);
+
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
+
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_01_02()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.VerComentarios(evento3.idEvento, 0, 0);
+
+                Assert.IsTrue(comentarios.Count == 0);
+
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
+
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_01_03()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.VerComentarios(NON_EXISTING_EVENT, 0, 0);
+
+                Assert.IsTrue(comentarios.Count == 0);
+
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
+
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_01_04()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 2);
+
+                Assert.IsTrue(comentarios.Count == 2);
+                Assert.AreEqual(comentarios[0], comentario4);
+                Assert.AreEqual(comentarios[1], comentario3);
+
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
 
         /// <summary>
         ///A test for FindByLoginName
@@ -150,10 +277,64 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento1.idEvento);
+                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento2.idEvento);
 
                 Assert.IsTrue(comentarios.Count == 1);
-                Assert.AreEqual(comentarios[0], comentario1);
+                Assert.AreEqual(comentarios[0], comentario2);
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
+
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_02_01()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento3.idEvento);
+
+                Assert.IsTrue(comentarios.Count == 0);
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
+
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_02_02()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(NON_EXISTING_USER, evento3.idEvento);
+
+                Assert.IsTrue(comentarios.Count == 0);
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.Fail();
+            }
+        }
+
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_02_03()
+        {
+            try
+            {
+                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, NON_EXISTING_EVENT);
+
+                Assert.IsTrue(comentarios.Count == 0);
             }
             catch (InstanceNotFoundException)
             {

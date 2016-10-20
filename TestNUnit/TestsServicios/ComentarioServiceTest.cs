@@ -5,6 +5,7 @@ using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoService;
 using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Microsoft.Practices.Unity;
+using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -27,6 +28,10 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         private static IEventoDao EventoDao;
         private static IComentarioDao ComentarioDao;
         private static IUserProfileDao UserProfileDao;
+        private static Mock<IEventoDao> mockEventoDao;
+        private static Mock<IComentarioDao> mockComentarioDao;
+        private static Mock<IUserProfileDao> mockUserDao;
+
 
         UserProfile user = new UserProfile();
         UserProfile usuarioIncorrecto = new UserProfile();
@@ -76,6 +81,9 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         public void MyTestInitialize()
         {
             transaction = new TransactionScope();
+            mockEventoDao = new Mock<IEventoDao>();
+            mockComentarioDao = new Mock<IComentarioDao>();
+            mockUserDao = new Mock<IUserProfileDao>();
 
             //Usuario
             user = new UserProfile();
@@ -140,6 +148,8 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_UN_13()
         {
+            mockEventoDao.Setup(eventoDao => eventoDao.Find(evento1.idEvento)).Returns(evento1);
+            mockUserDao.Setup(UserProfileDao => UserProfileDao.Find(user.usrId)).Returns(user);
             String comentario = "Esto es un comentario del usuario 1 sobre el evento 1";
             long idComentario = EventoService.AnadirComentario(evento1.idEvento, user.usrId, comentario);
 
@@ -149,8 +159,8 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             Assert.AreEqual(user, c.UserProfile);
             Assert.AreEqual(evento1, c.Evento);
 
-            Assert.AreEqual(user, c.UserProfile);
-            Assert.AreEqual(evento1, c.Evento);
+            //mockEventoDao.VerifyAll();
+            //mockUserDao.VerifyAll();
         }
 
         /// <summary>
@@ -161,6 +171,8 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         {
             try
             {
+                mockEventoDao.Setup(eventoDao => eventoDao.Find(evento1.idEvento)).Returns(evento1);
+                mockUserDao.Setup(UserProfileDao => UserProfileDao.Find(user.usrId)).Returns(new UserProfile());
                 EventoService.AnadirComentario(evento1.idEvento, NON_EXISTING_USER, "Esto es un comentario del usuario 1 sobre el evento 1");
                 Assert.IsTrue(false);
             }
@@ -178,6 +190,8 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         {
             try
             {
+                mockEventoDao.Setup(eventoDao => eventoDao.Find(evento1.idEvento)).Returns(new Evento());
+                mockUserDao.Setup(UserProfileDao => UserProfileDao.Find(user.usrId)).Returns(user);
                 EventoService.AnadirComentario(NON_EXISTING_EVENT, user.usrId, "Esto es un comentario del usuario 1 sobre el evento 1");
                 Assert.IsTrue(false);
             }
@@ -200,11 +214,15 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 
             Comentario c = ComentarioDao.Find(idComentario);
 
+            mockComentarioDao.Setup(comentarioDao => comentarioDao.Find(c.idComentario)).Returns(c);
+            mockUserDao.Setup(UserProfileDao => UserProfileDao.Find(c.UserProfile.usrId)).Returns(user);
+
             EventoService.ModificarComentario(c.idComentario, c.UserProfile.usrId, comentario);
 
             Assert.AreEqual(comentario, c.texto);
             Assert.AreEqual(user, c.UserProfile);
             Assert.AreEqual(evento1, c.Evento);
+
         }
 
         /// <summary>
@@ -385,6 +403,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 
             BloqueComentarios comentariosObtenidos = EventoService.VerComentarios(evento1.idEvento);
 
+            Assert.IsFalse(comentariosObtenidos.ExistenMasComentarios);
             Assert.AreEqual(2, comentariosObtenidos.Comentarios.Count);
 
             DateTime d = new DateTime();
@@ -397,6 +416,45 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             }
         }
 
+        /// <summary>
+        ///A test for Search Comments
+        ///</summary>
+        [Test]
+        public void PR_UN_24_01()
+        {
+            List<ComentarioDTO> comentariosEsperados = new List<ComentarioDTO>();
+            long idComentario1 = EventoService.AnadirComentario(evento1.idEvento, user.usrId, "Comentario 1 evento 1");
+            long idComentario2 = EventoService.AnadirComentario(evento1.idEvento, user.usrId, "Comentario 2 evento 1");
+            long idComentario3 = EventoService.AnadirComentario(evento2.idEvento, user.usrId, "Comentario 1 evento 2");
+
+            ComentarioDTO dto1 = new ComentarioDTO();
+            ComentarioDTO dto2 = new ComentarioDTO();
+
+            Comentario c1 = ComentarioDao.Find(idComentario1);
+            dto1.idComentario = c1.idComentario;
+            dto1.login = user.loginName;
+            dto1.fecha = c1.fecha;
+            dto1.texto = c1.texto;
+
+            Comentario c2 = ComentarioDao.Find(idComentario1);
+            dto2.idComentario = c2.idComentario;
+            dto2.login = user.loginName;
+            dto2.fecha = c2.fecha;
+            dto2.texto = c2.texto;
+
+            comentariosEsperados.Add(dto1);
+            comentariosEsperados.Add(dto2);
+
+            BloqueComentarios comentariosObtenidos = EventoService.VerComentarios(evento1.idEvento, 0, 1);
+
+            Assert.IsTrue(comentariosObtenidos.ExistenMasComentarios);
+            Assert.AreEqual(1, comentariosObtenidos.Comentarios.Count);
+            if (dto1.fecha > dto2.fecha)
+                Assert.AreEqual(comentariosObtenidos.Comentarios[0], dto1);
+            else if (dto1.fecha < dto2.fecha)
+                Assert.AreEqual(comentariosObtenidos.Comentarios[0], dto2);
+
+        }
         /// <summary>
         ///A test for Search Comments without comments
         ///</summary>
@@ -424,6 +482,127 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
                 Assert.IsTrue(true);
             }
         }
+        #endregion
+
+        #region BuscarComentarios
+        /// <summary>
+        ///A test for Search Comments
+        ///</summary>
+        [Test]
+        public void PR_UN_26_01()
+        {
+            long idComentario1 = EventoService.AnadirComentario(evento1.idEvento, user.usrId, "Comentario 1 evento 1");
+
+            ComentarioDTO dto1 = new ComentarioDTO();
+
+            Comentario c1 = ComentarioDao.Find(idComentario1);
+            dto1.idComentario = c1.idComentario;
+            dto1.login = user.loginName;
+            dto1.fecha = c1.fecha;
+            dto1.texto = c1.texto;
+
+            ComentarioDTO dtoExp = EventoService.BuscarComentario(idComentario1);
+
+            Assert.AreEqual(dto1, dtoExp);
+        }
+
+        /// <summary>
+        ///A test for Search Comments
+        ///</summary>
+        [Test]
+        public void PR_UN_26_02()
+        {
+            try
+            {
+                EventoService.BuscarComentario(-1);
+                Assert.IsTrue(false);
+            }
+            catch
+            {
+                Assert.IsTrue(true);
+            }
+
+        }
+        #endregion
+
+
+        #region BuscarComentariosPorUsuario
+        /// <summary>
+        ///A test for Search comments by user 
+        ///</summary>
+        [Test]
+        public void PR_UN_26_03()
+        {
+            List<ComentarioDTO> comentariosEsperados = new List<ComentarioDTO>();
+            long idComentario1 = EventoService.AnadirComentario(evento1.idEvento, user.usrId, "Comentario 1 evento 1");
+            long idComentario2 = EventoService.AnadirComentario(evento1.idEvento, usuarioIncorrecto.usrId, "Comentario 2 evento 1");
+            long idComentario3 = EventoService.AnadirComentario(evento2.idEvento, user.usrId, "Comentario 1 evento 2");
+
+            ComentarioDTO dto1 = new ComentarioDTO();
+            ComentarioDTO dto3 = new ComentarioDTO();
+
+            Comentario c1 = ComentarioDao.Find(idComentario1);
+            dto1.idComentario = c1.idComentario;
+            dto1.login = user.loginName;
+            dto1.fecha = c1.fecha;
+            dto1.texto = c1.texto;
+
+            comentariosEsperados.Add(dto1);
+
+            List<ComentarioDTO> comentariosObtenidos = EventoService.BuscarComentarioPorUsuario(user.usrId, evento1.idEvento);
+
+            Assert.AreEqual(1, comentariosObtenidos.Count);
+            Assert.IsTrue(comentariosObtenidos.Contains(dto1));
+        }
+        /// <summary>
+        ///A test for Search comments by user 
+        ///</summary>
+        [Test]
+        public void PR_UN_26_04()
+        {
+
+            try
+            {
+                EventoService.BuscarComentarioPorUsuario(-1, evento1.idEvento);
+                Assert.IsTrue(false);
+            }
+            catch
+            {
+                Assert.IsTrue(true);
+            }
+        }
+
+        /// <summary>
+        ///A test for Search comments by user 
+        ///</summary>
+        [Test]
+        public void PR_UN_26_05()
+        {
+
+            try
+            {
+                EventoService.BuscarComentarioPorUsuario(user.usrId, -1);
+                Assert.IsTrue(false);
+            }
+            catch
+            {
+                Assert.IsTrue(true);
+            }
+        }
+
+        /// <summary>
+        ///A test for Search comments by user 
+        ///</summary>
+        [Test]
+        public void PR_UN_26_06()
+        {
+            List<ComentarioDTO> comentariosEsperados = new List<ComentarioDTO>();
+
+            List<ComentarioDTO> comentariosObtenidos = EventoService.BuscarComentarioPorUsuario(user.usrId, evento1.idEvento);
+
+            Assert.AreEqual(0, comentariosObtenidos.Count);
+        }
+
         #endregion
     }
 }
