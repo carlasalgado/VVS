@@ -40,5 +40,10 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
 
             return resultado.ToList();
         }
+
+        public Int64 B()
+        {
+            return 0;
+        }
     }
 }

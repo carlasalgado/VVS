@@ -35,3 +35,44 @@ E:\Software\Repositorio VVS\TestNUnit\bin\Debug\nunit.framework.xml
 E:\Software\Repositorio VVS\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
 E:\Software\Repositorio VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.dll
 E:\Software\Repositorio VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.pdb
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll.config
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.pdb
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\EntityFramework.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\ModelUtil.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Mono.Cecil.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Moq.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\nunit.engine.api.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\nunit.engine.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\nunit.framework.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\PracticaMaD.Model.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\PracticaMaD.Model.pdb
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\EntityFramework.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Moq.pdb
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\Moq.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\nunit.framework.xml
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.dll
+C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.pdb

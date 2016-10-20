@@ -26,5 +26,6 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         /// <returns>Lista de eventos que coinciden con las palabras clave</returns>
         List<Evento> BuscarEventos(int startIndex = 0, int count = 0);
 
+        Int64 B();
     }
 }

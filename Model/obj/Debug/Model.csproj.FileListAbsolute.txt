@@ -133,3 +133,29 @@ E:\Software\Repositorio VVS\Model\obj\Debug\Interop.Accessibility.dll
 E:\Software\Repositorio VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 E:\Software\Repositorio VVS\Model\obj\Debug\PracticaMaD.Model.dll
 E:\Software\Repositorio VVS\Model\obj\Debug\PracticaMaD.Model.pdb
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\PracticaMaD.Model.dll.config
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\PracticaMaD.Model.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\PracticaMaD.Model.pdb
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\EntityFramework.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\ModelUtil.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\EntityFramework.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Interop.Accessibility.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Model.csproj.ResolveComReference.cache
+C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\PracticaMaD.Model.dll
+C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\PracticaMaD.Model.pdb

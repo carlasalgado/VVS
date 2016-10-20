@@ -167,6 +167,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         Etiqueta EtiquetaPorId(long idEtiqueta);
         #endregion
 
+        Int64 A();
     }
 
 

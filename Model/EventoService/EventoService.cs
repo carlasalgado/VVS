@@ -111,7 +111,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
             /* Buscar Evento y usuario*/
             Evento evento = eventoDao.Find(idEvento);
-
+            
             if (evento == null)
                 throw new InstanceNotFoundException(idEvento,
                     typeof(Evento).FullName);
@@ -462,5 +462,10 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             return comentariosDTO;
         }
         #endregion
+
+        public Int64 A()
+        {
+            return eventoDao.B();
+        }
     }
 }
