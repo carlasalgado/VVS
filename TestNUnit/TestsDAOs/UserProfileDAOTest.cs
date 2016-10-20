@@ -20,7 +20,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestDAOs
 
         private UserProfile userProfile;
 
-        // Variables used in several tests are initialized here
+         //Variables used in several tests are initialized here
         private const String loginName = "loginNameTest";
         private const String clearPassword = "password";
         private const String firstName = "name";
@@ -34,10 +34,10 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestDAOs
 
         private TestContext testContextInstance;
 
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
+        // <summary>
+        //Gets or sets the test context which provides
+        //information about and functionality for the current test run.
+        //</summary>
         public TestContext TestContext
         {
             get
@@ -93,9 +93,9 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestDAOs
         }
 
 
-        /// <summary>
-        ///A test for FindByLoginName
-        ///</summary>
+        // <summary>
+        //A test for FindByLoginName
+        //</summary>
         [Test]
         public void PR_UN_12()
         {

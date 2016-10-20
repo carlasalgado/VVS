@@ -76,3 +76,5 @@ C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\bin\Debug\es\Microsoft.VisualStudio.Q
 C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
 C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.dll
 C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.pdb
+E:\Software\Repositorio VVS\TestNUnit\bin\Debug\Moq.pdb
+E:\Software\Repositorio VVS\TestNUnit\bin\Debug\Moq.xml
