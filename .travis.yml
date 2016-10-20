@@ -1,10 +1,9 @@
 language: csharp
-solution: PracticaMaD.sln
-install:
-  - nuget restore PracticaMaD.sln
-  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release PracticaMaD.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./TestNUnit/bin/Debug/PracticaMaD.TestNUnit.dll
-  - wget "http://download.mono-project.com/archive/${MONO_VERSION}/macos-10-x86/MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.x86.pkg"
-  - sudo installer -pkg "MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.x86.pkg" -target /
+  - xbuild /p:Configuration=Debug PracticaMaD.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore PracticaMaD.sln
+after_script:
+  - nunit-console TestsNUnit/bin/Debug/PracticaMaDTestNUnit.dll
