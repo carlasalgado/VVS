@@ -123,7 +123,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         #endregion
 
         [Test]
-        public void PR_UN_10()
+        public void PR_UN_22()
         {
             Assert.IsTrue(recomendacionDao.BuscarRecomendacion(
                 grupo2.idGrupo, recomendacion2.Evento.idEvento));
@@ -131,7 +131,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
 
 
         [Test]
-        public void PR_UN_11()
+        public void PR_UN_23()
         {
             Assert.IsTrue(!recomendacionDao.BuscarRecomendacion(
                 grupo1.idGrupo, recomendacion2.Evento.idEvento));

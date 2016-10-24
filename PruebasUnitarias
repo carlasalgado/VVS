@@ -1,0 +1,228 @@
+Pruebas Unitarias
+PRUEBAS UNITARIAS
+
+PR-UN-01
+*Unidad: ComentarioDAO
+*Función/método: verComentarios
+*Motivación: comprobación de que devuelve los comentarios adecuados mediante particiones equivalentes 
+*Entradas:
+-identificador del evento del que se quiere ver los comentarios
+-0 (índice del primer resultado de la búsqueda)
+-10 (número máximo de resultados devueltos)
+*Salida esperada: 
+-todos [3] los comentarios del evento. 
+*Inicialización del contexto: 
+-3 comentarios asociados al evento
+
+PR-UN-01-01
+Unidad: ComentarioDAO
+Función/método: verComentarios
+Motivación: comprobación de que devuelve los comentarios adecuados mediante particiones equivalentes
+Entradas:
+identificador del evento del que se quiere ver los comentarios
+0 (índice del primer resultado de la búsqueda)
+0 (número máximo de resultados devueltos)
+Salida esperada: 
+se devuelven todos los comentarios del evento
+Inicialización del contexto: 
+-
+
+PR-UN-01-02
+Unidad: ComentarioDAO
+Función/método: verComentarios
+Motivación: comprobación de que no devuelve los comentarios cuando el evento no tiene mediante particiones equivalentes
+Entradas:
+identificador del evento del que se quiere ver los comentarios
+0 (índice del primer resultado de la búsqueda)
+0 (número máximo de resultados devueltos)
+Salida esperada: 
+lista de comentarios vacía
+Inicialización del contexto: 
+-
+
+PR-UN-01-03
+Unidad: ComentarioDAO
+Función/método: verComentarios
+Motivación: comprobación de que no devuelve los comentarios cuando el evento no existe mediante particiones equivalentes
+Entradas:
+identificador del evento no existente
+0 (índice del primer resultado de la búsqueda)
+0 (número máximo de resultados devueltos)
+Salida esperada: 
+lista de comentarios vacía
+Inicialización del contexto: 
+-
+
+
+
+PR-UN-02
+Unidad: ComentarioDAO
+Función/método: buscarPorUsuario
+Motivación:  comprobación de que devuelve los comentarios adecuados mediante particiones equivalentes
+Entradas:
+identificador del usuario del que se quiere ver los comentarios
+identificador del evento del que se quiere ver los comentarios
+Salida esperada: 
+lista de comentarios iguales a los asociados al evento y escritos por el usuario indicado
+el mismo número de comentarios que los asociados al evento y escritos por el usuario indicado
+Inicialización del contexto: 
+-
+						
+PR-UN-03
+Unidad: EtiquetaDAO
+Función/método: buscarEtiquetaPorNombre
+Motivación:  comprobación de que devuelve la etiqueta adecuada mediante porciones equivalentes
+Entradas:
+nombre de la etiqueta
+Salida esperada: 
+la etiqueta buscada
+Inicialización del contexto:	
+-		
+			
+
+PR-UN-04
+Unidad: EtiquetaDAO
+Función/método: nubeEtiquetas
+Motivación:  comprobación de que devuelve la lista de etiquetas ordenada mediante porciones equivalentes
+Entradas:
+-
+Salida esperada: 
+lista de etiquetas ordenadas
+aparecen todas las etiquetas
+Inicialización del contexto: 
+- 
+
+PR-UN-05
+Unidad: EventoDAO
+Función/método: buscarEventos
+Motivación:  comprobación de que devuelve los eventos que coinciden y la paginación, mediante porciones equivalentes
+Entradas:
+palabras clave mediante las cuales queremos buscar los eventos
+1 (índice del segundo resultado de la búsqueda, obviamos el primero)
+2 (número máximo de resultados devueltos)
+Salida esperada: 
+lista con el primer y el segundo evento de los eventos creados ordenados
+Inicialización del contexto: 
+-
+
+PR-UN-05-01
+Unidad: EventoDAO
+Función/método: buscarEventosSinPalabrasClave
+Motivación:  comprobación de que devuelve todos los eventos que coinciden y  la paginación mediante porciones equivalentes
+Entradas:
+0 (índice del primer resultado de la búsqueda)
+0 (número máximo de resultados devueltos)
+Salida esperada: 
+todos los eventos que coinciden
+Inicialización del contexto: 
+-
+
+PR-UN-06
+Unidad: EventoDAO
+Función/método: buscarEventosSinPalabrasClave
+Motivación:  comprobación de que devuelve todos los eventos mediante porciones equivalentes
+Entradas:
+0 (índice del primer resultado de la búsqueda)
+10 (número máximo de resultados devueltos)
+Salida esperada: 
+lista de eventos
+el mismo número de eventos que los creados (10 como máximo)
+Inicialización del contexto: 
+-
+
+PR-UN-06-01
+Unidad: EventoDAO
+Función/método: buscarEventosSinPalabrasClave
+Motivación:  comprobación de que devuelve todos los eventos mediante porciones equivalentes
+Entradas:
+0 (índice del primer resultado de la búsqueda)
+0 (número máximo de resultados devueltos)
+Salida esperada: 
+todos los eventos
+Inicialización del contexto: 
+-
+
+PR-UN-06-02
+Unidad: EventoDAO
+Función/método: buscarEventosSinPalabrasClave
+Motivación:  comprobación de que devuelve todos los eventos mediante porciones equivalentes
+Entradas:
+0 (índice del primer resultado de la búsqueda)
+-1 (número máximo de resultados devueltos)
+Salida esperada: 
+todos los eventos
+Inicialización del contexto: 
+-
+
+
+PR-UN-07
+Unidad: GrupoDAO
+Función/método: mostrarGrupos
+Motivación:  comprobación de que devuelve todos los grupos mediante porciones equivalentes
+Entradas:
+0 (índice del primer resultado de la búsqueda)
+10 (número máximo de resultados devueltos)
+Salida esperada: 
+lista de grupos 
+el mismo número de grupos que los creados (10 como máximo)
+Inicialización del contexto: 
+-
+
+
+PR-UN-08
+Unidad: GrupoDAO
+Función/método: buscarPorNombre
+Motivación:  comprobación de que devuelve el grupo que coincide por nombre mediante porciones equivalentes
+Entradas:
+nombre del grupo
+Salida esperada: 
+el grupo cuyo nombre coincide con el de búsqueda
+Inicialización del contexto: 
+-
+
+
+PR-UN-09
+Unidad: GrupoDAO
+Función/método: buscarPorUsuario
+Motivación:  comprobación de que devuelve todos los grupos de un usuario mediante porciones equivalentes
+Entradas:
+identificador del usuario
+Salida esperada: 
+lista de todos los grupos pertenecientes al usuario
+Inicialización del contexto: 
+-
+PR-UN-10
+Unidad: RecomendacionDAO
+Función/método: buscarRecomendacion
+Motivación:  comprobación de que devuelve cierto cuando se efectuó una recomendación de un evento a un grupo mediante porciones equivalentes
+Entradas:
+identificador del grupo 
+identificador del evento
+Salida esperada: 
+cierto que se recomendó al grupo el evento
+Inicialización del contexto: 
+-
+
+PR-UN-11
+Unidad: RecomendacionDAO
+Función/método: buscarRecomendacion
+Motivación:  comprobación de que devuelve falso cuando no se efectuó una recomendación de un evento a un grupo mediante porciones equivalentes
+Entradas:
+identificador del grupo
+identificador del evento
+Salida esperada: 
+falso que se recomendó al grupo el evento
+Inicialización del contexto: 
+-
+
+PR-UN-12
+Unidad: UserProfileDAO
+Función/método: findByLoginName
+Motivación:  comprobación de que dado un login de usuario se obtiene el perfil del usuario asociado mediante porciones equivalentes
+Entradas:
+login de usuario registrado
+Salida esperada: 
+perfil de usuario correspondiente
+Inicialización del contexto: 
+-
+

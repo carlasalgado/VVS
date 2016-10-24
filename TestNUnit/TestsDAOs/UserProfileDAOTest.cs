@@ -1,4 +1,5 @@
-﻿using Es.Udc.DotNet.PracticaMaD.Model;
+﻿using Es.Udc.DotNet.ModelUtil.Exceptions;
+using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
@@ -28,7 +29,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestDAOs
         private const String email = "user@udc.es";
         private const String language = "es";
         private const String country = "ES";
-        private const long NON_EXISTENT_USER_ID = -1;
+        private const String NON_EXISTENT_LOGIN = "FailUser";
 
         TransactionScope transaction;
 
@@ -97,11 +98,28 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestDAOs
         //A test for FindByLoginName
         //</summary>
         [Test]
-        public void PR_UN_12()
+        public void PR_UN_24()
         {
             UserProfile actual = userProfileDao.FindByLoginName(userProfile.loginName);
             Assert.AreEqual(userProfile, actual);
         }
 
+        /// <summary>
+        ///A test for FindByLoginName
+        ///</summary>
+        [Test]
+        public void PR_UN_25()
+        {
+            try
+            {
+                UserProfile actual = userProfileDao.FindByLoginName(NON_EXISTENT_LOGIN);
+
+                Assert.IsTrue(false);
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.IsTrue(true);
+            }
+        }
     }
 }

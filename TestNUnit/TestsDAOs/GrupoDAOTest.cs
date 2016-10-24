@@ -1,4 +1,5 @@
-﻿using Es.Udc.DotNet.PracticaMaD.Model;
+﻿using Es.Udc.DotNet.ModelUtil.Exceptions;
+using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Microsoft.Practices.Unity;
@@ -24,6 +25,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         private static Grupo grupo1;
         private static Grupo grupo2;
         private UserProfile userProfile;
+        private static String GRUPO_NO_EXISTENTE = "grupoNoExiste";
 
         TransactionScope transaction;
 
@@ -107,7 +109,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         #endregion
 
         [Test]
-        public void PR_UN_07()
+        public void PR_UN_18()
         {
             List<Grupo> gruposObtenidos = grupoDao.MostrarGrupos(0, 10);
 
@@ -119,13 +121,28 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         }
 
         [Test]
-        public void PR_UN_08()
+        public void PR_UN_19()
         {
             Assert.AreEqual(grupo1, grupoDao.BuscarPorNombre("Deportes"));
         }
 
         [Test]
-        public void PR_UN_09()
+        public void PR_UN_20()
+        {
+            try
+            {
+                grupoDao.BuscarPorNombre(GRUPO_NO_EXISTENTE);
+                Assert.IsTrue(false);
+
+            }
+            catch (InstanceNotFoundException)
+            {
+                Assert.IsTrue(true);
+            }
+        }
+
+        [Test]
+        public void PR_UN_21()
         {
             List<Grupo> obtenido = grupoDao.BuscarPorUsuario(userProfile.usrId);
 

@@ -15,18 +15,20 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao
         GenericDaoEntityFramework<Comentario, Int64>, IComentarioDao
     {
         //Tanto si no existe el evento como si este no tiene comentarios, devuelve lista vacia
-        public List<Comentario> VerComentarios(long idEvento, int startIndex=0, int count=0) {
+        public List<Comentario> VerComentarios(long idEvento, int startIndex = 0, int count = 0) {
             DbSet<Comentario> comentarios = Context.Set<Comentario>();
 
             var resultado =
-                (from c in comentarios
-                 where c.Evento.idEvento == idEvento
-                 orderby c.fecha descending
-                 select c).Skip(startIndex);
+                   (from c in comentarios
+                    where c.Evento.idEvento == idEvento
+                    orderby c.fecha descending
+                    select c).Skip(startIndex);
 
-            if (count > 0) resultado.Take(count);
+            if (count > 0) return resultado.Take(count).ToList();
 
             return resultado.ToList();
+
+
         }
 
         public List<Comentario> BuscarPorUsuario(long idUsuario, long idEvento) {

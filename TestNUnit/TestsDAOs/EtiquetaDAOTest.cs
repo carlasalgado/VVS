@@ -172,14 +172,14 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
 
 
         [Test]
-        public void PR_UN_03()
+        public void PR_UN_11()
         {
             Etiqueta obtenida = etiquetaDao.BuscarPorNombre("Etiqueta 1");
             Assert.AreEqual(etiqueta1, obtenida);
         }
 
         [Test]
-        public void PR_UN_04()
+        public void PR_UN_12()
         {
             /* Orden de aparición:
              * Etiqueta 2: 3

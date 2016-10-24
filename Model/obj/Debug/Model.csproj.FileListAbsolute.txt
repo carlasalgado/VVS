@@ -159,3 +159,4 @@ C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Interop.Accessibility.dll
 C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\PracticaMaD.Model.dll
 C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\PracticaMaD.Model.pdb
+C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

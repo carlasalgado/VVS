@@ -116,7 +116,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         #endregion
 
         [Test]
-        public void PR_UN_05()
+        public void PR_UN_13()
         {
             /* Comprobamos que devuelve los eventos que coinciden
              * y comprobamos paginacion haciendo que se salte el primer
@@ -138,7 +138,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         }
 
         [Test]
-        public void PR_UN_05_01()
+        public void PR_UN_14()
         {
             /* Comprobamos que devuelve los eventos que coinciden
              * y comprobamos paginacion haciendo que se salte el primer
@@ -160,7 +160,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         }
 
         [Test]
-        public void PR_UN_06()
+        public void PR_UN_15()
         {
             List<Evento> obtenido = eventoDao.BuscarEventos(0, 10);
 
@@ -174,7 +174,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         }
 
         [Test]
-        public void PR_UN_06_01()
+        public void PR_UN_16()
         {
             List<Evento> obtenido = eventoDao.BuscarEventos(0, 0);
 
@@ -188,7 +188,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         }
 
         [Test]
-        public void PR_UN_06_02()
+        public void PR_UN_17()
         {
             List<Evento> obtenido = eventoDao.BuscarEventos(0, -1);
 
