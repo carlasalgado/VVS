@@ -24,7 +24,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao
                     orderby c.fecha descending
                     select c).Skip(startIndex);
 
-            if (count > 0) return resultado.Take(count).ToList();
+            if (count > 0)
+
+                return resultado.Take(count).ToList();
 
             return resultado.ToList();
 

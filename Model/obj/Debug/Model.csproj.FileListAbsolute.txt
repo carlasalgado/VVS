@@ -160,3 +160,5 @@ C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Model.csproj.ResolveComReferenc
 C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\PracticaMaD.Model.dll
 C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\PracticaMaD.Model.pdb
 C:\Users\Carla\Desktop\VVS\Laura\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\PracticaMaD.Model.dll.CodeAnalysisLog.xml
+C:\Users\Carla\Desktop\VVS\Laura\Model\bin\Debug\PracticaMaD.Model.dll.lastcodeanalysissucceeded
