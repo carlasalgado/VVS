@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.EtiquetaDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
 {
     public class EtiquetaDaoEntityFramework :
         GenericDaoEntityFramework<Etiqueta, Int64>, IEtiquetaDao

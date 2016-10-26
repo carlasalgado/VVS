@@ -5,7 +5,7 @@ using System.Linq;
 using System.Data.Entity;
 
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
 {
     public class UserProfileDaoEntityFramework : GenericDaoEntityFramework <UserProfile, Int64>, IUserProfileDao
     {

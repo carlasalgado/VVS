@@ -1,0 +1,906 @@
+PR-IN-01
+Unidad: EventoService
+Función/método: añadirComentario
+Motivación:  comprobación de que se añaden correctamente comentarios a eventos mediante porciones equivalentes
+Entradas:
+	identificador de usuario que realiza el comentario
+	identificador de evento sobre el que se realiza el comentario
+	comentario
+Salida esperada: 
+	el comentario coincide con el texto escrito
+	el usuario indicado coincide con el que indica el comentario
+	el evento indicado coincide con el que indica el comentario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-02
+Unidad: EventoService
+Función/método: añadirComentario
+Motivación:  comprobación de que se lanza una excepción cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de usuario no existente
+	identificador de evento
+	comentario
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-03
+Unidad: EventoService
+Función/método: añadirComentario
+Motivación:  comprobación de que se lanza una excepción cuando el evento no existe mediante porciones equivalentes
+Entradas:
+	identificador de usuario 
+	identificador de evento no existente
+	comentario
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-04
+Unidad: EventoService
+Función/método: modificarComentario
+Motivación:  comprobación de que se modifica correctamente un comentario mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	identificador de usuario que realizó el comentario
+	comentario modificado
+Salida esperada: 
+	el comentario contenga el nuevo texto
+	el usuario que escribió el comentario siga siendo el mismo
+	el comentario sigue perteneciendo al evento al que fue asociado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-05
+Unidad: EventoService
+Función/método: modificarComentario
+Motivación:  comprobación de que se lanza un error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	identificador de usuario no existente
+	comentario modificado
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-06
+Unidad: EventoService
+Función/método: modificarComentario
+Motivación:  comprobación de que se lanza correctamente un error cuando el comentario no existe mediante porciones equivalentes
+Entradas:
+	identificador de comentario inexistente
+	identificador de usuario que realizó el comentario
+	comentario modificado
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-07
+Unidad: EventoService
+Función/método: modificarComentario
+Motivación:  comprobación de que lanza un error cuando el usuario que modifica el comentario no es el autor del mismo mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	identificador de usuario existente pero que no es el autor del comentario
+	comentario modificado
+Salida esperada: 
+	Error: UsuarioNoPropietarioException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-08
+Unidad: EventoService
+Función/método: eliminarComentario
+Motivación:  comprobación de que se elimina correctamente un comentario mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	identificador de usuario que realizó el comentario
+Salida esperada: 
+	Al buscar el comentario: Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-09
+Unidad: EventoService
+Función/método: eliminarComentario
+Motivación:  comprobación de que se lanza un error cuando el usuario no es el que creó el comentario mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	identificador de usuario que existe pero no realizó el comentario
+Salida esperada: 
+	Error: UsuarioNoPropietarioException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-10
+Unidad: EventoService
+Función/método: eliminarComentario
+Motivación:  comprobación de que se lanza un error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	identificador de usuario inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-11
+Unidad: EventoService
+Función/método: eliminarComentario
+Motivación:  comprobación de que se lanza un error cuando el comentario no existe mediante porciones equivalentes
+Entradas:
+	identificador de comentario inexistente
+	identificador de usuario que realizó el comentario
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-12
+Unidad: EventoService
+Función/método: verComentarios
+Motivación:  comprobación de que se muestran correctamente los comentarios de un evento mediante porciones equivalentes
+Entradas:
+	identificador de evento existente
+Salida esperada: 
+	todos los comentarios del evento y no existen más eventos
+Inicialización del contexto: 
+	-
+
+
+PR-IN-13
+Unidad: EventoService
+Función/método: verComentarios
+Motivación:  comprobación de que se muestran correctamente los comentarios de un evento mediante porciones equivalentes
+Entradas:
+	identificador de evento existente
+	0 (índice del primer elemento a devolver)
+	1 (número de elementos devueltos)
+Salida esperada: 
+	1 comentario del evento y existen más eventos
+Inicialización del contexto: 
+	-
+
+
+PR-IN-14
+Unidad: EventoService
+Función/método: verComentarios
+Motivación:  comprobación de que no se obtienen comentarios de un evento en el que no se han realizado comentarios mediante porciones equivalentes
+Entradas:
+	identificador de evento existente
+Salida esperada: 
+	ningún comentario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-15
+Unidad: EventoService
+Función/método: verComentario
+Motivación:  comprobación de que se lanza un error cuando el evento no existe mediante porciones equivalentes
+Entradas:
+	identificador de evento inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-16
+Unidad: EventoService
+Función/método: buscarComentario
+Motivación:  comprobación de que se obtiene el comentario buscado mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+Salida esperada: 
+ 	DTO del comentario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-17
+Unidad: EventoService
+Función/método: buscarComentario
+Motivación:  comprobación de que se lanza un error cuando el comentariono existe mediante porciones equivalentes
+Entradas:
+	identificador de comentario inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-18
+Unidad: EventoService
+Función/método: buscarComentarioPorUsuario
+Motivación:  comprobación de que se obtienen los comentarios asociados a un usuario a un evento dado mediante porciones equivalentes
+Entradas:
+	identificador de evento existente
+	identificador de usuario existente
+Salida esperada: 
+	lista de comentarios
+Inicialización del contexto: 
+	-
+
+PR-IN-19
+Unidad: EventoService
+Función/método: buscarComentariosPorUsuario
+Motivación:  comprobación de que se lanza un error cuando el evento no existe mediante porciones equivalentes
+Entradas:
+	identificador de evento inexistente
+	identificador del usuario existente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-20
+Unidad: EventoService
+Función/método: buscarComentariosPorUsuario
+Motivación:  comprobación de que se lanza un error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de evento existente
+	identificador del usuario inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-21
+Unidad: EventoService
+Función/método: buscarComentarioPorUsuario
+Motivación:  comprobación de que no se obtienen comentarios cuando un usuario no realizó ninguno en el evento dado mediante porciones equivalentes
+Entradas:
+	identificador de evento existente
+	identificador de usuario existente
+Salida esperada: 
+	lista de comentarios vacía
+Inicialización del contexto: 
+	-
+
+
+
+
+PR-IN-22
+Unidad: EventoService
+Función/método: crearEtiqueta y buscarEtiquetaPorId
+Motivación:  comprobación de que se crea y se encuentra correctamente una etiqueta mediante porciones equivalentes
+Entradas:
+	nombre de la etiqueta inexistente
+Salida esperada: 
+	la nueva etiqueta 
+Inicialización del contexto: 
+	-
+
+
+PR-IN-23
+Unidad: EventoService
+Función/método: crearEtiqueta 
+Motivación:  comprobación de que se lanza un error cuando la etiqueta creada ya existía previamente mediante porciones equivalentes
+Entradas:
+	nombre de la etiqueta existente
+Salida esperada: 
+	DuplicateInstanceException
+Inicialización del contexto: 
+	-
+
+
+
+
+PR-IN-24
+Unidad: EventoService
+Función/método: buscarEtiquetaPorId
+Motivación:  comprobación de que se lanza un error cuando la etiqueta buscada no existe mediante porciones equivalentes
+Entradas:
+	identificador de la etiqueta inexistente
+Salida esperada: 
+	InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-25
+Unidad: EventoService
+Función/método: anadirEtiquetas
+Motivación:  comprobación de que se le añade una lista de etiquetas a un comentario mediante porciones equivalentes
+Entradas:
+	identificador de comentario existente
+	lista de identificadores de etiquetas
+Salida esperada: 
+	el comentario contenga todas las etiquetas asociadas
+Inicialización del contexto: 
+	-
+
+
+PR-IN-26
+Unidad: EventoService
+Función/método: anadirEtiquetas
+Motivación:  comprobación de que lanza un error cuando el comentario no existe mediante porciones equivalentes
+Entradas:
+	identificador de comentario inexistente
+	lista de identificadores de etiquetas
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-27
+Unidad: EventoService
+Función/método: mostrarComentariosEtiqueta
+Motivación:  comprobación de que se muestran los comentarios asociados con una misma etiqueta mediante porciones equivalentes
+Entradas:
+	nombre de  etiqueta existente
+Salida esperada: 
+	aparecen todos los  comentarios asociados
+Inicialización del contexto: 
+	-
+
+
+PR-IN-28
+Unidad: EventoService
+Función/método: mostrarComentariosEtiqueta
+Motivación:  comprobación de que se lanza un error cuando la etiqueta no existe mediante porciones equivalentes
+Entradas:
+	nombre de  etiqueta inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-29
+Unidad: EventoService
+Función/método: nubeEtiqueta
+Motivación:  comprobación de que se muestran en orden descendente las etiquetas por número de apariciones en los comentarios mediante porciones equivalentes
+Entradas:
+	-
+Salida esperada: 
+	todas las etiquetas ordenadas descendentemente
+Inicialización del contexto: 
+	-
+
+
+PR-IN-30
+Unidad: EventoService
+Función/método: buscarEventos
+Motivación:  comprobación de que se muestran los eventos buscados por palabras clave mediante porciones equivalentes
+Entradas:
+	palabras clave
+Salida esperada: 
+	todas los eventos cuyo nombre contenga las palabras clave
+Inicialización del contexto: 
+	-
+
+
+PR-IN-31
+Unidad: EventoService
+Función/método: buscarEventos
+Motivación:  comprobación de que no se muestran los eventos cuando el nombre no coincide con las palabras clave mediante porciones equivalentes
+Entradas:
+	palabras clave con las que no coincide ningún evento
+Salida esperada: 
+	ningún evento
+Inicialización del contexto: 
+	-
+
+
+PR-IN-32
+Unidad: EventoService
+Función/método: buscarEvento
+Motivación:  comprobación de que se devuelve el evento adecuado mediante porciones equivalentes
+Entradas:
+	identificador del evento existente
+Salida esperada: 
+	el evento buscado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-33
+Unidad: EventoService
+Función/método: buscarEvento
+Motivación:  comprobación de que lanza una excepción cuando no existe el evento mediante porciones equivalentes
+Entradas:
+	identificador del evento inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-34
+Unidad: EventoService
+Función/método: recomendarEvento
+Motivación:  comprobación de que los grupos indicados recibieron una recomendación para el evento indicado mediante porciones equivalentes
+Entradas:
+	identificador del evento existente
+	lista de grupos
+	texto de comentario
+Salida esperada: 
+	todos los grupos de la lista tienen una recomendación para ese evento
+Inicialización del contexto: 
+	-
+
+
+PR-IN-35
+Unidad: EventoService
+Función/método: recomendarEvento
+Motivación:  comprobación de que lanza una excepción cuando no existe el evento mediante porciones equivalentes
+Entradas:
+	identificador del evento inexistente
+	lista de grupos
+	texto de comentario
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-36
+Unidad: EventoService
+Función/método: recomendarEvento
+Motivación:  comprobación de que lanza una excepción cuando la lista de grupos no contiene ningún grupo mediante porciones equivalentes
+Entradas:
+	identificador del evento existente
+	ningún grupo
+	texto de comentario
+Salida esperada: 
+	Error: SinGruposException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-37
+Unidad: EventoService
+Función/método: mostrarRecomendaciones
+Motivación:  comprobación de que muestra todas las recomendaciones de un usuario mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+Salida esperada: 
+	todas las recomendaciones realizadas por un usuario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-38
+Unidad: EventoService
+Función/método: mostrarRecomendaciones
+Motivación:  comprobación de que lanza error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de usuario inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-39
+Unidad: EventoService
+Función/método: grupoRecomendado
+Motivación:  comprobación de que un grupo ha recibido una recomendación para un determinado evento mediante porciones equivalentes
+Entradas:
+	identificador de grupo existente
+	identificador de evento recomendado para el grupo
+Salida esperada: 
+	true para el evento recomendado y false para el evento no recomendado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-40
+Unidad: EventoService
+Función/método: grupoRecomendado
+Motivación:  comprobación de que lanza error cuando el evento no existe mediante porciones equivalentes
+Entradas:
+	identificador de grupo existente 
+	identificador de evento inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+
+
+PR-IN-41
+Unidad: EventoService
+Función/método: grupoRecomendado
+Motivación:  comprobación de que lanza error cuando el grupo no existe mediante porciones equivalentes
+Entradas:
+	identificador de grupo inexistente
+	identificador de evento existente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+
+
+PR-IN-42
+Unidad: GrupoService
+Función/método: crearGrupo
+Motivación:  comprobación de que un grupo se crea correctamente mediante porciones equivalentes
+Entradas:
+	grupo a crear
+	identificador de usuario existente
+Salida esperada: 
+	nuevo grupo creado y asociado con el usuario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-43
+Unidad: GrupoService
+Función/método: crearGrupo
+Motivación:  comprobación de que se lanza un error cuando el grupo está duplicado mediante porciones equivalentes
+Entradas:
+	grupo a crear duplicado 
+	identificador de usuario existente
+Salida esperada: 
+	Error: DuplicateInstanceException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-44
+Unidad: GrupoService
+Función/método:  verGrupos
+Motivación:  comprobación de que se obtienen los grupos en un rango determinado mediante porciones equivalentes
+Entradas:
+	0 (índice del primer resultado de la búsqueda)
+	20 (número máximo de resultados devueltos)
+Salida esperada: 
+	los 20 primeros grupos como máximo, si los hay
+Inicialización del contexto: 
+	-
+
+
+PR-IN-45
+Unidad: GrupoService
+Función/método:  altaGrupo
+Motivación:  comprobación de que un usuario se da de alta en un grupo correctamente mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+	identificador del grupo existente
+Salida esperada: 
+	el usuario contiene al grupo y el grupo al usuario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-46
+Unidad: GrupoService
+Función/método:  altaGrupo
+Motivación:  comprobación de que se lanza un error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador del usuario inexistente
+	identificador del grupo existente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-47
+Unidad: GrupoService
+Función/método:  altaGrupo
+Motivación:  comprobación de que se lanza un error cuando el grupo no existe mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+	identificador del grupo inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-48
+Unidad: GrupoService
+Función/método:  bajaGrupo
+Motivación:  comprobación de que se da un usuario de baja de un grupo correctamente mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+	identificador del grupo existente
+Salida esperada: 
+	El grupo no contiene al usuario y el usuario no contiene al grupo
+Inicialización del contexto: 
+	-
+
+
+
+
+PR-IN-49
+Unidad: GrupoService
+Función/método:  bajaGrupo
+Motivación:  comprobación de que se lanza un error cuando el grupo no existe mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+	identificador del grupo inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-50
+Unidad: GrupoService
+Función/método:  bajaGrupo
+Motivación:  comprobación de que se lanza un error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador del usuario inexistente
+	identificador del grupo existente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-51
+Unidad: GrupoService
+Función/método:  bajaGrupo
+Motivación:  comprobación de que se elimina un grupo cuando se va el ultimo usuario del mismo mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+	identificador del grupo existente
+Salida esperada: 
+	el grupo no existe
+Inicialización del contexto: 
+	-
+
+
+PR-IN-52
+Unidad: GrupoService
+Función/método:  buscarPorUsuario
+Motivación:  comprobación de que se obtienen los grupos de un usuario mediante porciones equivalentes
+Entradas:
+	identificador del usuario existente
+Salida esperada: 
+	todos los grupos del usuario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-53
+Unidad: GrupoService
+Función/método:  buscarPorUsuario
+Motivación:  comprobación de que se lanza un error cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador del usuario inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-54
+Unidad: GrupoService
+Función/método:  buscarGrupo
+Motivación:  comprobación de que se obtiene el grupo correctamente mediante porciones equivalentes
+Entradas:
+	identificador del grupo existente
+Salida esperada: 
+	el grupo buscado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-55
+Unidad: GrupoService
+Función/método:  buscarGrupo
+Motivación:  comprobación de que se lanza un error cuando el grupo no existe mediante porciones equivalentes
+Entradas:
+	identificador del grupo inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-56
+Unidad: GrupoService
+Función/método:  buscarGrupoPorId
+Motivación:  comprobación de que se obtiene el grupo correctamente mediante porciones equivalentes
+Entradas:
+	identificador del grupo existente
+Salida esperada: 
+	el grupo buscado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-57
+Unidad: GrupoService
+Función/método:  buscarGrupoPorId
+Motivación:  comprobación de que se lanza un error cuando el grupo no existe mediante porciones equivalentes
+Entradas:
+	identificador del grupo inexistente
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+PR-IN-58
+Unidad: UserProfileService
+Función/método:  registerUser
+Motivación:  comprobación de que se registra correctamente un usuario mediante porciones equivalentes
+Entradas:
+	login inexistente
+	contraseña
+	detalles del perfil
+Salida esperada: 
+	Se encuentra el usuario registrado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-59
+Unidad: UserProfileService
+Función/método:  registerUser
+Motivación:  comprobación de que se lanza una excepción cuando el login ya existe mediante porciones equivalentes
+Entradas:
+	login existente
+	contraseña
+	detalles del perfil
+Salida esperada: 
+	Error: DuplicateInstanceException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-60
+Unidad: UserProfileService
+Función/método:  login
+Motivación:  comprobación de que se autentica correctamente un usuario mediante porciones equivalentes
+Entradas:
+	login existente
+	contraseña
+	false (indica que la contraseña no está encriptada)
+Salida esperada: 
+	Se encuentra el usuario autenticado
+Inicialización del contexto: 
+	-
+
+
+PR-IN-61
+Unidad: UserProfileService
+Función/método:  login
+Motivación:  comprobación de que se autentica correctamente un usuario mediante porciones equivalentes
+Entradas:
+	login existente
+	contraseña correcta
+	true (indica que la contraseña está encriptada)
+Salida esperada: 
+	Se encuentra el usuario autenticado
+Inicialización del contexto: 
+	-
+
+
+
+
+PR-IN-62
+Unidad: UserProfileService
+Función/método:  login
+Motivación:  comprobación de que se lanza un error cuando la contraseña no coincide mediante porciones equivalentes
+Entradas:
+	login existente
+	contraseña incorrecta
+	false (indica que la contraseña no está encriptada)
+Salida esperada: 
+	Error: IncorrectPasswordException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-63
+Unidad: UserProfileService
+Función/método:  login
+Motivación:  comprobación de que no se autentica correctamente un usuario que no está registrado mediante porciones equivalentes
+Entradas:
+	login inexistente
+	contraseña 
+	false (indica que la contraseña no está encriptada)
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-64
+Unidad: UserProfileService
+Función/método:  findUserProfileDetails
+Motivación:  comprobación de que se devuelven los datos del perfil del usuario correctamente mediante porciones equivalentes
+Entradas:
+	identificador de usuario existente
+Salida esperada: 
+	datos del perfil del usuario
+Inicialización del contexto: 
+	-
+
+
+PR-IN-66
+Unidad: UserProfileService
+Función/método:  updateUserProfileDetails
+Motivación:  comprobación de que se actualizan los datos del perfil del usuario mediante porciones equivalentes
+Entradas:
+	identificador de usuario existente
+	nuevos datos del perfil del usuario
+Salida esperada: 
+	Se obtiene el perfil del usuario con los nuevos datos
+Inicialización del contexto: 
+	-
+
+
+PR-IN-67
+Unidad: UserProfileService
+Función/método:  updateUserProfileDetails
+Motivación:  comprobación de que se lanza una excepción cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de usuario inexistente
+	nuevos datos del perfil del usuario
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-68
+Unidad: UserProfileService
+Función/método:  changePassword
+Motivación:  comprobación de que cambia satisfactoriamente la contraseña mediante porciones equivalentes
+Entradas:
+	identificador de usuario existente
+	contraseña en claro antigua
+	contraseña en claro nueva
+Salida esperada: 
+	El usuario es autenticado satisfactoriamente con la nueva contraseña
+Inicialización del contexto: 
+	-
+
+
+PR-IN-69
+Unidad: UserProfileService
+Función/método:  changePassword
+Motivación:  comprobación de que no se cambia la contraseña cuando la antigua contraseña no es la correcta mediante porciones equivalentes
+Entradas:
+	identificador de usuario existente
+	contraseña en claro antigua incorrecta
+	contraseña en claro nueva
+Salida esperada: 
+	Error: IncorrectPasswordException
+Inicialización del contexto: 
+	-
+
+
+PR-IN-70
+Unidad: UserProfileService
+Función/método:  changePassword
+Motivación:  comprobación de que no se cambia la contraseña cuando el usuario no existe mediante porciones equivalentes
+Entradas:
+	identificador de usuario inexistente
+	contraseña en claro antigua 
+	contraseña en claro nueva
+Salida esperada: 
+	Error: InstanceNotFoundException
+Inicialización del contexto: 
+	-
+

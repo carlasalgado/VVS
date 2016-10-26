@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.Practices.Unity;
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
-using Es.Udc.DotNet.PracticaMaD.Model.UserService.Util;
-using Es.Udc.DotNet.PracticaMaD.Model.UserService.Exceptions;
+using Es.Udc.DotNet.PracticaMaD.Model.UserService;
+using Es.Udc.DotNet.PracticaMaD.Model.EventoService;
+using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 
 namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {

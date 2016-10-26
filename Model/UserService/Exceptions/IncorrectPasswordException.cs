@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.UserService.Exceptions
+namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
     /// <summary>
     /// Public <c>ModelException</c> which captures the error 

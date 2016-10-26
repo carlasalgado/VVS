@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.RecomendacionDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
 {
 
     //Tanto si no existe el grupo como si este no tiene recomendaciones de eventos, devuelve lista vacia
