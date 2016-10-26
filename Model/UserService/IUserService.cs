@@ -2,8 +2,8 @@
 using System;
 using Microsoft.Practices.Unity;
 
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Es.Udc.DotNet.ModelUtil.Transactions;
+using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 
 namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {

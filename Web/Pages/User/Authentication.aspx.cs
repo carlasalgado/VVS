@@ -3,8 +3,8 @@ using System.Web.Security;
 
 using Es.Udc.DotNet.PracticaMaD.Web.HTTP.Session;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
-using Es.Udc.DotNet.PracticaMaD.Model.UserService.Exceptions;
-
+using Es.Udc.DotNet.PracticaMaD.Model.EventoService;
+using Es.Udc.DotNet.PracticaMaD.Model.UserService;
 
 namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.User
 {

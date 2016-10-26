@@ -3,7 +3,7 @@ using System.Text;
 using System.Security.Cryptography;
 
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.UserService.Util
+namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
     /// <summary>
     /// Static Class with cryptografic utilities

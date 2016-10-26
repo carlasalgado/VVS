@@ -1,7 +1,6 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Exceptions;
 using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;

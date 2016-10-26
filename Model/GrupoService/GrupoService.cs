@@ -1,6 +1,5 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Exceptions;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoService
+namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
     public class GrupoService : IGrupoService
     {
