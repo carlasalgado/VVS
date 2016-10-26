@@ -1,11 +1,6 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Exceptions;
-using Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao;
-using Es.Udc.DotNet.PracticaMaD.Model.EtiquetaDao;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
-using Es.Udc.DotNet.PracticaMaD.Model.GrupoService;
-using Es.Udc.DotNet.PracticaMaD.Model.RecomendacionDao;
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
@@ -187,9 +182,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 throw new UsuarioNoPropietarioException(idUsuario, idComentario);
         }
 
-        public BloqueComentarios VerComentarios(long idEvento, int startIndex, int count)
+        public BloqueComentarios VerComentarios(long idEvento, int startIndex = 0, int count = 0)
         {
             List<ComentarioDTO> comentariosDTO = new List<ComentarioDTO>();
+            List<Comentario> comentarios;
+            bool existenMasComentarios;
 
             ComentarioDTO dto = new ComentarioDTO();
 
@@ -200,9 +197,16 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 throw new InstanceNotFoundException(idEvento,
                     typeof(Evento).FullName);
 
-            List<Comentario> comentarios = comentarioDao.VerComentarios(idEvento, startIndex, count);
-
-            bool existenMasComentarios = (comentarios.Count == count + 1);
+            if (count == 0)
+            {
+                comentarios = comentarioDao.VerComentarios(idEvento, startIndex, 0);
+                existenMasComentarios = false;
+            }
+            else
+            {
+                comentarios = comentarioDao.VerComentarios(idEvento, startIndex, count + 1);
+                existenMasComentarios = (comentarios.Count == count + 1);
+            }
 
             if (existenMasComentarios)
                 comentarios.RemoveAt(count);

@@ -1,14 +1,12 @@
 ﻿using System;
 using NUnit.Framework;
 using Microsoft.Practices.Unity;
-using Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
 using Es.Udc.DotNet.PracticaMaD.Model;
 using System.Transactions;
 using System.Collections.Generic;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
-using Moq;
+using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
 {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.EtiquetaDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
 {
     public interface IEtiquetaDao : IGenericDao<Etiqueta, Int64>
     {

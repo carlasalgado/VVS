@@ -1,5 +1,4 @@
 ﻿using Es.Udc.DotNet.PracticaMaD.Model;
-using Es.Udc.DotNet.PracticaMaD.Model.GrupoService;
 using Es.Udc.DotNet.PracticaMaD.Model.UserService;
 using Es.Udc.DotNet.PracticaMaD.Web.HTTP.Session;
 using Es.Udc.DotNet.PracticaMaD.Web.Properties;

@@ -1,7 +1,6 @@
 ﻿using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
-using Es.Udc.DotNet.PracticaMaD.Model.RecomendacionDao;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
 {
     public class ComentarioDaoEntityFramework :
         GenericDaoEntityFramework<Comentario, Int64>, IComentarioDao

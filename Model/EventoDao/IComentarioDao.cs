@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
 {
     public interface IComentarioDao : IGenericDao<Comentario, Int64>
     {

@@ -2,7 +2,7 @@
 using Es.Udc.DotNet.ModelUtil.Dao;
 
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao
+namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
 {
     public interface IUserProfileDao : IGenericDao<UserProfile, Int64>
     {

@@ -1,8 +1,6 @@
 ﻿using Es.Udc.DotNet.PracticaMaD.Model;
-using Es.Udc.DotNet.PracticaMaD.Model.ComentarioDao;
-using Es.Udc.DotNet.PracticaMaD.Model.EtiquetaDao;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
-using Es.Udc.DotNet.PracticaMaD.Model.UserProfileDao;
+using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;

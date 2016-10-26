@@ -142,6 +142,9 @@ E:\Software\Repositorio VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Er
 E:\Software\Repositorio VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.dll
 E:\Software\Repositorio VVS\Web\obj\Debug\PracticaMaD.Web.pdb
+C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
+C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\Web.csproj.GenerateResource.Cache
+C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\PracticaMaD.Web.dll.config
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\PracticaMaD.Web.dll
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\PracticaMaD.Web.pdb
@@ -166,8 +169,5 @@ C:\Users\Carla\Desktop\VVS\Laura\Web\bin\Microsoft.Practices.Unity.Configuration
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\Microsoft.Practices.Unity.Interception.xml
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\Microsoft.Practices.Unity.Interception.Configuration.xml
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
-C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
-C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.Errors.App_LocalResources.en_default.UsuarioNoAutorizadoException.aspx.resources
-C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\PracticaMaD.Web.dll
 C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\PracticaMaD.Web.pdb

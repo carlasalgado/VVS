@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoService
+namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
     public class BloqueGrupos
     {
