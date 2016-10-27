@@ -1,6 +1,7 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Dao;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -13,37 +14,55 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
     {
         public EventoDaoEntityFramework() {   }
 
-        public List<Evento> BuscarEventos(List<String> keyWords, int startIndex=0, int count=0) {
+        public Collection<Evento> BuscarEventos(Collection<String> keyWords, int startIndex=0, int count=0) {
             DbSet<Evento> eventos = Context.Set<Evento>();
-
+            Collection<Evento> coll = new Collection<Evento>();
             var resultado =
                 (from e in eventos
                  where keyWords.All(s => e.nombre.Contains(s))
                  orderby e.fecha ascending
                  select e).Skip(startIndex);
 
-            if (count > 0) return resultado.Take(count).ToList();
+            if (count > 0)
+            {
+                foreach (Evento evento in resultado.Take(count).ToList())
+                {
+                    coll.Add(evento);
+                }
+                return coll;
+            }
 
-            return resultado.ToList();
+            foreach (Evento evento in resultado.ToList())
+            {
+                coll.Add(evento);
+            }
+            return coll;
         }
 
-        public List<Evento> BuscarEventos(int startIndex = 0, int count = 0)
+        public Collection<Evento> BuscarEventos(int startIndex = 0, int count = 0)
         {
             DbSet<Evento> eventos = Context.Set<Evento>();
+            Collection<Evento> coll = new Collection<Evento>();
 
             var resultado =
                 (from e in eventos
                  orderby e.fecha ascending
                  select e).Skip(startIndex);
 
-            if (count > 0) return resultado.Take(count).ToList();
+            if (count > 0)
+            {
+                foreach (Evento evento in resultado.Take(count).ToList())
+                {
+                    coll.Add(evento);
+                }
+                return coll;
+            }
 
-            return resultado.ToList();
-        }
-
-        public Int64 B()
-        {
-            return 0;
+            foreach (Evento evento in resultado.ToList())
+            {
+                coll.Add(evento);
+            }
+            return coll;
         }
     }
 }

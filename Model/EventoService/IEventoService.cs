@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -83,7 +84,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <param name="idEvento">Identificador del evento.</param>
         /// <returns>Una lista de DTOs de comentarios</returns>
         /// <exception cref="InstanceNotFoundException"/>
-        List<ComentarioDTO> BuscarComentarioPorUsuario(long idUsuario, long idEvento);
+        Collection<ComentarioDTO> BuscarComentarioPorUsuario(long idUsuario, long idEvento);
         #endregion
 
         #region Recomendaciones
@@ -97,7 +98,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <returns>Recomendacion</returns>
         /// <exception cref="InstanceNotFoundException"/>
         /// <exception cref="SinGruposException"/>
-        Recomendacion RecomendarEvento(long idEvento, List<Grupo> grupos, String texto);
+        Recomendacion RecomendarEvento(long idEvento, Collection<Grupo> grupos, String texto);
 
         /// <summary>
         /// Muestra las recomendaciones de un de un usuario
@@ -106,7 +107,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <returns>Lista de DTOS de recomendaciones</returns>
         /// <exception cref="InstanceNotFoundException"/>
         /// <exception cref="SinGruposException"/>
-        List<RecomendacionDTO> MostrarRecomendaciones(long idUsuario);
+        Collection<RecomendacionDTO> MostrarRecomendaciones(long idUsuario);
 
         /// <summary>
         /// Indica si el grupo ya tiene el evento recomendado
@@ -133,14 +134,14 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <param name="idComentario">Identificador del comentario.</param>
         /// <returns>Lista de etiquetas de un comentario</returns>
         /// <exception cref="InstanceNotFoundException"/>
-        List<Etiqueta> EtiquetasDeComentario(long idComentario);
+        Collection<Etiqueta> EtiquetasDeComentario(long idComentario);
 
         /// <summary>
         /// Muestra todas las etiquetas ordenadas por numero de apariciones en los comentarios. 
         /// Las mas usadas primero.
         /// </summary>
         /// <returns>Lista ordenada de etiquetas</returns>
-        List<Etiqueta> NubeEtiquetas();
+        Collection<Etiqueta> NubeEtiquetas();
 
         /// <summary>
         /// Sustituye las etiquetas de un comentario por las etiquetas que se le pasen. 
@@ -148,7 +149,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <param name="idComentario">Identificador del comentario.</param>
         /// <param name="etiquetas">Lista de etiquetas que se asociaran con el comentario.</param>
         /// <exception cref="InstanceNotFoundException"/>
-        void AnadirEtiqueta(long idComentario, List<Etiqueta> etiquetas);
+        void AnadirEtiqueta(long idComentario, Collection<Etiqueta> etiquetas);
 
         /// <summary>
         /// Muestra los comentarios asociados con una etiqueta 
@@ -156,7 +157,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <param name="etiqueta">Nombre de la etiqueta.</param>
         /// <returns>Lista de DTOs de comentarios asociados con una etiqueta</returns>
         /// <exception cref="InstanceNotFoundException"/>
-        List<ComentarioDTO> MostrarComentariosEtiqueta(String etiqueta);
+        Collection<ComentarioDTO> MostrarComentariosEtiqueta(String etiqueta);
 
         /// <summary>
         /// Busca una etiqueta por su identificador
@@ -166,8 +167,6 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <exception cref="InstanceNotFoundException"/>
         Etiqueta EtiquetaPorId(long idEtiqueta);
         #endregion
-
-        Int64 A();
     }
 
 

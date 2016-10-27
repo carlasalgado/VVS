@@ -3,6 +3,7 @@ using Es.Udc.DotNet.PracticaMaD.Model.EventoService;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -31,7 +32,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
                 container.Resolve<IEventoService>();
 
             /* Get Tag Info */
-            List<Etiqueta> etiquetas =
+            Collection<Etiqueta> etiquetas =
                 eventService.EtiquetasDeComentario(comentarioId);
 
             EventoDTO eventoDto = eventService.BuscarEvento(eventoId);

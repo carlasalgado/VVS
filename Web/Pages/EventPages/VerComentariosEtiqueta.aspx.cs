@@ -5,6 +5,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.Properties;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -56,7 +57,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
                 container.Resolve<IEventoService>();
 
             /* Get Comment Info */
-            List<ComentarioDTO> comentarios =
+            Collection<ComentarioDTO> comentarios =
                 eventService.MostrarComentariosEtiqueta(tag);
 
             if ((comentarios.Count == 0) && (startIndex == 0))

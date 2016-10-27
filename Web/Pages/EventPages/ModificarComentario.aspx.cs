@@ -5,6 +5,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.HTTP.Session;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -33,7 +34,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
             if (!IsPostBack)
             {
                 /* Get Tag Info */
-                List<Etiqueta> etiquetas =
+                Collection<Etiqueta> etiquetas =
                     eventService.NubeEtiquetas();
 
                 if (etiquetas.Count == 0)
@@ -45,7 +46,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
                 this.gvEtiquetas.DataSource = etiquetas;
                 this.gvEtiquetas.DataBind();
 
-                List<Etiqueta> etiquetasComentario = eventService.EtiquetasDeComentario(idComentario);
+                Collection<Etiqueta> etiquetasComentario = eventService.EtiquetasDeComentario(idComentario);
 
                 foreach (GridViewRow row in gvEtiquetas.Rows)
                 {
@@ -80,7 +81,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
                     ApplyAppPathModifier("~/Pages/Errors/UsuarioNoAutorizadoException.aspx"));
             }
 
-            List<Etiqueta> etiquetas = new List<Etiqueta>();
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
 
             foreach (GridViewRow row in gvEtiquetas.Rows)
             {

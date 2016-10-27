@@ -10,7 +10,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
     public class UserService : IUserService
     {
         [Dependency]
-        public IUserProfileDao UserProfileDao { private get; set; }
+        public IUserProfileDao UserProfileDao { get; set; }
 
 
         #region IUserService Members

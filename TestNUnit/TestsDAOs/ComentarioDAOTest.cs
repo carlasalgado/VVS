@@ -7,6 +7,7 @@ using System.Transactions;
 using System.Collections.Generic;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
+using System.Collections.ObjectModel;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
 {
@@ -172,7 +173,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 10);
+                Collection<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 10);
 
                 Assert.IsTrue(comentarios.Count == 3);
                 Assert.IsTrue(comentarios.Contains(comentario4));
@@ -194,7 +195,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 0);
+                Collection<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, 0);
 
                 Assert.IsTrue(comentarios.Count == 3);
                 Assert.IsTrue(comentarios.Contains(comentario4));
@@ -213,7 +214,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, -1);
+                Collection<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 0, -1);
 
                 Assert.IsTrue(comentarios.Count == 3);
                 Assert.IsTrue(comentarios.Contains(comentario4));
@@ -235,7 +236,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.VerComentarios(evento3.idEvento, 0, 0);
+                Collection<Comentario> comentarios = comentarioDao.VerComentarios(evento3.idEvento, 0, 0);
 
                 Assert.IsTrue(comentarios.Count == 0);
 
@@ -254,7 +255,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.VerComentarios(NON_EXISTING_EVENT, 0, 0);
+                Collection<Comentario> comentarios = comentarioDao.VerComentarios(NON_EXISTING_EVENT, 0, 0);
 
                 Assert.IsTrue(comentarios.Count == 0);
 
@@ -273,7 +274,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 1, 1);
+                Collection<Comentario> comentarios = comentarioDao.VerComentarios(evento1.idEvento, 1, 1);
 
                 Assert.IsTrue(comentarios.Count == 1);
             }
@@ -291,7 +292,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento2.idEvento);
+                Collection<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento2.idEvento);
 
                 Assert.IsTrue(comentarios.Count == 1);
                 Assert.AreEqual(comentarios[0], comentario2);
@@ -310,7 +311,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento3.idEvento);
+                Collection<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, evento3.idEvento);
 
                 Assert.IsTrue(comentarios.Count == 0);
             }
@@ -328,7 +329,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(NON_EXISTING_USER, evento3.idEvento);
+                Collection<Comentario> comentarios = comentarioDao.BuscarPorUsuario(NON_EXISTING_USER, evento3.idEvento);
 
                 Assert.IsTrue(comentarios.Count == 0);
             }
@@ -346,7 +347,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         {
             try
             {
-                List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, NON_EXISTING_EVENT);
+                Collection<Comentario> comentarios = comentarioDao.BuscarPorUsuario(userProfile.usrId, NON_EXISTING_EVENT);
 
                 Assert.IsTrue(comentarios.Count == 0);
             }

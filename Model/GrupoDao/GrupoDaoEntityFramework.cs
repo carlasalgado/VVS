@@ -2,6 +2,7 @@
 using Es.Udc.DotNet.ModelUtil.Exceptions;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -14,10 +15,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
     {
         public GrupoDaoEntityFramework() { }
 
-        public List<Grupo> BuscarPorUsuario(long usrId)
+        public Collection<Grupo> BuscarPorUsuario(long usrId)
         {
 
             DbSet<UserProfile> userProfiles = Context.Set<UserProfile>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
 
             var resultado =
                 (from u in userProfiles
@@ -26,7 +28,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
 
             UserProfile userProfile = resultado.FirstOrDefault();
 
-            return userProfile.Grupo.ToList();
+            foreach (Grupo g in userProfile.Grupo.ToList())
+                grupos.Add(g);
+            return grupos;
         }
 
         public Grupo BuscarPorNombre(string nombre)
@@ -47,17 +51,23 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
             return grupo;
         }
 
-        public List<Grupo> MostrarGrupos(int startIndex, int count)
+        public Collection<Grupo> MostrarGrupos(int startIndex, int count)
         {
 
             DbSet<Grupo> grupos = Context.Set<Grupo>();
+            Collection<Grupo> collGrupos = new Collection<Grupo>();
 
             var resultado =
                 (from g in grupos
                  orderby g.nombre
                  select g).Skip(startIndex).Take(count);
 
-            return resultado.ToList();
+
+            foreach(Grupo g in resultado.ToList())
+            {
+                collGrupos.Add(g);
+            }
+            return collGrupos;
         }
 
     }

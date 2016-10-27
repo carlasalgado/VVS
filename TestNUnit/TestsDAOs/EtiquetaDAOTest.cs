@@ -5,6 +5,7 @@ using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -186,7 +187,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
              * Etiqueta 3: 1
              * Etiqueta 4: 0
              */
-            List<Etiqueta> obtenidas = etiquetaDao.NubeEtiquetas();
+            Collection<Etiqueta> obtenidas = etiquetaDao.NubeEtiquetas();
 
             Assert.IsTrue(obtenidas.Count == 5);
             Assert.AreEqual(obtenidas[0], etiqueta2);

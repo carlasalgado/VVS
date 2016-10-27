@@ -4,6 +4,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.HTTP.Session;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -48,7 +49,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web
                 if (lnkAuthenticate != null)
                     lnkAuthenticate.Visible = false;
             }
-            List<Etiqueta> tags = eventService.NubeEtiquetas();
+            Collection<Etiqueta> tags = eventService.NubeEtiquetas();
             foreach (Etiqueta tag in tags)
             {
                 HyperLink newTag = new HyperLink();

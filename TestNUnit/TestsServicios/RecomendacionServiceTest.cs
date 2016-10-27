@@ -8,6 +8,7 @@ using Es.Udc.DotNet.PracticaMaD.Model;
 using System.Transactions;
 using System.Collections.Generic;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
+using System.Collections.ObjectModel;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 {
@@ -158,7 +159,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_34()
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
             grupos.Add(grupo);
             grupos.Add(grupo2);
             String comentario = "Recomiendo este evento";
@@ -175,7 +176,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_35()
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
             grupos.Add(grupo);
             try
             {
@@ -194,7 +195,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_36()
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
             //grupos.Add(grupo);
             try
             {
@@ -213,10 +214,10 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_37()
         {
-            List<Grupo> grupos1 = new List<Grupo>();
+            Collection<Grupo> grupos1 = new Collection<Grupo>();
             grupos1.Add(grupo);
 
-            List<Grupo> grupos2 = new List<Grupo>();
+            Collection<Grupo> grupos2 = new Collection<Grupo>();
             grupos2.Add(grupo2);
 
             Recomendacion recomendacion1 = EventoService.RecomendarEvento(evento1.idEvento, grupos1, "Texto recomendacion");
@@ -254,7 +255,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             recomendacionesEsperadas.Add(e2);
             recomendacionesEsperadas.Add(e3);
 
-            List<RecomendacionDTO> eventosObtenidos = EventoService.MostrarRecomendaciones(user.usrId);
+            Collection<RecomendacionDTO> eventosObtenidos = EventoService.MostrarRecomendaciones(user.usrId);
 
             Assert.AreEqual(recomendacionesEsperadas.Count, eventosObtenidos.Count);
             foreach (RecomendacionDTO e in recomendacionesEsperadas)
@@ -286,7 +287,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_39()
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
             grupos.Add(grupo);
             String comentario = "Recomiendo este evento";
 
@@ -305,7 +306,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_40()
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
             grupos.Add(grupo);
             String comentario = "Recomiendo este evento";
 
@@ -329,7 +330,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_41()
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
             grupos.Add(grupo);
             String comentario = "Recomiendo este evento";
 

@@ -1,6 +1,7 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Dao;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         /// <param name="startIndex">Indice del primer resultado de la búsqueda</param>
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>Lista de eventos que coinciden con las palabras clave</returns>
-        List<Evento> BuscarEventos(List<String> palabrasClave, int startIndex = 0, int count = 0);
+        Collection<Evento> BuscarEventos(Collection<String> palabrasClave, int startIndex = 0, int count = 0);
 
         /// <summary>
         /// Muestra todos los eventos ordenados, mas reciente primero.
@@ -24,8 +25,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         /// <param name="startIndex">Indice del primer resultado de la búsqueda</param>
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>Lista de eventos que coinciden con las palabras clave</returns>
-        List<Evento> BuscarEventos(int startIndex = 0, int count = 0);
+        Collection<Evento> BuscarEventos(int startIndex = 0, int count = 0);
 
-        Int64 B();
     }
 }

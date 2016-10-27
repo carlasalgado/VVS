@@ -3,6 +3,7 @@ using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
     public class GrupoService : IGrupoService
     {
         [Dependency]
-        public IGrupoDao grupoDao { private get; set; }
+        public IGrupoDao grupoDao { get; set; }
         [Dependency]
-        public IUserProfileDao userProfileDao { private get; set; }
+        public IUserProfileDao userProfileDao { get; set; }
 
         public long CrearGrupo(Grupo grupo, long idUsuario)
         {
@@ -40,8 +41,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         public BloqueGrupos VerGrupos(int startIndex, int count)
         {
             GrupoDTO dto = new GrupoDTO();
-            List<GrupoDTO> gruposDTO = new List<GrupoDTO>();
-            List<Grupo> grupos = grupoDao.MostrarGrupos(startIndex, count + 1);
+            Collection<GrupoDTO> gruposDTO = new Collection<GrupoDTO>();
+            Collection<Grupo> grupos = grupoDao.MostrarGrupos(startIndex, count + 1);
             List<Recomendacion> recomendaciones = new List<Recomendacion>();
             bool existenMasGrupos = (grupos.Count == count + 1);
 
@@ -114,11 +115,12 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 
         }
         
-        public List<GrupoDTO> BuscarPorUsuario(long idUsuario)
+        public Collection<GrupoDTO> BuscarPorUsuario(long idUsuario)
         {
             GrupoDTO dtoGrupo = new GrupoDTO();
             List<GrupoDTO> gruposDTO = new List<GrupoDTO>();
             List<Recomendacion> recomendaciones = new List<Recomendacion>();
+            Collection<GrupoDTO> collGrupos = new Collection<GrupoDTO>();
 
             /* Buscar Usuario */
             UserProfile usuario = userProfileDao.Find(idUsuario);
@@ -127,7 +129,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
                 throw new InstanceNotFoundException(idUsuario,
                     typeof(UserProfile).FullName);
 
-            List<Grupo> grupos = grupoDao.BuscarPorUsuario(idUsuario);
+            Collection<Grupo> grupos = grupoDao.BuscarPorUsuario(idUsuario);
 
             foreach (Grupo grupo in grupos)
             {
@@ -145,7 +147,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
                 gruposDTO.Add(new GrupoDTO(dtoGrupo));
             }
 
-            return gruposDTO;
+            foreach (GrupoDTO g in gruposDTO)
+            {
+                collGrupos.Add(g);
+            }
+            return collGrupos;
 
         }
 

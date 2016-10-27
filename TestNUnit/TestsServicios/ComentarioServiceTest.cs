@@ -8,6 +8,7 @@ using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Transactions;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
@@ -507,7 +508,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 
             comentariosEsperados.Add(dto1);
 
-            List<ComentarioDTO> comentariosObtenidos = EventoService.BuscarComentarioPorUsuario(user.usrId, evento1.idEvento);
+            Collection<ComentarioDTO> comentariosObtenidos = EventoService.BuscarComentarioPorUsuario(user.usrId, evento1.idEvento);
 
             Assert.AreEqual(1, comentariosObtenidos.Count);
             Assert.IsTrue(comentariosObtenidos.Contains(dto1));
@@ -556,7 +557,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         {
             List<ComentarioDTO> comentariosEsperados = new List<ComentarioDTO>();
 
-            List<ComentarioDTO> comentariosObtenidos = EventoService.BuscarComentarioPorUsuario(user.usrId, evento1.idEvento);
+            Collection<ComentarioDTO> comentariosObtenidos = EventoService.BuscarComentarioPorUsuario(user.usrId, evento1.idEvento);
 
             Assert.AreEqual(0, comentariosObtenidos.Count);
         }

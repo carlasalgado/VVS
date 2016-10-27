@@ -4,6 +4,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.HTTP.Session;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Web;
 using System.Web.UI.WebControls;
 
@@ -28,7 +29,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
                 container.Resolve<IEventoService>();
 
             /* Get Tags Info */
-            List<Etiqueta> etiquetas =
+            Collection<Etiqueta> etiquetas =
                 eventService.NubeEtiquetas();
 
             if (etiquetas.Count == 0)
@@ -54,7 +55,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
 
             UserSession userSession = (UserSession)Context.Session[USER_SESSION_ATTRIBUTE];
 
-            List<Etiqueta> etiquetas = new List<Etiqueta>();
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
 
             long idComentario = eventoService.AnadirComentario(idEvento, userSession.UserProfileId, txtComentario.Text);
             

@@ -7,6 +7,7 @@ using Es.Udc.DotNet.PracticaMaD.TestNUnit;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
 using Es.Udc.DotNet.PracticaMaD.Model.UserService;
+using System.Collections.ObjectModel;
 
 namespace es.udc.dotnet.practicamad.testnunit.testsservicios
 {
@@ -341,7 +342,7 @@ namespace es.udc.dotnet.practicamad.testnunit.testsservicios
 
             grupoService.CrearGrupo(g3, user2.usrId);
 
-            List<GrupoDTO> gruposObtenidos = grupoService.BuscarPorUsuario(user.usrId);
+            Collection<GrupoDTO> gruposObtenidos = grupoService.BuscarPorUsuario(user.usrId);
 
             Assert.AreEqual(2, gruposObtenidos.Count);
 
