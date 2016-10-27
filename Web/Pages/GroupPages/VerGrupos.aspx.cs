@@ -5,6 +5,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.Properties;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -102,7 +103,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.GroupPages
             {
                 if (userSession.UserProfileId != 0)
                 {
-                    List<GrupoDTO> groups = groupService.BuscarPorUsuario(userSession.UserProfileId);
+                    Collection<GrupoDTO> groups = groupService.BuscarPorUsuario(userSession.UserProfileId);
                     GrupoDTO g = null;
                     int a = gvGroups.Rows.Count;
                     for (int i = 0; i < groupBlock.Grupos.Count; i++)

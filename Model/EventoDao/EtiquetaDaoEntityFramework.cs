@@ -1,6 +1,7 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Dao;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -24,16 +25,21 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
             return etiqueta;
         }
 
-        public List<Etiqueta> NubeEtiquetas()
+        public Collection<Etiqueta> NubeEtiquetas()
         {
             DbSet<Etiqueta> etiquetas = Context.Set<Etiqueta>();
+            Collection<Etiqueta> collEtiquetas = new Collection<Etiqueta>();
 
             var resultado =
                 (from e in etiquetas
                  orderby e.Comentario.Count descending
                  select e);
 
-            return resultado.ToList();
+            foreach (Etiqueta e in resultado.ToList())
+            {
+                collEtiquetas.Add(e);
+            }
+            return collEtiquetas;
         }
     }
 }

@@ -5,6 +5,7 @@ using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -122,12 +123,12 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
              * y comprobamos paginacion haciendo que se salte el primer
              * resultado y que nos muestre solo 2 resultados 
              */
-            List<String> keyWords = new List<string>();
+            Collection<String> keyWords = new Collection<string>();
 
             keyWords.Add("Eve");
             keyWords.Add("to");
 
-            List<Evento> obtenido = eventoDao.BuscarEventos(keyWords, 1, 2);
+            Collection<Evento> obtenido = eventoDao.BuscarEventos(keyWords, 1, 2);
 
             Assert.IsTrue(obtenido.Count == 2);
             Assert.AreEqual(obtenido[0], evento2);
@@ -144,12 +145,12 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
              * y comprobamos paginacion haciendo que se salte el primer
              * resultado y que nos muestre solo 2 resultados 
              */
-            List<String> keyWords = new List<string>();
+            Collection<String> keyWords = new Collection<string>();
 
             keyWords.Add("Eve");
             keyWords.Add("to");
 
-            List<Evento> obtenido = eventoDao.BuscarEventos(keyWords, 0, 0);
+            Collection<Evento> obtenido = eventoDao.BuscarEventos(keyWords, 0, 0);
 
             Assert.IsTrue(obtenido.Count == 4);
             Assert.IsTrue(obtenido.Contains(evento1));
@@ -162,7 +163,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         [Test]
         public void PR_UN_15()
         {
-            List<Evento> obtenido = eventoDao.BuscarEventos(0, 10);
+            Collection<Evento> obtenido = eventoDao.BuscarEventos(0, 10);
 
             Assert.IsTrue(obtenido.Count == 5);
             Assert.IsTrue(obtenido.Contains(evento1));
@@ -176,7 +177,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         [Test]
         public void PR_UN_16()
         {
-            List<Evento> obtenido = eventoDao.BuscarEventos(0, 0);
+            Collection<Evento> obtenido = eventoDao.BuscarEventos(0, 0);
 
             Assert.IsTrue(obtenido.Count == 5);
             Assert.IsTrue(obtenido.Contains(evento1));
@@ -190,7 +191,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         [Test]
         public void PR_UN_17()
         {
-            List<Evento> obtenido = eventoDao.BuscarEventos(0, -1);
+            Collection<Evento> obtenido = eventoDao.BuscarEventos(0, -1);
 
             Assert.IsTrue(obtenido.Count == 5);
             Assert.IsTrue(obtenido.Contains(evento1));

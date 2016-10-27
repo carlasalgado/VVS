@@ -4,6 +4,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.Properties;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -110,7 +111,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
             {
                 if (userSession.UserProfileId != 0)
                 {
-                    List<ComentarioDTO> comentarios = eventService.BuscarComentarioPorUsuario(userSession.UserProfileId, eventId);
+                    Collection<ComentarioDTO> comentarios = eventService.BuscarComentarioPorUsuario(userSession.UserProfileId, eventId);
                     ComentarioDTO c = null;
 
                     for (int i = 0; i < commentBlock.Comentarios.Count; i++)

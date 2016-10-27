@@ -1,6 +1,7 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Dao;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -15,8 +16,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         GenericDaoEntityFramework<Comentario, Int64>, IComentarioDao
     {
         //Tanto si no existe el evento como si este no tiene comentarios, devuelve lista vacia
-        public List<Comentario> VerComentarios(long idEvento, int startIndex = 0, int count = 0) {
+        public Collection<Comentario> VerComentarios(long idEvento, int startIndex = 0, int count = 0) {
             DbSet<Comentario> comentarios = Context.Set<Comentario>();
+            Collection<Comentario> coll = new Collection<Comentario>();
 
             var resultado =
                    (from c in comentarios
@@ -25,16 +27,26 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
                     select c).Skip(startIndex);
 
             if (count > 0)
+            {
 
-                return resultado.Take(count).ToList();
+                foreach (Comentario comentario in resultado.Take(count).ToList())
+                {
+                    coll.Add(comentario);
+                }
+                return coll;
+            }
 
-            return resultado.ToList();
-
+            foreach (Comentario comentario in resultado.ToList())
+            {
+                coll.Add(comentario);
+            }
+            return coll;
 
         }
 
-        public List<Comentario> BuscarPorUsuario(long idUsuario, long idEvento) {
+        public Collection<Comentario> BuscarPorUsuario(long idUsuario, long idEvento) {
             DbSet<Comentario> comentarios = Context.Set<Comentario>();
+            Collection<Comentario> coll = new Collection<Comentario>();
 
             var resultado =
                 (from c in comentarios
@@ -42,7 +54,12 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
                  orderby c.fecha descending
                  select c);
 
-            return resultado.ToList();
+            foreach (Comentario comentario in resultado.ToList())
+            {
+                coll.Add(comentario);
+            }
+                     
+            return coll;
         }
 
     }

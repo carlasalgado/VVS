@@ -5,6 +5,7 @@ using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -110,7 +111,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         [Test]
         public void PR_UN_18()
         {
-            List<Grupo> gruposObtenidos = grupoDao.MostrarGrupos(0, 10);
+            Collection<Grupo> gruposObtenidos = grupoDao.MostrarGrupos(0, 10);
 
             Assert.AreEqual(2, gruposObtenidos.Count);
 
@@ -143,7 +144,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsDAOs
         [Test]
         public void PR_UN_21()
         {
-            List<Grupo> obtenido = grupoDao.BuscarPorUsuario(userProfile.usrId);
+            Collection<Grupo> obtenido = grupoDao.BuscarPorUsuario(userProfile.usrId);
 
             Assert.AreEqual(1, obtenido.Count);
             Assert.AreEqual(grupo2, obtenido.First());

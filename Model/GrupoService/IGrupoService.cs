@@ -2,6 +2,7 @@
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,7 +51,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         /// <param name="idUsuario">ID del usuario del cual queremos obtener los grupos</param>
         /// <returns>Lista de DTO de grupos de un usuario</returns>
         /// <exception cref="InstanceNotFoundException"/>
-        List<GrupoDTO> BuscarPorUsuario(long idUsuario);
+        Collection<GrupoDTO> BuscarPorUsuario(long idUsuario);
 
         /// <summary>
         /// Busca un grupo por su identificador

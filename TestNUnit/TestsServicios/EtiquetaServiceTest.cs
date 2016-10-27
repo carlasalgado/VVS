@@ -7,6 +7,7 @@ using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -165,7 +166,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             Etiqueta e1 = EventoService.CrearEtiqueta("etiqueta1");
             Etiqueta e2 = EventoService.CrearEtiqueta("etiqueta2");
 
-            List<Etiqueta> etiquetas = new List<Etiqueta>();
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
 
             etiquetas.Add(e1);
             etiquetas.Add(e2);
@@ -193,7 +194,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         {
             try
             {
-                EventoService.AnadirEtiqueta(NON_EXISTING_COMMENT, new List<Etiqueta>());
+                EventoService.AnadirEtiqueta(NON_EXISTING_COMMENT, new Collection<Etiqueta>());
                 Assert.IsTrue(false);
             }
             catch (InstanceNotFoundException)
@@ -262,14 +263,14 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             c2.UserProfile = user;
 
             ComentarioDao.Create(c1);
-            List<Etiqueta> etiquetas = new List<Etiqueta>();
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
 
             etiquetas.Add(EventoService.CrearEtiqueta("etiqueta1"));
 
             EventoService.AnadirEtiqueta(c.idComentario, etiquetas);
             EventoService.AnadirEtiqueta(c1.idComentario, etiquetas);
 
-            List<ComentarioDTO> comentarios = EventoService.MostrarComentariosEtiqueta(etiquetas[0].nombre);
+            Collection<ComentarioDTO> comentarios = EventoService.MostrarComentariosEtiqueta(etiquetas[0].nombre);
 
             Assert.AreEqual(2, comentarios.Count());
             Assert.IsTrue(comentarios.Contains(dtoC));
@@ -352,7 +353,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             Etiqueta e4 = EventoService.CrearEtiqueta("etiqueta4");
             Etiqueta e5 = EventoService.CrearEtiqueta("etiqueta5");
 
-            List<Etiqueta> etiquetas = new List<Etiqueta>();
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
 
             etiquetas.Add(e1);
             etiquetas.Add(e2);
@@ -370,7 +371,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             etiquetas.Remove(e4);
             EventoService.AnadirEtiqueta(c3.idComentario, etiquetas);
 
-            List<Etiqueta> nube = EventoService.NubeEtiquetas();
+            Collection<Etiqueta> nube = EventoService.NubeEtiquetas();
 
             Assert.AreEqual(5, nube.Count());
             Assert.AreEqual(e2, nube[0]);

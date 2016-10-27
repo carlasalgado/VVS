@@ -1,6 +1,7 @@
 ﻿using Es.Udc.DotNet.ModelUtil.Dao;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
         /// </summary>
         /// <param name="usrId">Id del usuario</param>
         /// <returns>Lista de grupos del usuario</returns>
-        List<Grupo> BuscarPorUsuario(long usrId);
+        Collection<Grupo> BuscarPorUsuario(long usrId);
 
         /// <summary>
         /// Busca un grupo por nombre
@@ -27,6 +28,6 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.GrupoDao
         /// Muestra todos los grupos
         /// </summary>
         /// <returns>Lista de grupos con paginacion</returns>
-        List<Grupo> MostrarGrupos(int startIndex, int count);
+        Collection<Grupo> MostrarGrupos(int startIndex, int count);
     }
 }

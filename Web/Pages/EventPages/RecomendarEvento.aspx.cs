@@ -6,6 +6,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.Properties;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -63,10 +64,10 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
             if (!IsPostBack)
             {
                 /* Get Groups Info */
-                List<GrupoDTO> aux =
+                Collection<GrupoDTO> aux =
                     groupService.BuscarPorUsuario(userSession.UserProfileId);
 
-                List<GrupoDTO> grupos = new List<GrupoDTO>();
+                Collection<GrupoDTO> grupos = new Collection<GrupoDTO>();
 
                 foreach (GrupoDTO g in aux)
                     if (!eventService.GrupoRecomendado(idEvento, g.idGrupo))
@@ -91,7 +92,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
 
         protected void BtnRecommendClick(object sender, EventArgs e)
         {
-            List<Grupo> grupos = new List<Grupo>();
+            Collection<Grupo> grupos = new Collection<Grupo>();
 
             /* Get the Service */
             IUnityContainer container =

@@ -4,6 +4,7 @@ using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,9 +38,16 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 * the specified range.
                 */
             List<String> palabrasClave = new List<string>();
+            Collection<String> collPalabrasClave = new Collection<string>();
 
             palabrasClave.AddRange(busqueda.Split(' '));
-            List<Evento> eventos = new List<Evento>();
+
+            foreach (String s in palabrasClave)
+            {
+                collPalabrasClave.Add(s);
+            }
+
+            Collection<Evento> eventos = new Collection<Evento>();
             if (busqueda.Equals(""))
             {
                 if (count > 0)
@@ -50,11 +58,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             else
             {
                 if (count > 0)
-                    eventos = eventoDao.BuscarEventos(palabrasClave, startIndex, count + 1);
+                    eventos = eventoDao.BuscarEventos(collPalabrasClave, startIndex, count + 1);
                 else
-                    eventos = eventoDao.BuscarEventos(palabrasClave);
+                    eventos = eventoDao.BuscarEventos(collPalabrasClave);
             }
-            List<EventoDTO> eventosDTO = new List<EventoDTO>();
+            Collection<EventoDTO> eventosDTO = new Collection<EventoDTO>();
             EventoDTO dto = new EventoDTO();
 
             bool existenMasEventos = false;
@@ -184,8 +192,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         public BloqueComentarios VerComentarios(long idEvento, int startIndex = 0, int count = 0)
         {
-            List<ComentarioDTO> comentariosDTO = new List<ComentarioDTO>();
-            List<Comentario> comentarios;
+            Collection<ComentarioDTO> comentariosDTO = new Collection<ComentarioDTO>();
+            Collection<Comentario> comentarios;
             bool existenMasComentarios;
 
             ComentarioDTO dto = new ComentarioDTO();
@@ -243,10 +251,10 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             return comentarioDto;
         }
 
-        public List<ComentarioDTO> BuscarComentarioPorUsuario(long idUsuario, long idEvento)
+        public Collection<ComentarioDTO> BuscarComentarioPorUsuario(long idUsuario, long idEvento)
         {
 
-            List<ComentarioDTO> comentariosDTO = new List<ComentarioDTO>();
+            Collection<ComentarioDTO> comentariosDTO = new Collection<ComentarioDTO>();
 
             ComentarioDTO dto = new ComentarioDTO();
 
@@ -256,7 +264,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 throw new InstanceNotFoundException(idUsuario,
                     typeof(UserProfile).FullName);
 
-            List<Comentario> comentarios = comentarioDao.BuscarPorUsuario(idUsuario, idEvento);
+            Collection<Comentario> comentarios = comentarioDao.BuscarPorUsuario(idUsuario, idEvento);
 
             foreach (Comentario c in comentarios)
             {
@@ -273,7 +281,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         #endregion
 
         #region Recomendaciones
-        public Recomendacion RecomendarEvento(long idEvento, List<Grupo> grupos, String textoRecomendacion)
+        public Recomendacion RecomendarEvento(long idEvento, Collection<Grupo> grupos, String textoRecomendacion)
         {
 
             //Si un grupo de la lista no existe, devuelve InstanceNotFoundException
@@ -319,12 +327,14 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             return recomendacion;
         }
 
-        public List<RecomendacionDTO> MostrarRecomendaciones(long idUsuario)
+        public Collection<RecomendacionDTO> MostrarRecomendaciones(long idUsuario)
         {
 
             List<Recomendacion> recomendaciones = new List<Recomendacion>();
             List<Evento> eventos = new List<Evento>();
             List<RecomendacionDTO> recomendacionDTO = new List<RecomendacionDTO>();
+
+            Collection<RecomendacionDTO> collDTO = new Collection<RecomendacionDTO>();
 
             UserProfile usuario = userProfileDao.Find(idUsuario);
 
@@ -332,7 +342,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 throw new InstanceNotFoundException(idUsuario,
                     typeof(UserProfile).FullName);
 
-            List<Grupo> grupos = grupoDao.BuscarPorUsuario(idUsuario);
+            Collection<Grupo> grupos = grupoDao.BuscarPorUsuario(idUsuario);
 
             /* Recoge todas las recomendaciones de cada grupo del usuario */
             foreach (Grupo g in grupos)
@@ -358,9 +368,13 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 }
             }
 
-            return recomendacionDTO.OrderByDescending(reco => reco.fechaRecomendacion).ToList();
-        }
+            foreach (RecomendacionDTO r in recomendacionDTO.OrderByDescending(reco => reco.fechaRecomendacion).ToList())
+            {
+                collDTO.Add(r);
+            }    
 
+            return collDTO;
+        }
         public bool GrupoRecomendado(long idEvento, long idGrupo)
         {
             Evento evento = eventoDao.Find(idEvento);
@@ -406,7 +420,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             return etiqueta;
         }
 
-        public void AnadirEtiqueta(long idComentario, List<Etiqueta> etiquetas)
+        public void AnadirEtiqueta(long idComentario, Collection<Etiqueta> etiquetas)
         {
 
             Comentario comentario = comentarioDao.Find(idComentario);
@@ -426,25 +440,36 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             comentarioDao.Update(comentario);
         }
 
-        public List<Etiqueta> EtiquetasDeComentario(long idComentario)
+        public Collection<Etiqueta> EtiquetasDeComentario(long idComentario)
         {
             Comentario comentario = comentarioDao.Find(idComentario);
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
 
             if (comentario == null)
                 throw new InstanceNotFoundException(idComentario,
                     typeof(Comentario).FullName);
 
-            return comentario.Etiqueta.ToList<Etiqueta>();
+            foreach (Etiqueta e in comentario.Etiqueta.ToList<Etiqueta>())
+            {
+                etiquetas.Add(e);
+            }
+            return etiquetas;
         }
 
-        public List<Etiqueta> NubeEtiquetas()
+        public Collection<Etiqueta> NubeEtiquetas()
         {
-            return etiquetaDao.NubeEtiquetas();
+            Collection<Etiqueta> etiquetas = new Collection<Etiqueta>();
+            foreach (Etiqueta e in etiquetaDao.NubeEtiquetas())
+            {
+                etiquetas.Add(e);
+            }
+            return etiquetas;
+            
         }
 
-        public List<ComentarioDTO> MostrarComentariosEtiqueta(String nombreEtiqueta)
+        public Collection<ComentarioDTO> MostrarComentariosEtiqueta(String nombreEtiqueta)
         {
-            List<ComentarioDTO> comentariosDTO = new List<ComentarioDTO>();
+            Collection<ComentarioDTO> comentariosDTO = new Collection<ComentarioDTO>();
             ComentarioDTO dto = new ComentarioDTO();
 
             Etiqueta etiqueta = etiquetaDao.BuscarPorNombre(nombreEtiqueta);
@@ -465,10 +490,5 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             return comentariosDTO;
         }
         #endregion
-
-        public Int64 A()
-        {
-            return eventoDao.B();
-        }
     }
 }

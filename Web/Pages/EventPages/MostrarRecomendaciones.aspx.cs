@@ -4,6 +4,7 @@ using Es.Udc.DotNet.PracticaMaD.Web.Properties;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -31,7 +32,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
                 container.Resolve<IEventoService>();
 
             /* Get Groups Info */
-            List<RecomendacionDTO> recomendaciones =
+            Collection<RecomendacionDTO> recomendaciones =
                 eventService.MostrarRecomendaciones(userSession.UserProfileId);
 
             if (recomendaciones.Count == 0)
