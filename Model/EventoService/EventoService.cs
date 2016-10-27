@@ -279,7 +279,6 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             //Si un grupo de la lista no existe, devuelve InstanceNotFoundException
             Boolean eventoRecomendado = false;
             Recomendacion recomendacion = new Recomendacion();
-            Grupo grupo = new Grupo();
             Evento evento = new Evento();
 
             /* Comprobamos que la lista de grupos no estéa vacía*/
