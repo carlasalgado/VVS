@@ -171,5 +171,3 @@ C:\Users\Carla\Desktop\VVS\Laura\Web\bin\Microsoft.Practices.Unity.Interception.
 C:\Users\Carla\Desktop\VVS\Laura\Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
 C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\PracticaMaD.Web.dll
 C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\PracticaMaD.Web.pdb
-C:\Users\Carla\Desktop\VVS\Laura\Web\bin\PracticaMaD.Web.dll.CodeAnalysisLog.xml
-C:\Users\Carla\Desktop\VVS\Laura\Web\bin\PracticaMaD.Web.dll.lastcodeanalysissucceeded

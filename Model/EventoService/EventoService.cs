@@ -5,6 +5,7 @@ using Microsoft.Practices.Unity;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -396,14 +397,15 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         #region Etiquetas
         public Etiqueta CrearEtiqueta(String nombreEtiqueta)
         {
+            CultureInfo info = CultureInfo.CurrentCulture;
             /* Convertimos el nombre en minusculas y comprobamos que no estéa duplicada */
-            if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower()) != null)
+            if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower(info)) != null)
                 throw new DuplicateInstanceException(nombreEtiqueta,
                     typeof(Etiqueta).FullName);
             else
             {
                 Etiqueta etiqueta = new Etiqueta();
-                etiqueta.nombre = nombreEtiqueta.ToLower();
+                etiqueta.nombre = nombreEtiqueta.ToLower(info);
                 etiquetaDao.Create(etiqueta);
                 return etiqueta;
             }
