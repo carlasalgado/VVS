@@ -56,7 +56,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Web.Pages.EventPages
 
             /* Get Groups Info */
             BloqueEventos eventBlock =
-                eventService.BusquedaEventos(keywords);
+                eventService.BusquedaEventos(keywords,0,0);
 
             if ((eventBlock.Eventos.Count == 0) && (startIndex == 0))
             {

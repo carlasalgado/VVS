@@ -139,7 +139,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             eventosEsperados.Add(dto3);
             eventosEsperados.Add(dto4);
 
-            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos("evento");
+            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos("evento",0,0);
 
             Assert.AreEqual(4, eventosObtenidos.Eventos.Count);
 
@@ -154,7 +154,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_31()
         {
-            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos(NON_EXISTING_EVENT_NAME);
+            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos(NON_EXISTING_EVENT_NAME,0,0);
 
             Assert.AreEqual(0, eventosObtenidos.Eventos.Count);
         }

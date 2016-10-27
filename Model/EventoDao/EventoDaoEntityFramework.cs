@@ -14,7 +14,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
     {
         public EventoDaoEntityFramework() {   }
 
-        public Collection<Evento> BuscarEventos(Collection<String> keyWords, int startIndex=0, int count=0) {
+        public Collection<Evento> BuscarEventos(Collection<String> keyWords, int startIndex, int count) {
             DbSet<Evento> eventos = Context.Set<Evento>();
             Collection<Evento> coll = new Collection<Evento>();
             var resultado =
@@ -39,7 +39,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
             return coll;
         }
 
-        public Collection<Evento> BuscarEventos(int startIndex = 0, int count = 0)
+        public Collection<Evento> BuscarEventos(int startIndex, int count)
         {
             DbSet<Evento> eventos = Context.Set<Evento>();
             Collection<Evento> coll = new Collection<Evento>();

@@ -18,7 +18,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <param name="startIndex">Indice del primer resultado de la búsqueda</param>
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>Lista de eventos que coinciden con las palabras clave</returns>
-        BloqueEventos BusquedaEventos(String keyWords, int startIndex = 0, int count = 0);
+        BloqueEventos BusquedaEventos(String keyWords, int startIndex, int count);
 
         /// <summary>
         /// Busca un evento por su identificador.
@@ -67,7 +67,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>Bloque de comentarios</returns>
         /// <exception cref="InstanceNotFoundException"/>
-        BloqueComentarios VerComentarios(long idEvento, int startIndex = 0, int count = 0);
+        BloqueComentarios VerComentarios(long idEvento, int startIndex, int count);
 
         /// <summary>
         /// Busca un comentario por su identificador.
