@@ -16,17 +16,17 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         #region DAOS
         [Dependency]
-        public IComentarioDao comentarioDao { private get; set; }
+        public IComentarioDao comentarioDao { get; set; }
         [Dependency]
-        public IEventoDao eventoDao { private get; set; }
+        public IEventoDao eventoDao { get; set; }
         [Dependency]
-        public IUserProfileDao userProfileDao { private get; set; }
+        public IUserProfileDao userProfileDao { get; set; }
         [Dependency]
-        public IRecomendacionDao recomendacionDao { private get; set; }
+        public IRecomendacionDao recomendacionDao { get; set; }
         [Dependency]
-        public IEtiquetaDao etiquetaDao { private get; set; }
+        public IEtiquetaDao etiquetaDao { get; set; }
         [Dependency]
-        public IGrupoDao grupoDao { private get; set; }
+        public IGrupoDao grupoDao { get; set; }
         #endregion
 
         #region Evento

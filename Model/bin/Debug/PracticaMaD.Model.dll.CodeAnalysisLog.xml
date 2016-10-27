@@ -4,50 +4,50 @@
  <Namespaces>
   <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model">
    <Messages>
-    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Es' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model' cambiándolo a 'ES'.</Issue>
     </Message>
-    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Ma' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model' cambiándolo a 'MA'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model.EventoDao">
    <Messages>
-    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Es' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.EventoDao' cambiándolo a 'ES'.</Issue>
     </Message>
-    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Ma' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.EventoDao' cambiándolo a 'MA'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model.EventoService">
    <Messages>
-    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Es' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.EventoService' cambiándolo a 'ES'.</Issue>
     </Message>
-    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Ma' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.EventoService' cambiándolo a 'MA'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model.GrupoDao">
    <Messages>
-    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Es' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.GrupoDao' cambiándolo a 'ES'.</Issue>
     </Message>
-    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Ma' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.GrupoDao' cambiándolo a 'MA'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model.UserService">
    <Messages>
-    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Es" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Es' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.UserService' cambiándolo a 'ES'.</Issue>
     </Message>
-    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+    <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Ma' en el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.UserService' cambiándolo a 'MA'.</Issue>
     </Message>
    </Messages>
@@ -58,13 +58,13 @@
    <Modules>
     <Module Name="practicamad.model.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Firme 'PracticaMaD.Model.dll' con una clave de nombre seguro.</Issue>
       </Message>
-      <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+      <Message Id="Ma" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Ma' en el nombre del ensamblado 'PracticaMaD.Model.dll' cambiándolo a 'MA'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Marque 'PracticaMaD.Model.dll' con CLSCompliant(true) porque expone tipos visibles externamente.</Issue>
       </Message>
      </Messages>
@@ -75,49 +75,49 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="17">'Comentario.Comentario()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Comentario..ctor()&#xD;&#xA;Comentario.set_Etiqueta(ICollection&lt;Etiqueta&gt;):Void</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Etiqueta" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="30">Cambie 'Comentario.Etiqueta' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fecha" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="26">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'Comentario.fecha' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idComentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="22">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Comentario.idComentario' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idEvento" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Comentario.idEvento' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#texto" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="texto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="texto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'texto' en el nombre del miembro 'Comentario.texto' cambiándolo a 'Texto'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#usrId" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="usr" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="usr" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Comentario.cs" Line="24">Corrija el uso de mayúsculas y minúsculas en 'usr' en el nombre del miembro 'Comentario.usrId' cambiándolo a 'Usr'.</Issue>
             </Message>
            </Messages>
@@ -128,28 +128,28 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Etiqueta.cs" Line="17">'Etiqueta.Etiqueta()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Etiqueta..ctor()&#xD;&#xA;Etiqueta.set_Comentario(ICollection&lt;Comentario&gt;):Void</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Comentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Etiqueta.cs" Line="25">Cambie 'Etiqueta.Comentario' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idEtiqueta" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Etiqueta.cs" Line="22">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Etiqueta.idEtiqueta' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nombre" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Etiqueta.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'nombre' en el nombre del miembro 'Etiqueta.nombre' cambiándolo a 'Nombre'.</Issue>
             </Message>
            </Messages>
@@ -160,7 +160,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="17">'Evento.Evento()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Evento..ctor()&#xD;&#xA;Evento.set_Comentario(ICollection&lt;Comentario&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="17">'Evento.Evento()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Evento..ctor()&#xD;&#xA;Evento.set_Recomendacion(ICollection&lt;Recomendacion&gt;):Void</Issue>
             </Message>
@@ -168,42 +168,42 @@
           </Member>
           <Member Name="#Comentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="28">Cambie 'Evento.Comentario' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fecha" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'Evento.fecha' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idEvento" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Evento.idEvento' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nombre" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="24">Corrija el uso de mayúsculas y minúsculas en 'nombre' en el nombre del miembro 'Evento.nombre' cambiándolo a 'Nombre'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Recomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="29">Cambie 'Evento.Recomendacion' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#reseña" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="reseña" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="reseña" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Evento.cs" Line="26">Corrija el uso de mayúsculas y minúsculas en 'reseña' en el nombre del miembro 'Evento.reseña' cambiándolo a 'Reseña'.</Issue>
             </Message>
            </Messages>
@@ -214,7 +214,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="17">'Grupo.Grupo()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Grupo..ctor()&#xD;&#xA;Grupo.set_Recomendacion(ICollection&lt;Recomendacion&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="17">'Grupo.Grupo()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Grupo..ctor()&#xD;&#xA;Grupo.set_UserProfile(ICollection&lt;UserProfile&gt;):Void</Issue>
             </Message>
@@ -222,35 +222,35 @@
           </Member>
           <Member Name="#descripcion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="descripcion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="descripcion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'descripcion' en el nombre del miembro 'Grupo.descripcion' cambiándolo a 'Descripcion'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idGrupo" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Grupo.idGrupo' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nombre" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="24">Corrija el uso de mayúsculas y minúsculas en 'nombre' en el nombre del miembro 'Grupo.nombre' cambiándolo a 'Nombre'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Recomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="27">Cambie 'Grupo.Recomendacion' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#UserProfile" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Grupo.cs" Line="28">Cambie 'Grupo.UserProfile' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -259,7 +259,7 @@
         </Type>
         <Type Name="practicamadEntities" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="practicamad" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message Id="practicamad" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'practicamad' en el nombre del tipo 'practicamadEntities' cambiándolo a 'Practicamad'.</Issue>
           </Message>
          </Messages>
@@ -268,42 +268,42 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Recomendacion.cs" Line="17">'Recomendacion.Recomendacion()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Recomendacion..ctor()&#xD;&#xA;Recomendacion.set_Grupo(ICollection&lt;Grupo&gt;):Void</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fecha" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Recomendacion.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'Recomendacion.fecha' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Grupo" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Recomendacion.cs" Line="28">Cambie 'Recomendacion.Grupo' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idEvento" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Recomendacion.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Recomendacion.idEvento' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idRecomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Recomendacion.cs" Line="22">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'Recomendacion.idRecomendacion' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#texto" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="texto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="texto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="Recomendacion.cs" Line="24">Corrija el uso de mayúsculas y minúsculas en 'texto' en el nombre del miembro 'Recomendacion.texto' cambiándolo a 'Texto'.</Issue>
             </Message>
            </Messages>
@@ -314,7 +314,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="17">'UserProfile.UserProfile()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;UserProfile..ctor()&#xD;&#xA;UserProfile.set_Comentario(ICollection&lt;Comentario&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="17">'UserProfile.UserProfile()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;UserProfile..ctor()&#xD;&#xA;UserProfile.set_Grupo(ICollection&lt;Grupo&gt;):Void</Issue>
             </Message>
@@ -322,73 +322,73 @@
           </Member>
           <Member Name="#Comentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="32">Cambie 'UserProfile.Comentario' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#country" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="country" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="country" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="30">Corrija el uso de mayúsculas y minúsculas en 'country' en el nombre del miembro 'UserProfile.country' cambiándolo a 'Country'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#email" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="email" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="email" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="28">Corrija el uso de mayúsculas y minúsculas en 'email' en el nombre del miembro 'UserProfile.email' cambiándolo a 'Email'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#enPassword" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="en" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="en" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'en' en el nombre del miembro 'UserProfile.enPassword' cambiándolo a 'EN'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#firstName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="first" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="first" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="26">Corrija el uso de mayúsculas y minúsculas en 'first' en el nombre del miembro 'UserProfile.firstName' cambiándolo a 'First'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Grupo" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="33">Cambie 'UserProfile.Grupo' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#language" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="language" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="language" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="29">Corrija el uso de mayúsculas y minúsculas en 'language' en el nombre del miembro 'UserProfile.language' cambiándolo a 'Language'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#lastName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="last" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="last" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="27">Corrija el uso de mayúsculas y minúsculas en 'last' en el nombre del miembro 'UserProfile.lastName' cambiándolo a 'Last'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#loginName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="login" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="24">Corrija el uso de mayúsculas y minúsculas en 'login' en el nombre del miembro 'UserProfile.loginName' cambiándolo a 'Login'.</Issue>
             </Message>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="24">Reemplace el término 'login' en el nombre del miembro 'UserProfile.loginName' por la alternativa preferida 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#usrId" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="usr" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="usr" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model" File="UserProfile.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'usr' en el nombre del miembro 'UserProfile.usrId' cambiándolo a 'Usr'.</Issue>
             </Message>
            </Messages>
@@ -403,17 +403,17 @@
          <Members>
           <Member Name="#BuscarPorUsuario(System.Int64,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="ComentarioDaoEntityFramework.cs" Line="36">Cambie ''List&lt;Comentario&gt;'' en 'ComentarioDaoEntityFramework.BuscarPorUsuario(long, long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#VerComentarios(System.Int64,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="ComentarioDaoEntityFramework.cs" Line="18">Reemplace el método 'ComentarioDaoEntityFramework.VerComentarios(long, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="ComentarioDaoEntityFramework.cs" Line="18">Cambie ''List&lt;Comentario&gt;'' en 'ComentarioDaoEntityFramework.VerComentarios(long, int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -424,7 +424,7 @@
          <Members>
           <Member Name="#NubeEtiquetas()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EtiquetaDaoEntityFramework.cs" Line="28">Cambie ''List&lt;Etiqueta&gt;'' en 'EtiquetaDaoEntityFramework.NubeEtiquetas()' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -435,24 +435,24 @@
          <Members>
           <Member Name="#BuscarEventos(System.Collections.Generic.List`1&lt;System.String&gt;,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="16">Reemplace el método 'EventoDaoEntityFramework.BuscarEventos(List&lt;string&gt;, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="16">Cambie ''List&lt;Evento&gt;'' en 'EventoDaoEntityFramework.BuscarEventos(List&lt;string&gt;, int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="16">Cambie ''List&lt;string&gt;'' en 'EventoDaoEntityFramework.BuscarEventos(List&lt;string&gt;, int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="25">En el miembro 'EventoDaoEntityFramework.BuscarEventos(List&lt;string&gt;, int, int)', cambie el nombre del parámetro 'keyWords' a 'palabrasClave' para que coincida con el identificador tal como se ha declarado en 'IEventoDao.BuscarEventos(List&lt;string&gt;, int, int)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BuscarEventos(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="31">Reemplace el método 'EventoDaoEntityFramework.BuscarEventos(int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="31">Cambie ''List&lt;Evento&gt;'' en 'EventoDaoEntityFramework.BuscarEventos(int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -463,17 +463,17 @@
          <Members>
           <Member Name="#BuscarPorUsuario(System.Int64,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Comentario&gt;'' en 'IComentarioDao.BuscarPorUsuario(long, long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#VerComentarios(System.Int64,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error">Reemplace el método 'IComentarioDao.VerComentarios(long, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Comentario&gt;'' en 'IComentarioDao.VerComentarios(long, int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -484,7 +484,7 @@
          <Members>
           <Member Name="#NubeEtiquetas()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Etiqueta&gt;'' en 'IEtiquetaDao.NubeEtiquetas()' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -495,17 +495,17 @@
          <Members>
           <Member Name="#B()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="B" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="B" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberMoreMeaningfulName" Certainty="75" Level="CriticalWarning">Considere proporcionar un nombre más significativo que el nombre del miembro 'IEventoDao.B()'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BuscarEventos(System.Collections.Generic.List`1&lt;System.String&gt;,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error">Reemplace el método 'IEventoDao.BuscarEventos(List&lt;string&gt;, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Evento&gt;'' en 'IEventoDao.BuscarEventos(List&lt;string&gt;, int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;string&gt;'' en 'IEventoDao.BuscarEventos(List&lt;string&gt;, int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
@@ -513,10 +513,10 @@
           </Member>
           <Member Name="#BuscarEventos(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error">Reemplace el método 'IEventoDao.BuscarEventos(int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Evento&gt;'' en 'IEventoDao.BuscarEventos(int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -531,14 +531,14 @@
          <Members>
           <Member Name="#.ctor(System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.EventoService.ComentarioDTO&gt;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="BloqueComentarios.cs" Line="15">Cambie ''List&lt;ComentarioDTO&gt;'' en 'BloqueComentarios.BloqueComentarios(List&lt;ComentarioDTO&gt;, bool)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Comentarios" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="BloqueComentarios.cs" Line="12">Cambie ''List&lt;ComentarioDTO&gt;'' en 'BloqueComentarios.Comentarios' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -549,14 +549,14 @@
          <Members>
           <Member Name="#.ctor(System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.EventoService.EventoDTO&gt;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="BloqueEventos.cs" Line="15">Cambie ''List&lt;EventoDTO&gt;'' en 'BloqueEventos.BloqueEventos(List&lt;EventoDTO&gt;, bool)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Eventos" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="BloqueEventos.cs" Line="12">Cambie ''List&lt;EventoDTO&gt;'' en 'BloqueEventos.Eventos' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -565,45 +565,45 @@
         </Type>
         <Type Name="ComentarioDTO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'DTO' en el nombre del tipo 'ComentarioDTO' cambiándolo a 'Dto'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(Es.Udc.DotNet.PracticaMaD.Model.EventoService.ComentarioDTO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="ComentarioDTO.cs" Line="18">En el método 'ComentarioDTO.ComentarioDTO(ComentarioDTO)' visible externamente, valide el parámetro 'dto' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fecha" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="ComentarioDTO.cs" Line="10">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'ComentarioDTO.fecha' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idComentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="ComentarioDTO.cs" Line="8">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'ComentarioDTO.idComentario' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#login" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="login" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="ComentarioDTO.cs" Line="9">Corrija el uso de mayúsculas y minúsculas en 'login' en el nombre del miembro 'ComentarioDTO.login' cambiándolo a 'Login'.</Issue>
             </Message>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="ComentarioDTO.cs" Line="9">Reemplace el término 'login' en el nombre del miembro 'ComentarioDTO.login' por la alternativa preferida 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#texto" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="texto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="texto" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="ComentarioDTO.cs" Line="11">Corrija el uso de mayúsculas y minúsculas en 'texto' en el nombre del miembro 'ComentarioDTO.texto' cambiándolo a 'Texto'.</Issue>
             </Message>
            </Messages>
@@ -612,42 +612,42 @@
         </Type>
         <Type Name="EventoDTO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'DTO' en el nombre del tipo 'EventoDTO' cambiándolo a 'Dto'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(Es.Udc.DotNet.PracticaMaD.Model.EventoService.EventoDTO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoDTO.cs" Line="22">En el método 'EventoDTO.EventoDTO(EventoDTO)' visible externamente, valide el parámetro 'dto' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fecha" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoDTO.cs" Line="15">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'EventoDTO.fecha' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idEvento" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoDTO.cs" Line="11">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'EventoDTO.idEvento' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nombre" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoDTO.cs" Line="12">Corrija el uso de mayúsculas y minúsculas en 'nombre' en el nombre del miembro 'EventoDTO.nombre' cambiándolo a 'Nombre'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#reseña" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="reseña" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="reseña" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoDTO.cs" Line="13">Corrija el uso de mayúsculas y minúsculas en 'reseña' en el nombre del miembro 'EventoDTO.reseña' cambiándolo a 'Reseña'.</Issue>
             </Message>
            </Messages>
@@ -656,165 +656,147 @@
         </Type>
         <Type Name="EventoService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">El nombre de tipo 'EventoService' está en conflicto total o parcialmente con el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.EventoService'. Cambie el nombre para eliminar el conflicto.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#AnadirEtiqueta(System.Int64,System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.Etiqueta&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="411">Cambie ''List&lt;Etiqueta&gt;'' en 'EventoService.AnadirEtiqueta(long, List&lt;Etiqueta&gt;)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
-            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="424">En el método 'EventoService.AnadirEtiqueta(long, List&lt;Etiqueta&gt;)' visible externamente, valide el parámetro 'etiquetas' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BuscarComentarioPorUsuario(System.Int64,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="247">Cambie ''List&lt;ComentarioDTO&gt;'' en 'EventoService.BuscarComentarioPorUsuario(long, long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BusquedaEventos(System.String,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="34">Reemplace el método 'EventoService.BusquedaEventos(string, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="34">En el miembro 'EventoService.BusquedaEventos(string, int, int)', cambie el nombre del parámetro 'busqueda' a 'keyWords' para que coincida con el identificador tal como se ha declarado en 'IEventoService.BusquedaEventos(string, int, int)'.</Issue>
             </Message>
-            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="43">Reemplace la llamada a 'string.Equals(string)' en 'EventoService.BusquedaEventos(string, int, int)' con una llamada a 'String.IsNullOrEmpty'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="41">En el método 'EventoService.BusquedaEventos(string, int, int)' visible externamente, valide el parámetro 'busqueda' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#comentarioDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="comentario" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="comentario" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="19">Corrija el uso de mayúsculas y minúsculas en 'comentario' en el nombre del miembro 'EventoService.comentarioDao' cambiándolo a 'Comentario'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="19">Puesto que el captador de propiedad de 'EventoService.comentarioDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CrearEtiqueta(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.ToLower" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="System.String.ToLower" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="387">Puesto que el comportamiento de 'string.ToLower()' podría variar en función de la configuración regional del usuario actual, reemplace esta llamada de 'EventoService.CrearEtiqueta(string)' por una llamada a 'string.ToLower(CultureInfo)'. Si el resultado de 'string.ToLower(CultureInfo)' se mostrará al usuario, especifique 'CultureInfo.CurrentCulture' como parámetro 'CultureInfo'. De lo contrario, si el resultado se va a almacenar y software obtendrá acceso a él, como cuando se guarda en un disco o una base de datos, especifique 'CultureInfo.InvariantCulture'.</Issue>
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="393">Puesto que el comportamiento de 'string.ToLower()' podría variar en función de la configuración regional del usuario actual, reemplace esta llamada de 'EventoService.CrearEtiqueta(string)' por una llamada a 'string.ToLower(CultureInfo)'. Si el resultado de 'string.ToLower(CultureInfo)' se mostrará al usuario, especifique 'CultureInfo.CurrentCulture' como parámetro 'CultureInfo'. De lo contrario, si el resultado se va a almacenar y software obtendrá acceso a él, como cuando se guarda en un disco o una base de datos, especifique 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="387">En el método 'EventoService.CrearEtiqueta(string)' visible externamente, valide el parámetro 'nombreEtiqueta' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#etiquetaDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="etiqueta" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="etiqueta" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="27">Corrija el uso de mayúsculas y minúsculas en 'etiqueta' en el nombre del miembro 'EventoService.etiquetaDao' cambiándolo a 'Etiqueta'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="27">Puesto que el captador de propiedad de 'EventoService.etiquetaDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#EtiquetasDeComentario(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="431">Cambie ''List&lt;Etiqueta&gt;'' en 'EventoService.EtiquetasDeComentario(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#eventoDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="evento" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="evento" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="21">Corrija el uso de mayúsculas y minúsculas en 'evento' en el nombre del miembro 'EventoService.eventoDao' cambiándolo a 'Evento'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="21">Puesto que el captador de propiedad de 'EventoService.eventoDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#grupoDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="grupo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="grupo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="29">Corrija el uso de mayúsculas y minúsculas en 'grupo' en el nombre del miembro 'EventoService.grupoDao' cambiándolo a 'Grupo'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="29">Puesto que el captador de propiedad de 'EventoService.grupoDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarComentariosEtiqueta(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="447">Cambie ''List&lt;ComentarioDTO&gt;'' en 'EventoService.MostrarComentariosEtiqueta(string)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="447">En el miembro 'EventoService.MostrarComentariosEtiqueta(string)', cambie el nombre del parámetro 'nombreEtiqueta' a 'etiqueta' para que coincida con el identificador tal como se ha declarado en 'IEventoService.MostrarComentariosEtiqueta(string)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarRecomendaciones(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="324">Cambie ''List&lt;RecomendacionDTO&gt;'' en 'EventoService.MostrarRecomendaciones(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#NubeEtiquetas()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="442">Cambie ''List&lt;Etiqueta&gt;'' en 'EventoService.NubeEtiquetas()' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#recomendacionDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="recomendacion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="recomendacion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="25">Corrija el uso de mayúsculas y minúsculas en 'recomendacion' en el nombre del miembro 'EventoService.recomendacionDao' cambiándolo a 'Recomendacion'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="25">Puesto que el captador de propiedad de 'EventoService.recomendacionDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RecomendarEvento(System.Int64,System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.Grupo&gt;,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="277">Cambie ''List&lt;Grupo&gt;'' en 'EventoService.RecomendarEvento(long, List&lt;Grupo&gt;, string)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
-            <Message Id="2#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="2#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="277">En el miembro 'EventoService.RecomendarEvento(long, List&lt;Grupo&gt;, string)', cambie el nombre del parámetro 'textoRecomendacion' a 'texto' para que coincida con el identificador tal como se ha declarado en 'IEventoService.RecomendarEvento(long, List&lt;Grupo&gt;, string)'.</Issue>
             </Message>
-            <Message Id="grupo" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message Id="grupo" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="282">'EventoService.RecomendarEvento(long, List&lt;Grupo&gt;, string)' declara una variable, 'grupo', de tipo 'Grupo', que no se usa nunca o sólo se asigna. Use esta variable o quítela.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="286">En el método 'EventoService.RecomendarEvento(long, List&lt;Grupo&gt;, string)' visible externamente, valide el parámetro 'grupos' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#userProfileDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="23">Corrija el uso de mayúsculas y minúsculas en 'user' en el nombre del miembro 'EventoService.userProfileDao' cambiándolo a 'User'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="23">Puesto que el captador de propiedad de 'EventoService.userProfileDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#VerComentarios(System.Int64,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="EventoService.cs" Line="186">Reemplace el método 'EventoService.VerComentarios(long, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
            </Messages>
@@ -825,73 +807,73 @@
          <Members>
           <Member Name="#A()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="A" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="A" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberMoreMeaningfulName" Certainty="75" Level="CriticalWarning">Considere proporcionar un nombre más significativo que el nombre del miembro 'IEventoService.A()'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#AnadirEtiqueta(System.Int64,System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.Etiqueta&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Etiqueta&gt;'' en 'IEventoService.AnadirEtiqueta(long, List&lt;Etiqueta&gt;)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BuscarComentarioPorUsuario(System.Int64,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;ComentarioDTO&gt;'' en 'IEventoService.BuscarComentarioPorUsuario(long, long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BusquedaEventos(System.String,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error">Reemplace el método 'IEventoService.BusquedaEventos(string, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#EtiquetasDeComentario(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Etiqueta&gt;'' en 'IEventoService.EtiquetasDeComentario(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'De' en el nombre del miembro 'IEventoService.EtiquetasDeComentario(long)' cambiándolo a 'DE'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarComentariosEtiqueta(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;ComentarioDTO&gt;'' en 'IEventoService.MostrarComentariosEtiqueta(string)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarRecomendaciones(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;RecomendacionDTO&gt;'' en 'IEventoService.MostrarRecomendaciones(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#NubeEtiquetas()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Etiqueta&gt;'' en 'IEventoService.NubeEtiquetas()' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RecomendarEvento(System.Int64,System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.Grupo&gt;,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Grupo&gt;'' en 'IEventoService.RecomendarEvento(long, List&lt;Grupo&gt;, string)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#VerComentarios(System.Int64,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error">Reemplace el método 'IEventoService.VerComentarios(long, int, int)' por una sobrecarga que proporcione todos los argumentos predeterminados.</Issue>
             </Message>
            </Messages>
@@ -900,56 +882,56 @@
         </Type>
         <Type Name="RecomendacionDTO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'DTO' en el nombre del tipo 'RecomendacionDTO' cambiándolo a 'Dto'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(Es.Udc.DotNet.PracticaMaD.Model.EventoService.RecomendacionDTO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="24">En el método 'RecomendacionDTO.RecomendacionDTO(RecomendacionDTO)' visible externamente, valide el parámetro 'dto' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fecha" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="15">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'RecomendacionDTO.fecha' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#fechaRecomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="fecha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="16">Corrija el uso de mayúsculas y minúsculas en 'fecha' en el nombre del miembro 'RecomendacionDTO.fechaRecomendacion' cambiándolo a 'Fecha'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idEvento" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="11">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'RecomendacionDTO.idEvento' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nombre" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="12">Corrija el uso de mayúsculas y minúsculas en 'nombre' en el nombre del miembro 'RecomendacionDTO.nombre' cambiándolo a 'Nombre'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#recomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="recomendacion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="recomendacion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="14">Corrija el uso de mayúsculas y minúsculas en 'recomendacion' en el nombre del miembro 'RecomendacionDTO.recomendacion' cambiándolo a 'Recomendacion'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#reseña" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="reseña" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="reseña" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService" File="RecomendacionDTO.cs" Line="13">Corrija el uso de mayúsculas y minúsculas en 'reseña' en el nombre del miembro 'RecomendacionDTO.reseña' cambiándolo a 'Reseña'.</Issue>
             </Message>
            </Messages>
@@ -958,39 +940,39 @@
         </Type>
         <Type Name="SinGruposException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'SinGruposException': protected SinGruposException(SerializationInfo, StreamingContext).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'SinGruposException': public SinGruposException(String).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'SinGruposException': public SinGruposException(String, Exception).</Issue>
           </Message>
-          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Agregue [Serializable] a 'SinGruposException', ya que este tipo implementa ISerializable.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="UsuarioNoPropietarioException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'UsuarioNoPropietarioException': protected UsuarioNoPropietarioException(SerializationInfo, StreamingContext).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'UsuarioNoPropietarioException': public UsuarioNoPropietarioException().</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'UsuarioNoPropietarioException': public UsuarioNoPropietarioException(String).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'UsuarioNoPropietarioException': public UsuarioNoPropietarioException(String, Exception).</Issue>
           </Message>
-          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Agregue [Serializable] a 'UsuarioNoPropietarioException', ya que este tipo implementa ISerializable.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#comentarioId" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="comentario" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="comentario" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService\Excepciones" File="UsuarioNoPropietarioException.cs" Line="37">Corrija el uso de mayúsculas y minúsculas en 'comentario' en el nombre del miembro 'UsuarioNoPropietarioException.comentarioId' cambiándolo a 'Comentario'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#usuarioId" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="usuario" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="usuario" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\EventoService\Excepciones" File="UsuarioNoPropietarioException.cs" Line="31">Corrija el uso de mayúsculas y minúsculas en 'usuario' en el nombre del miembro 'UsuarioNoPropietarioException.usuarioId' cambiándolo a 'Usuario'.</Issue>
             </Message>
            </Messages>
@@ -1005,14 +987,14 @@
          <Members>
           <Member Name="#BuscarPorUsuario(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoDao" File="GrupoDaoEntityFramework.cs" Line="18">Cambie ''List&lt;Grupo&gt;'' en 'GrupoDaoEntityFramework.BuscarPorUsuario(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarGrupos(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoDao" File="GrupoDaoEntityFramework.cs" Line="51">Cambie ''List&lt;Grupo&gt;'' en 'GrupoDaoEntityFramework.MostrarGrupos(int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -1023,14 +1005,14 @@
          <Members>
           <Member Name="#BuscarPorUsuario(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Grupo&gt;'' en 'IGrupoDao.BuscarPorUsuario(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarGrupos(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;Grupo&gt;'' en 'IGrupoDao.MostrarGrupos(int, int)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -1041,10 +1023,10 @@
          <Members>
           <Member Name="#FindByLoginName(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Reemplace el término 'Login' en el nombre del miembro 'IUserProfileDao.FindByLoginName(string)' por la alternativa preferida 'LogOn'.</Issue>
             </Message>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="95" Level="Error">En el miembro 'IUserProfileDao.FindByLoginName(string)', reemplace el término 'login' en el nombre del parámetro 'loginName' por la alternativa preferida 'logOn'.</Issue>
             </Message>
            </Messages>
@@ -1059,14 +1041,14 @@
          <Members>
           <Member Name="#.ctor(System.Collections.Generic.List`1&lt;Es.Udc.DotNet.PracticaMaD.Model.UserService.GrupoDTO&gt;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="BloqueGrupos.cs" Line="14">Cambie ''List&lt;GrupoDTO&gt;'' en 'BloqueGrupos.BloqueGrupos(List&lt;GrupoDTO&gt;, bool)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Grupos" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="BloqueGrupos.cs" Line="11">Cambie ''List&lt;GrupoDTO&gt;'' en 'BloqueGrupos.Grupos' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
@@ -1075,49 +1057,49 @@
         </Type>
         <Type Name="GrupoDTO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message Id="DTO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'DTO' en el nombre del tipo 'GrupoDTO' cambiándolo a 'Dto'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(Es.Udc.DotNet.PracticaMaD.Model.UserService.GrupoDTO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoDTO.cs" Line="23">En el método 'GrupoDTO.GrupoDTO(GrupoDTO)' visible externamente, valide el parámetro 'dto' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#descripcion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="descripcion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="descripcion" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoDTO.cs" Line="14">Corrija el uso de mayúsculas y minúsculas en 'descripcion' en el nombre del miembro 'GrupoDTO.descripcion' cambiándolo a 'Descripcion'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#idGrupo" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="id" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoDTO.cs" Line="12">Corrija el uso de mayúsculas y minúsculas en 'id' en el nombre del miembro 'GrupoDTO.idGrupo' cambiándolo a 'Id'. 'Id' es una abreviación y, por tanto, no está sujeto a las directrices de mayúsculas y minúsculas para acrónimos.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nMiembros" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="n" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="n" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoDTO.cs" Line="15">Corrija el uso de mayúsculas y minúsculas en 'n' en el nombre del miembro 'GrupoDTO.nMiembros' cambiándolo a 'N'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nombre" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="nombre" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoDTO.cs" Line="13">Corrija el uso de mayúsculas y minúsculas en 'nombre' en el nombre del miembro 'GrupoDTO.nombre' cambiándolo a 'Nombre'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nRecomendaciones" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="n" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="n" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoDTO.cs" Line="16">Corrija el uso de mayúsculas y minúsculas en 'n' en el nombre del miembro 'GrupoDTO.nRecomendaciones' cambiándolo a 'N'.</Issue>
             </Message>
            </Messages>
@@ -1128,41 +1110,35 @@
          <Members>
           <Member Name="#BuscarPorUsuario(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="118">Cambie ''List&lt;GrupoDTO&gt;'' en 'GrupoService.BuscarPorUsuario(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CrearGrupo(Es.Udc.DotNet.PracticaMaD.Model.Grupo,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="24">En el método 'GrupoService.CrearGrupo(Grupo, long)' visible externamente, valide el parámetro 'grupo' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#grupoDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="grupo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="grupo" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="15">Corrija el uso de mayúsculas y minúsculas en 'grupo' en el nombre del miembro 'GrupoService.grupoDao' cambiándolo a 'Grupo'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="15">Puesto que el captador de propiedad de 'GrupoService.grupoDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#userProfileDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="17">Corrija el uso de mayúsculas y minúsculas en 'user' en el nombre del miembro 'GrupoService.userProfileDao' cambiándolo a 'User'.</Issue>
-            </Message>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="MakeMoreAccessible" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="17">Puesto que el captador de propiedad de 'GrupoService.userProfileDao' es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#VerGrupos(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="count+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+            <Message Id="count+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="44">Corrija el desbordamiento potencial en la operación 'count+1' en 'GrupoService.VerGrupos(int, int)'.</Issue>
              <Issue Certainty="75" Level="CriticalWarning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\GrupoService" File="GrupoService.cs" Line="46">Corrija el desbordamiento potencial en la operación 'count+1' en 'GrupoService.VerGrupos(int, int)'.</Issue>
             </Message>
@@ -1174,14 +1150,14 @@
          <Members>
           <Member Name="#BuscarPorUsuario(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message TypeName="DoNotExposeGenericLists" Category="Microsoft.Design" CheckId="CA1002" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error">Cambie ''List&lt;GrupoDTO&gt;'' en 'IGrupoService.BuscarPorUsuario(long)' para que use Collection&lt;T&gt;, ReadOnlyCollection&lt;T&gt; o KeyedCollection&lt;K,V&gt;</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BuscarUnGrupo(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Un" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="Un" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Corrija el uso de mayúsculas y minúsculas en 'Un' en el nombre del miembro 'IGrupoService.BuscarUnGrupo(long)' cambiándolo a 'UN'.</Issue>
             </Message>
            </Messages>
@@ -1190,26 +1166,26 @@
         </Type>
         <Type Name="IncorrectPasswordException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'IncorrectPasswordException': protected IncorrectPasswordException(SerializationInfo, StreamingContext).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'IncorrectPasswordException': public IncorrectPasswordException().</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Agregue el siguiente constructor a 'IncorrectPasswordException': public IncorrectPasswordException(String, Exception).</Issue>
           </Message>
-          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="NonBreaking">
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Agregue [Serializable] a 'IncorrectPasswordException', ya que este tipo implementa ISerializable.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\UserService\Exceptions" File="IncorrectPasswordException.cs" Line="17">En el miembro 'IncorrectPasswordException.IncorrectPasswordException(string)', reemplace el término 'login' en el nombre del parámetro 'loginName' por la alternativa preferida 'logOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#LoginName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\UserService\Exceptions" File="IncorrectPasswordException.cs" Line="26">Reemplace el término 'Login' en el nombre del miembro 'IncorrectPasswordException.LoginName' por la alternativa preferida 'LogOn'.</Issue>
             </Message>
            </Messages>
@@ -1220,25 +1196,18 @@
          <Members>
           <Member Name="#Login(System.String,System.String,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Reemplace el término 'Login' en el nombre del miembro 'IUserService.Login(string, string, bool)' por la alternativa preferida 'LogOn'.</Issue>
             </Message>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="95" Level="Error">En el miembro 'IUserService.Login(string, string, bool)', reemplace el término 'login' en el nombre del parámetro 'loginName' por la alternativa preferida 'logOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RegisterUser(System.String,System.String,Es.Udc.DotNet.PracticaMaD.Model.UserService.UserProfileDetails)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="95" Level="Error">En el miembro 'IUserService.RegisterUser(string, string, UserProfileDetails)', reemplace el término 'login' en el nombre del parámetro 'loginName' por la alternativa preferida 'logOn'.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-          <Member Name="#UserProfileDao" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
-             <Issue Name="AddGetter" Certainty="95" Level="Error">Puesto que 'IUserService.UserProfileDao' es de solo escritura, agregue un captador de propiedad con una accesibilidad que sea mayor o igual que su establecedor o convierta esta propiedad en un método.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -1246,7 +1215,7 @@
         </Type>
         <Type Name="LoginResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">Reemplace el término 'Login' en el nombre del tipo 'LoginResult' por la alternativa preferida 'LogOn'.</Issue>
           </Message>
          </Messages>
@@ -1255,7 +1224,7 @@
          <Members>
           <Member Name="#Crypt(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message TypeName="Desechar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\UserService\Util" File="PasswordEncrypter.cs" Line="21">En el método 'PasswordEncrypter.Crypt(string)', llame a System.IDisposable.Dispose en el objeto 'hashAlg' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
             </Message>
            </Messages>
@@ -1264,28 +1233,28 @@
         </Type>
         <Type Name="UserService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="Breaking">
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">El nombre de tipo 'UserService' está en conflicto total o parcialmente con el nombre del espacio de nombres 'Es.Udc.DotNet.PracticaMaD.Model.UserService'. Cambie el nombre para eliminar el conflicto.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Login(System.String,System.String,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\UserService" File="UserService.cs" Line="64">En el método 'UserService.Login(string, string, bool)' visible externamente, valide el parámetro 'password' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RegisterUser(System.String,System.String,Es.Udc.DotNet.PracticaMaD.Model.UserService.UserProfileDetails)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="2" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="2" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\UserService" File="UserService.cs" Line="39">En el método 'UserService.RegisterUser(string, string, UserProfileDetails)' visible externamente, valide el parámetro 'userProfileDetails' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#UpdateUserProfileDetails(System.Int64,Es.Udc.DotNet.PracticaMaD.Model.UserService.UserProfileDetails)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-26 10:00:00Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-10-27 08:01:58Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\Carla\Desktop\VVS\Laura\Model\UserService" File="UserService.cs" Line="102">En el método 'UserService.UpdateUserProfileDetails(long, UserProfileDetails)' visible externamente, valide el parámetro 'userProfileDetails' antes de usarlo.</Issue>
             </Message>
            </Messages>
@@ -1433,17 +1402,6 @@
    <Email>[none]</Email>
    <MessageLevel Certainty="95">Error</MessageLevel>
    <File Name="namingrules.dll" Version="14.0.0.0" />
-  </Rule>
-  <Rule TypeName="PropertiesShouldNotBeWriteOnly" Category="Microsoft.Design" CheckId="CA1044">
-   <Name>Las propiedades no deben ser de solo escritura</Name>
-   <Description>Las propiedades de solo escritura normalmente indican un diseño con errores.</Description>
-   <Resolution Name="AddGetter">Puesto que {0} es de solo escritura, agregue un captador de propiedad con una accesibilidad que sea mayor o igual que su establecedor o convierta esta propiedad en un método.</Resolution>
-   <Resolution Name="MakeMoreAccessible">Puesto que el captador de propiedad de {0} es menos visible que su establecedor, aumente la accesibilidad de su captador o reduzca la de su establecedor.</Resolution>
-   <Owner />
-   <Url>http://msdn.microsoft.com/library/ms182165.aspx</Url>
-   <Email>[none]</Email>
-   <MessageLevel Certainty="95">Error</MessageLevel>
-   <File Name="designrules.dll" Version="14.0.0.0" />
   </Rule>
   <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
    <Name>Quitar variables locales no utilizadas</Name>

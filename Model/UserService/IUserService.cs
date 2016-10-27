@@ -9,8 +9,6 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
     public interface IUserService
     {
-        [Dependency]
-        IUserProfileDao UserProfileDao { set; }
 
         /// <summary>
         /// Registers a new user.

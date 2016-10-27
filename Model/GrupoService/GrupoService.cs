@@ -12,9 +12,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
     public class GrupoService : IGrupoService
     {
         [Dependency]
-        public IGrupoDao grupoDao { private get; set; }
+        public IGrupoDao grupoDao { get; set; }
         [Dependency]
-        public IUserProfileDao userProfileDao { private get; set; }
+        public IUserProfileDao userProfileDao { get; set; }
 
         public long CrearGrupo(Grupo grupo, long idUsuario)
         {
