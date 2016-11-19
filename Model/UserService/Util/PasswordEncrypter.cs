@@ -15,7 +15,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         /// </summary>
         /// <param name="password">String to encrypt</param>
         /// <returns>Returns a String with the <paramref name="password"/> encrypted
-        /// </returns>                       
+        /// </returns>                     
+
         public static String Crypt(String password)
         {
 

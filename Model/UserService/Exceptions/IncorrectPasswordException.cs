@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Runtime.Serialization;
+using System.Security.Permissions;
 
 namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
@@ -6,8 +8,15 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
     /// Public <c>ModelException</c> which captures the error 
     /// with the passwords of the users.
     /// </summary>
+    [SerializableAttribute]
     public class IncorrectPasswordException : Exception
     {
+        /// <summary>
+        /// Stores the User login name of the exception
+        /// </summary>
+        /// <value>The name of the login.</value>
+        private readonly String _loginName;
+
         /// <summary>
         /// Initializes a new instance of the 
         /// <see cref="IncorrectPasswordException"/> class.
@@ -16,14 +25,22 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         public IncorrectPasswordException(String loginName)
             : base("Incorrect password exception => loginName = " + loginName)
         {
-            this.LoginName = loginName;
+            _loginName = loginName;
         }
 
-        /// <summary>
-        /// Stores the User login name of the exception
-        /// </summary>
-        /// <value>The name of the login.</value>
-        public String LoginName { get; private set; }
+        [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+        public override void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            base.GetObjectData(info, context);
+
+            info.AddValue("loginName", _loginName);
+        }
+
+        public string loginName
+        {
+            get { return _loginName; }
+        }
+
 
     }
 }

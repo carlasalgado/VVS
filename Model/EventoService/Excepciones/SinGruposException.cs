@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 {
+    [SerializableAttribute]
     public class SinGruposException : Exception
     {
 
