@@ -18,13 +18,23 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         /// </returns>                       
         public static String Crypt(String password)
         {
+
             HashAlgorithm hashAlg = new SHA256Managed();
+            String encryptedPassword = "";
+            try
+            {
+                byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
 
-            byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
+                byte[] encryptedPasswordBytes = hashAlg.ComputeHash(passwordBytes);
 
-            byte[] encryptedPasswordBytes = hashAlg.ComputeHash(passwordBytes);
 
-            String encryptedPassword = Convert.ToBase64String(encryptedPasswordBytes);
+                encryptedPassword = Convert.ToBase64String(encryptedPasswordBytes);
+            }
+            catch (Exception) { }
+            finally
+            {
+               hashAlg.Dispose();
+            }
 
             return encryptedPassword;
         }
