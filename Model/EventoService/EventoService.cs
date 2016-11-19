@@ -48,7 +48,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             }
 
             Collection<Evento> eventos = new Collection<Evento>();
-            if (busqueda.Equals(""))
+            if (string.IsNullOrEmpty(busqueda))
             {
                 if (count > 0)
                     eventos = eventoDao.BuscarEventos(startIndex, count + 1);
