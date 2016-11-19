@@ -39,8 +39,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 */
             List<String> palabrasClave = new List<string>();
             Collection<String> collPalabrasClave = new Collection<string>();
-
-            palabrasClave.AddRange(busqueda.Split(' '));
+            if (busqueda != null)
+                palabrasClave.AddRange(busqueda.Split(' '));
 
             foreach (String s in palabrasClave)
             {
@@ -114,7 +114,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
             /* Buscar Evento y usuario*/
             Evento evento = eventoDao.Find(idEvento);
-            
+
             if (evento == null)
                 throw new InstanceNotFoundException(idEvento,
                     typeof(Evento).FullName);
@@ -290,8 +290,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             Evento evento = new Evento();
 
             /* Comprobamos que la lista de grupos no estéa vacía*/
-            if (grupos.Count == 0)
-                throw new SinGruposException();
+            if (grupos != null)
+                if (grupos.Count == 0)
+                    throw new SinGruposException();
 
             /* Buscar Evento */
             evento = eventoDao.Find(idEvento);
@@ -302,20 +303,23 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
             //Comprobamos todos los grupos si el evento ha sido recomendado
             //Si no es así, lo recomendamos
-            foreach (Grupo g in grupos)
+            if (grupos != null)
             {
-                foreach (Recomendacion r in g.Recomendacion)
+                foreach (Grupo g in grupos)
                 {
-                    if (r.Evento.idEvento.Equals(idEvento))
+                    foreach (Recomendacion r in g.Recomendacion)
                     {
-                        eventoRecomendado = true;
+                        if (r.Evento.idEvento.Equals(idEvento))
+                        {
+                            eventoRecomendado = true;
+                        }
                     }
+                    if (!eventoRecomendado)
+                    {
+                        recomendacion.Grupo.Add(g);
+                    }
+                    eventoRecomendado = false;
                 }
-                if (!eventoRecomendado)
-                {
-                    recomendacion.Grupo.Add(g);
-                }
-                eventoRecomendado = false;
             }
 
             recomendacion.Evento = evento;
@@ -371,7 +375,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             foreach (RecomendacionDTO r in recomendacionDTO.OrderByDescending(reco => reco.fechaRecomendacion).ToList())
             {
                 collDTO.Add(r);
-            }    
+            }
 
             return collDTO;
         }
@@ -397,16 +401,18 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         public Etiqueta CrearEtiqueta(String nombreEtiqueta)
         {
             /* Convertimos el nombre en minusculas y comprobamos que no estéa duplicada */
-            if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower()) != null)
-                throw new DuplicateInstanceException(nombreEtiqueta,
-                    typeof(Etiqueta).FullName);
-            else
-            {
-                Etiqueta etiqueta = new Etiqueta();
-                etiqueta.nombre = nombreEtiqueta.ToLower();
-                etiquetaDao.Create(etiqueta);
-                return etiqueta;
-            }
+            if (nombreEtiqueta != null)
+                if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower()) != null)
+                    throw new DuplicateInstanceException(nombreEtiqueta,
+                        typeof(Etiqueta).FullName);
+                else
+                {
+                    Etiqueta etiqueta = new Etiqueta();
+                    etiqueta.nombre = nombreEtiqueta.ToLower();
+                    etiquetaDao.Create(etiqueta);
+                    return etiqueta;
+                }
+            return null;
         }
 
         public Etiqueta EtiquetaPorId(long idEtiqueta)
@@ -434,8 +440,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             comentarioDao.Update(comentario);
 
             /* Añadimos todas las etiquetas nuevas */
-            foreach (Etiqueta e in etiquetas)
-                comentario.Etiqueta.Add(e);
+            if (etiquetas != null)
+                foreach (Etiqueta e in etiquetas)
+                    comentario.Etiqueta.Add(e);
 
             comentarioDao.Update(comentario);
         }
@@ -464,7 +471,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 etiquetas.Add(e);
             }
             return etiquetas;
-            
+
         }
 
         public Collection<ComentarioDTO> MostrarComentariosEtiqueta(String nombreEtiqueta)

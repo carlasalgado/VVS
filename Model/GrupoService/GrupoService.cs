@@ -22,9 +22,15 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
             try
             {
                 //Comprobamos que el grupo no exista
-                grupoDao.BuscarPorNombre(grupo.nombre);
-                throw new DuplicateInstanceException(grupo.nombre,
-                    typeof(Grupo).FullName);
+                if (grupo != null)
+                {
+                    grupoDao.BuscarPorNombre(grupo.nombre);
+                    throw new DuplicateInstanceException(grupo.nombre,
+                        typeof(Grupo).FullName);
+                }
+                else {
+                    return 0;
+                }
             }
             catch (InstanceNotFoundException)
             {
@@ -105,7 +111,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
                     typeof(UserProfile).FullName);
 
             //Eliminamos al usuario del grupo
-            grupo.UserProfile.Remove(usuario);  
+            grupo.UserProfile.Remove(usuario);
 
             /* Si el grupo se queda vacío, lo eliminamos */
             if (grupo.UserProfile.Count > 0)
@@ -114,7 +120,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
                 grupoDao.Remove(grupo.idGrupo);
 
         }
-        
+
         public Collection<GrupoDTO> BuscarPorUsuario(long idUsuario)
         {
             GrupoDTO dtoGrupo = new GrupoDTO();

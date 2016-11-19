@@ -19,12 +19,14 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 
         public GrupoDTO(GrupoDTO dto)
         {
-            // TODO: Complete member initialization
-            this.idGrupo = dto.idGrupo;
-            this.nombre = dto.nombre;
-            this.descripcion = dto.descripcion;
-            this.nMiembros = dto.nMiembros;
-            this.nRecomendaciones = dto.nRecomendaciones;
+            if (dto != null)
+            {
+                this.idGrupo = dto.idGrupo;
+                this.nombre = dto.nombre;
+                this.descripcion = dto.descripcion;
+                this.nMiembros = dto.nMiembros;
+                this.nRecomendaciones = dto.nRecomendaciones;
+            }
         }
 
 

@@ -36,12 +36,14 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 
                 userProfile.loginName = loginName;
                 userProfile.enPassword = encryptedPassword;
-                userProfile.firstName = userProfileDetails.FirstName;
-                userProfile.lastName = userProfileDetails.Lastname;
-                userProfile.email = userProfileDetails.Email;
-                userProfile.language = userProfileDetails.Language;
-                userProfile.country = userProfileDetails.Country;
-
+                if (userProfileDetails != null)
+                {
+                    userProfile.firstName = userProfileDetails.FirstName;
+                    userProfile.lastName = userProfileDetails.Lastname;
+                    userProfile.email = userProfileDetails.Email;
+                    userProfile.language = userProfileDetails.Language;
+                    userProfile.country = userProfileDetails.Country;
+                }
                 UserProfileDao.Create(userProfile);
 
                 return userProfile.usrId;
@@ -61,10 +63,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 
             if (passwordIsEncrypted)
             {
-                if (!password.Equals(storedPassword))
-                {
-                    throw new IncorrectPasswordException(loginName);
-                }
+                if (password != null)
+                    if (!password.Equals(storedPassword))
+                    {
+                        throw new IncorrectPasswordException(loginName);
+                    }
             }
             else
             {
@@ -98,12 +101,14 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         {
             UserProfile userProfile =
                 UserProfileDao.Find(userProfileId);
-
-            userProfile.firstName = userProfileDetails.FirstName;
-            userProfile.lastName = userProfileDetails.Lastname;
-            userProfile.email = userProfileDetails.Email;
-            userProfile.language = userProfileDetails.Language;
-            userProfile.country = userProfileDetails.Country;
+            if (userProfileDetails != null)
+            {
+                userProfile.firstName = userProfileDetails.FirstName;
+                userProfile.lastName = userProfileDetails.Lastname;
+                userProfile.email = userProfileDetails.Email;
+                userProfile.language = userProfileDetails.Language;
+                userProfile.country = userProfileDetails.Country;
+            }
             UserProfileDao.Update(userProfile);
         }
 

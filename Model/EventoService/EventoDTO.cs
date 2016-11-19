@@ -18,11 +18,13 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         public EventoDTO(EventoDTO dto)
         {
-            // TODO: Complete member initialization
-            this.idEvento = dto.idEvento;
-            this.nombre = dto.nombre;
-            this.reseña = dto.reseña;
-            this.fecha = dto.fecha;
+            if (dto != null)
+            {
+                this.idEvento = dto.idEvento;
+                this.nombre = dto.nombre;
+                this.reseña = dto.reseña;
+                this.fecha = dto.fecha;
+            }
         }
 
 

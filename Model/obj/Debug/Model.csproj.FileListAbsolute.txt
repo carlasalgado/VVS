@@ -190,3 +190,4 @@ C:\Users\Pedro\Documents\VVS\Model\obj\Debug\Interop.Accessibility.dll
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\PracticaMaD.Model.dll
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\PracticaMaD.Model.pdb
+C:\Users\Pedro\Documents\VVS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
