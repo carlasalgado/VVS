@@ -17,7 +17,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         /// <param name="startIndex">Indice del primer resultado de la búsqueda</param>
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>Lista de eventos que coinciden con las palabras clave</returns>
-        Collection<Evento> BuscarEventos(Collection<String> palabrasClave, int startIndex = 0, int count = 0);
+        Collection<Evento> BuscarEventos(Collection<String> palabrasClave);        
+        Collection<Evento> BuscarEventos(Collection<String> palabrasClave, int startIndex, int count);
 
         /// <summary>
         /// Muestra todos los eventos ordenados, mas reciente primero.
@@ -25,7 +26,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         /// <param name="startIndex">Indice del primer resultado de la búsqueda</param>
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>Lista de eventos que coinciden con las palabras clave</returns>
-        Collection<Evento> BuscarEventos(int startIndex = 0, int count = 0);
+        Collection<Evento> BuscarEventos();        
+        Collection<Evento> BuscarEventos(int startIndex, int count);
 
     }
 }

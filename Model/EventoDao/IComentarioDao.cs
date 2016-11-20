@@ -17,7 +17,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         /// <param name="startIndex">Indice del primer resultado de la búsqueda</param>
         /// <param name="count">Número de resultados devueltos</param>
         /// <returns>La lista de comentarios del evento</returns>
-        Collection<Comentario> VerComentarios(long idEvento, int startIndex = 0, int count = 0);
+        Collection<Comentario> VerComentarios(long idEvento);
+        Collection<Comentario> VerComentarios(long idEvento, int startIndex, int count);
 
         /// <summary>
         /// Muestra los comentarios creados por un usuario en un evento

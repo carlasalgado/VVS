@@ -31,7 +31,12 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         #endregion
 
         #region Evento
-        public BloqueEventos BusquedaEventos(String busqueda, int startIndex = 0, int count = 0)
+
+        public BloqueEventos BusquedaEventos(String busqueda){
+                return BusquedaEventos(busqueda, 0, 0);
+        }
+
+        public BloqueEventos BusquedaEventos(String busqueda, int startIndex, int count)
         {
             /*
                 * Find count+1 accounts to determine if there exist more accounts above
@@ -190,7 +195,12 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 throw new UsuarioNoPropietarioException(idUsuario, idComentario);
         }
 
-        public BloqueComentarios VerComentarios(long idEvento, int startIndex = 0, int count = 0)
+        public BloqueComentarios VerComentarios(long idEvento)
+        {
+            return VerComentarios(idEvento, 0, 0);
+        }
+
+        public BloqueComentarios VerComentarios(long idEvento, int startIndex, int count)
         {
             Collection<ComentarioDTO> comentariosDTO = new Collection<ComentarioDTO>();
             Collection<Comentario> comentarios;
