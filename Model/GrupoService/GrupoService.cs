@@ -48,9 +48,10 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         {
             GrupoDTO dto = new GrupoDTO();
             Collection<GrupoDTO> gruposDTO = new Collection<GrupoDTO>();
-            Collection<Grupo> grupos = grupoDao.MostrarGrupos(startIndex, count + 1);
+            int aux = count ++;
+            Collection<Grupo> grupos = grupoDao.MostrarGrupos(startIndex, aux);
             List<Recomendacion> recomendaciones = new List<Recomendacion>();
-            bool existenMasGrupos = (grupos.Count == count + 1);
+            bool existenMasGrupos = (grupos.Count == aux);
 
             if (existenMasGrupos)
                 grupos.RemoveAt(count);
