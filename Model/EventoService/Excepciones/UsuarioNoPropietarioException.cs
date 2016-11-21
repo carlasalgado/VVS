@@ -38,6 +38,15 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             _comentarioId = comentarioId;
         }
 
+
+        protected UsuarioNoPropietarioException(SerializationInfo info, StreamingContext context) :base(info, context){ }
+
+        public UsuarioNoPropietarioException() :base("El usuario no es el propietario del comentario") { }
+
+        public UsuarioNoPropietarioException(String info) :base("El usuario no es el propietario del comentario: " + info){ }
+
+        public UsuarioNoPropietarioException(String info, Exception e) : base("El usuario no es el propietario del comentario: " + info) { }
+        
         [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
         public override void GetObjectData(SerializationInfo info, StreamingContext context)
         {
@@ -46,6 +55,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             info.AddValue("usuarioId", _usuarioId);
             info.AddValue("comentarioId", _comentarioId);
         }
+
+        
 
         public long usuarioId
         {

@@ -28,6 +28,19 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
             _loginName = loginName;
         }
 
+        public IncorrectPasswordException(string loginName, Exception e) 
+                        : base("Incorrect password exception => loginName = " + loginName)
+        {}
+
+
+        protected IncorrectPasswordException(SerializationInfo info, StreamingContext context) :base(info, context){ }
+
+        public IncorrectPasswordException()
+            :base("Incorret password expcetion.")
+        {
+         
+        }
+
         [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
         public override void GetObjectData(SerializationInfo info, StreamingContext context)
         {

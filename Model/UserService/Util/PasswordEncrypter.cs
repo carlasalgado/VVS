@@ -31,7 +31,9 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 
                 encryptedPassword = Convert.ToBase64String(encryptedPasswordBytes);
             }
-            catch (Exception) { }
+            catch (System.ArgumentNullException) { }
+            catch (System.Text.EncoderFallbackException) { }
+            catch (System.ObjectDisposedException) { }
             finally
             {
                hashAlg.Dispose();
