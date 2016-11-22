@@ -7,7 +7,7 @@ using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 
 namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
 {
-    public class UserService : IUserService
+    public class ServicioUsuarios : IUserService
     {
         [Dependency]
         public IUserProfileDao UserProfileDao { get; set; }

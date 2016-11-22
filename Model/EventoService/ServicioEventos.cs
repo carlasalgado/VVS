@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 {
-    public class EventoService : IEventoService
+    public class ServicioEventos : IEventoService
     {
 
         #region DAOS
