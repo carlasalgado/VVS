@@ -45,7 +45,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         public UsuarioNoPropietarioException(String info) :base("El usuario no es el propietario del comentario: " + info){ }
 
-        public UsuarioNoPropietarioException(String info, Exception e) : base("El usuario no es el propietario del comentario: " + info) { }
+        public UsuarioNoPropietarioException(String info, Exception exception) : base("El usuario no es el propietario del comentario: " + info) { }
         
         [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
         public override void GetObjectData(SerializationInfo info, StreamingContext context)

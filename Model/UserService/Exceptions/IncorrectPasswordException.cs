@@ -28,7 +28,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
             _loginName = loginName;
         }
 
-        public IncorrectPasswordException(string loginName, Exception e) 
+        public IncorrectPasswordException(string loginName, Exception exception) 
                         : base("Incorrect password exception => loginName = " + loginName)
         {}
 
