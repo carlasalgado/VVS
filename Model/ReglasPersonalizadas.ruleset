@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Copia de Todas las reglas de Microsoft" Description="Este conjunto de reglas contiene todas las reglas. Si se ejecuta este conjunto de reglas, puede dar lugar a un gran número de advertencias. Use este conjunto de reglas para obtener una imagen completa de todos los problemas del código. Esto puede ser útil para decidir qué conjuntos de reglas son más apropiados para ejecutarlos para sus proyectos." ToolsVersion="12.0">
+  <IncludeAll Action="Warning" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1709" Action="None" />
+    <Rule Id="CA1726" Action="None" />
+  </Rules>
+</RuleSet>
