@@ -32,14 +32,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         #endregion
 
         #region Evento
-<<<<<<< HEAD:Model/EventoService/EventoService.cs
-=======
 
         public BloqueEventos BusquedaEventos(String busqueda){
                 return BusquedaEventos(busqueda, 0, 0);
         }
 
->>>>>>> develop:Model/EventoService/ServicioEventos.cs
         public BloqueEventos BusquedaEventos(String busqueda, int startIndex, int count)
         {
             /*
@@ -199,14 +196,13 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 throw new UsuarioNoPropietarioException(idUsuario, idComentario);
         }
 
-<<<<<<< HEAD:Model/EventoService/EventoService.cs
-=======
+
         public BloqueComentarios VerComentarios(long idEvento)
         {
             return VerComentarios(idEvento, 0, 0);
         }
 
->>>>>>> develop:Model/EventoService/ServicioEventos.cs
+
         public BloqueComentarios VerComentarios(long idEvento, int startIndex, int count)
         {
             Collection<ComentarioDTO> comentariosDTO = new Collection<ComentarioDTO>();
@@ -419,7 +415,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         {
             CultureInfo info = CultureInfo.CurrentCulture;
             /* Convertimos el nombre en minusculas y comprobamos que no estéa duplicada */
-<<<<<<< HEAD:Model/EventoService/EventoService.cs
+
             if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower(info)) != null)
                 throw new DuplicateInstanceException(nombreEtiqueta,
                     typeof(Etiqueta).FullName);
@@ -430,7 +426,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 etiquetaDao.Create(etiqueta);
                 return etiqueta;
             }
-=======
+
             if (nombreEtiqueta != null)
                 if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower()) != null)
                     throw new DuplicateInstanceException(nombreEtiqueta,
@@ -443,7 +439,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                     return etiqueta;
                 }
             return null;
->>>>>>> develop:Model/EventoService/ServicioEventos.cs
+
         }
 
         public Etiqueta EtiquetaPorId(long idEtiqueta)

@@ -43,14 +43,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
             return coll;
         }
 
-<<<<<<< HEAD
-=======
         public Collection<Evento> BuscarEventos() {
             return BuscarEventos(0, 0);
         }
 
 
->>>>>>> develop
         public Collection<Evento> BuscarEventos(int startIndex, int count)
         {
             DbSet<Evento> eventos = Context.Set<Evento>();
