@@ -10,7 +10,7 @@
        <Types>
         <Type Name="UserProfileDAOTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'UserProfileDAOTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'UserProfileDAOTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
@@ -21,35 +21,35 @@
        <Types>
         <Type Name="ComentarioDAOTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'ComentarioDAOTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'ComentarioDAOTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="EtiquetaDAOTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'EtiquetaDAOTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'EtiquetaDAOTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="EventoDAOTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'EventoDAOTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'EventoDAOTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="GrupoDAOTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'GrupoDAOTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'GrupoDAOTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="RecomendacionDAOTest" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="NonBreaking">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="NonBreaking">
            <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implemente IDisposable en 'RecomendacionDAOTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'.</Issue>
           </Message>
          </Messages>
@@ -60,7 +60,7 @@
        <Types>
         <Type Name="gruposervicetest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'gruposervicetest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'gruposervicetest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
@@ -71,35 +71,35 @@
        <Types>
         <Type Name="ComentarioServiceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'ComentarioServiceTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'ComentarioServiceTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="EtiquetaServiceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'EtiquetaServiceTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'EtiquetaServiceTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="EventoServiceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'EventoServiceTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'EventoServiceTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="RecomendacionServiceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'RecomendacionServiceTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'RecomendacionServiceTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="UserProfileServiceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-22 15:33:53Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2016-11-23 16:01:37Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implemente IDisposable en 'UserProfileServiceTest' porque crea miembros de los tipos IDisposable siguientes: 'TransactionScope'. Si ya se había distribuido 'UserProfileServiceTest', agregar nuevos miembros que implementen IDisposable en este tipo se considera un cambio rotundo para los consumidores existentes.</Issue>
           </Message>
          </Messages>
