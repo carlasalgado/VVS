@@ -22,6 +22,6 @@ namespace Es.Udc.DotNet.PracticaMaD.Model
         public long idEtiqueta { get; set; }
         public string nombre { get; set; }
     
-        public virtual ICollection<Comentario> Comentario { get; set; }
+        public ICollection<Comentario> Comentario { get; set; }
     }
 }

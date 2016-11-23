@@ -13,17 +13,18 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
         GenericDaoEntityFramework<Evento, Int64>, IEventoDao
     {
         public EventoDaoEntityFramework() {   }
-        public Collection<Evento> BuscarEventos(Collection<String> keyWords)
+        public Collection<Evento> BuscarEventos(Collection<String> palabrasClave)
         {
-            return BuscarEventos(keyWords, 0, 0);
+            return BuscarEventos(palabrasClave, 0, 0);
         }
 
-        public Collection<Evento> BuscarEventos(Collection<String> keyWords, int startIndex, int count) {
+        public Collection<Evento> BuscarEventos(Collection<String> palabrasClave, int startIndex, int count)
+        {
             DbSet<Evento> eventos = Context.Set<Evento>();
             Collection<Evento> coll = new Collection<Evento>();
             var resultado =
                 (from e in eventos
-                 where keyWords.All(s => e.nombre.Contains(s))
+                 where palabrasClave.All(s => e.nombre.Contains(s))
                  orderby e.fecha ascending
                  select e).Skip(startIndex);
 

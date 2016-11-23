@@ -24,7 +24,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model
         public string nombre { get; set; }
         public string descripcion { get; set; }
     
-        public virtual ICollection<Recomendacion> Recomendacion { get; set; }
-        public virtual ICollection<UserProfile> UserProfile { get; set; }
+        public ICollection<Recomendacion> Recomendacion { get; set; }
+        public ICollection<UserProfile> UserProfile { get; set; }
     }
 }

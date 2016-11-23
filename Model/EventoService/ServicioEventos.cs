@@ -33,11 +33,12 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         #region Evento
 
-        public BloqueEventos BusquedaEventos(String busqueda){
-                return BusquedaEventos(busqueda, 0, 0);
+        public BloqueEventos BusquedaEventos(String keyWords)
+        {
+            return BusquedaEventos(keyWords, 0, 0);
         }
 
-        public BloqueEventos BusquedaEventos(String busqueda, int startIndex, int count)
+        public BloqueEventos BusquedaEventos(String keyWords, int startIndex, int count)
         {
             /*
                 * Find count+1 accounts to determine if there exist more accounts above
@@ -45,8 +46,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 */
             List<String> palabrasClave = new List<string>();
             Collection<String> collPalabrasClave = new Collection<string>();
-            if (busqueda != null)
-                palabrasClave.AddRange(busqueda.Split(' '));
+            if (keyWords != null)
+                palabrasClave.AddRange(keyWords.Split(' '));
 
             foreach (String s in palabrasClave)
             {
@@ -54,7 +55,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             }
 
             Collection<Evento> eventos = new Collection<Evento>();
-            if (string.IsNullOrEmpty(busqueda))
+            if (string.IsNullOrEmpty(keyWords))
             {
                 if (count > 0)
                     eventos = eventoDao.BuscarEventos(startIndex, count + 1);
@@ -294,7 +295,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         #endregion
 
         #region Recomendaciones
-        public Recomendacion RecomendarEvento(long idEvento, Collection<Grupo> grupos, String textoRecomendacion)
+        public Recomendacion RecomendarEvento(long idEvento, Collection<Grupo> grupos, String texto)
         {
 
             //Si un grupo de la lista no existe, devuelve InstanceNotFoundException
@@ -336,7 +337,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             }
 
             recomendacion.Evento = evento;
-            recomendacion.texto = textoRecomendacion;
+            recomendacion.texto = texto;
             recomendacion.fecha = DateTime.Now;
 
             recomendacionDao.Create(recomendacion);
@@ -501,18 +502,18 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         }
 
-        public Collection<ComentarioDTO> MostrarComentariosEtiqueta(String nombreEtiqueta)
+        public Collection<ComentarioDTO> MostrarComentariosEtiqueta(String etiqueta)
         {
             Collection<ComentarioDTO> comentariosDTO = new Collection<ComentarioDTO>();
             ComentarioDTO dto = new ComentarioDTO();
 
-            Etiqueta etiqueta = etiquetaDao.BuscarPorNombre(nombreEtiqueta);
+            Etiqueta etiq = etiquetaDao.BuscarPorNombre(etiqueta);
 
-            if (etiqueta == null)
-                throw new InstanceNotFoundException(nombreEtiqueta,
+            if (etiq == null)
+                throw new InstanceNotFoundException(etiqueta,
                     typeof(Etiqueta).FullName);
 
-            foreach (Comentario comentario in etiqueta.Comentario.ToList<Comentario>())
+            foreach (Comentario comentario in etiq.Comentario.ToList<Comentario>())
             {
                 dto.idComentario = comentario.idComentario;
                 dto.login = comentario.UserProfile.loginName;

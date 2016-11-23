@@ -25,8 +25,8 @@ namespace Es.Udc.DotNet.PracticaMaD.Model
         public string texto { get; set; }
         public System.DateTime fecha { get; set; }
     
-        public virtual Evento Evento { get; set; }
-        public virtual UserProfile UserProfile { get; set; }
-        public virtual ICollection<Etiqueta> Etiqueta { get; set; }
+        public Evento Evento { get; set; }
+        public UserProfile UserProfile { get; set; }
+        public ICollection<Etiqueta> Etiqueta { get; set; }
     }
 }

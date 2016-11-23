@@ -25,7 +25,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model
         public System.DateTime fecha { get; set; }
         public string reseña { get; set; }
     
-        public virtual ICollection<Comentario> Comentario { get; set; }
-        public virtual ICollection<Recomendacion> Recomendacion { get; set; }
+        public ICollection<Comentario> Comentario { get; set; }
+        public ICollection<Recomendacion> Recomendacion { get; set; }
     }
 }

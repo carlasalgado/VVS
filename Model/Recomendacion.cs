@@ -24,7 +24,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model
         public string texto { get; set; }
         public System.DateTime fecha { get; set; }
     
-        public virtual Evento Evento { get; set; }
-        public virtual ICollection<Grupo> Grupo { get; set; }
+        public Evento Evento { get; set; }
+        public ICollection<Grupo> Grupo { get; set; }
     }
 }

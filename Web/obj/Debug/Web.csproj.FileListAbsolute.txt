@@ -201,3 +201,5 @@ C:\Users\Pedro\Documents\VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.E
 C:\Users\Pedro\Documents\VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 C:\Users\Pedro\Documents\VVS\Web\obj\Debug\PracticaMaD.Web.dll
 C:\Users\Pedro\Documents\VVS\Web\obj\Debug\PracticaMaD.Web.pdb
+C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.CodeAnalysisLog.xml
+C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.lastcodeanalysissucceeded

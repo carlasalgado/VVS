@@ -29,7 +29,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model
         public string language { get; set; }
         public string country { get; set; }
     
-        public virtual ICollection<Comentario> Comentario { get; set; }
-        public virtual ICollection<Grupo> Grupo { get; set; }
+        public ICollection<Comentario> Comentario { get; set; }
+        public ICollection<Grupo> Grupo { get; set; }
     }
 }
