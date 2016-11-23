@@ -81,11 +81,6 @@ C:\Users\Carla\Desktop\VVS\Laura\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.pdb
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll.config
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.pdb
-<<<<<<< HEAD
-C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll.CodeAnalysisLog.xml
-C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll.lastcodeanalysissucceeded
-=======
->>>>>>> develop
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\EntityFramework.dll
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
@@ -116,8 +111,6 @@ C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Confi
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Moq.pdb
-C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\Moq.xml
 C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\nunit.framework.xml
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.dll
