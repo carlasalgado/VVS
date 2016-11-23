@@ -15,6 +15,11 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoDao
     public class ComentarioDaoEntityFramework :
         GenericDaoEntityFramework<Comentario, Int64>, IComentarioDao
     {
+        public Collection<Comentario> VerComentarios(long idEvento)
+        {
+            return VerComentarios(idEvento, 0, 0);
+        }
+
         //Tanto si no existe el evento como si este no tiene comentarios, devuelve lista vacia
         public Collection<Comentario> VerComentarios(long idEvento, int startIndex, int count) {
             DbSet<Comentario> comentarios = Context.Set<Comentario>();

@@ -174,8 +174,11 @@ C:\Users\Carla\Desktop\VVS\Laura\Web\obj\Debug\PracticaMaD.Web.pdb
 C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.config
 C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll
 C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.pdb
+<<<<<<< HEAD
 C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.CodeAnalysisLog.xml
 C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.lastcodeanalysissucceeded
+=======
+>>>>>>> develop
 C:\Users\Pedro\Documents\VVS\Web\bin\EntityFramework.dll
 C:\Users\Pedro\Documents\VVS\Web\bin\EntityFramework.SqlServer.dll
 C:\Users\Pedro\Documents\VVS\Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
@@ -203,3 +206,8 @@ C:\Users\Pedro\Documents\VVS\Web\obj\Debug\Es.Udc.DotNet.PracticaMaD.Web.Pages.E
 C:\Users\Pedro\Documents\VVS\Web\obj\Debug\Web.csproj.GenerateResource.Cache
 C:\Users\Pedro\Documents\VVS\Web\obj\Debug\PracticaMaD.Web.dll
 C:\Users\Pedro\Documents\VVS\Web\obj\Debug\PracticaMaD.Web.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.CodeAnalysisLog.xml
+C:\Users\Pedro\Documents\VVS\Web\bin\PracticaMaD.Web.dll.lastcodeanalysissucceeded
+>>>>>>> develop

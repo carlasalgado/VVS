@@ -20,13 +20,15 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
 
         public RecomendacionDTO(RecomendacionDTO dto)
         {
-            // TODO: Complete member initialization
-            this.idEvento = dto.idEvento;
-            this.nombre = dto.nombre;
-            this.reseña = dto.reseña;
-            this.recomendacion = dto.recomendacion;
-            this.fecha = dto.fecha;
-            this.fechaRecomendacion = dto.fechaRecomendacion;
+            if (dto != null)
+            {
+                this.idEvento = dto.idEvento;
+                this.nombre = dto.nombre;
+                this.reseña = dto.reseña;
+                this.recomendacion = dto.recomendacion;
+                this.fecha = dto.fecha;
+                this.fechaRecomendacion = dto.fechaRecomendacion;
+            }
         }
 
 

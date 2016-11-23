@@ -15,10 +15,13 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
         public ComentarioDTO(ComentarioDTO dto)
         {
             // TODO: Complete member initialization
-            this.idComentario = dto.idComentario;
-            this.login = dto.login;
-            this.fecha = dto.fecha;
-            this.texto = dto.texto;
+            if (dto != null)
+            {
+                this.idComentario = dto.idComentario;
+                this.login = dto.login;
+                this.fecha = dto.fecha;
+                this.texto = dto.texto;
+            }
         }
 
 

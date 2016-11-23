@@ -187,7 +187,10 @@ C:\Users\Pedro\Documents\VVS\Model\bin\Debug\Microsoft.Practices.Unity.Configura
 C:\Users\Pedro\Documents\VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 C:\Users\Pedro\Documents\VVS\Model\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
 C:\Users\Pedro\Documents\VVS\Model\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+<<<<<<< HEAD
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> develop
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\Interop.Accessibility.dll
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\Model.csproj.ResolveComReference.cache
 C:\Users\Pedro\Documents\VVS\Model\obj\Debug\PracticaMaD.Model.dll

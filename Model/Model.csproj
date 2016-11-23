@@ -23,7 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>0</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>ReglasPersonalizadas.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -100,7 +100,7 @@
     <Compile Include="EventoService\Excepciones\SinGruposException.cs" />
     <Compile Include="EventoService\RecomendacionDTO.cs" />
     <Compile Include="EventoService\EventoDTO.cs" />
-    <Compile Include="EventoService\EventoService.cs" />
+    <Compile Include="EventoService\ServicioEventos.cs" />
     <Compile Include="EventoService\IEventoService.cs" />
     <Compile Include="EventoService\Excepciones\UsuarioNoPropietarioException.cs" />
     <Compile Include="Grupo.cs">
@@ -142,7 +142,7 @@
     <Compile Include="UserService\IUserService.cs" />
     <Compile Include="UserService\LoginResult.cs" />
     <Compile Include="UserService\UserProfileDetails.cs" />
-    <Compile Include="UserService\UserService.cs" />
+    <Compile Include="UserService\ServicioUsuarios.cs" />
     <Compile Include="UserService\Util\PasswordEncrypter.cs" />
   </ItemGroup>
   <ItemGroup>
