@@ -115,5 +115,3 @@ C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\nunit.framework.xml
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.dll
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.pdb
-C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll.CodeAnalysisLog.xml
-C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\PracticaMaD.TestNUnit.dll.lastcodeanalysissucceeded

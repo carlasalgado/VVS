@@ -60,14 +60,14 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                 if (count > 0)
                     eventos = eventoDao.BuscarEventos(startIndex, count + 1);
                 else
-                    eventos = eventoDao.BuscarEventos(0,0);
+                    eventos = eventoDao.BuscarEventos(0, 0);
             }
             else
             {
                 if (count > 0)
                     eventos = eventoDao.BuscarEventos(collPalabrasClave, startIndex, count + 1);
                 else
-                    eventos = eventoDao.BuscarEventos(collPalabrasClave,0,0);
+                    eventos = eventoDao.BuscarEventos(collPalabrasClave, 0, 0);
             }
             Collection<EventoDTO> eventosDTO = new Collection<EventoDTO>();
             EventoDTO dto = new EventoDTO();
@@ -417,18 +417,20 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
             CultureInfo info = CultureInfo.CurrentCulture;
             /* Convertimos el nombre en minusculas y comprobamos que no estéa duplicada */
 
-            if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower(info)) != null)
-                throw new DuplicateInstanceException(nombreEtiqueta,
-                    typeof(Etiqueta).FullName);
-            else
+            if (!string.IsNullOrEmpty(nombreEtiqueta))
             {
-                Etiqueta etiqueta = new Etiqueta();
-                etiqueta.nombre = nombreEtiqueta.ToLower(info);
-                etiquetaDao.Create(etiqueta);
-                return etiqueta;
-            }
+                if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower(info)) != null)
+                    throw new DuplicateInstanceException(nombreEtiqueta,
+                        typeof(Etiqueta).FullName);
+                else
+                {
+                    Etiqueta etiqueta = new Etiqueta();
+                    etiqueta.nombre = nombreEtiqueta.ToLower(info);
+                    etiquetaDao.Create(etiqueta);
+                    return etiqueta;
+                }
 
-            if (nombreEtiqueta != null)
+
                 if (etiquetaDao.BuscarPorNombre(nombreEtiqueta.ToLower()) != null)
                     throw new DuplicateInstanceException(nombreEtiqueta,
                         typeof(Etiqueta).FullName);
@@ -439,6 +441,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.EventoService
                     etiquetaDao.Create(etiqueta);
                     return etiqueta;
                 }
+            }
             return null;
 
         }
