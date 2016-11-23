@@ -5,11 +5,6 @@
   <Target Name="C:\Users\Pedro\Documents\VVS\Model\bin\Debug\PracticaMaD.Model.dll">
    <Modules>
     <Module Name="practicamad.model.dll">
-     <Messages>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
-       <Issue Certainty="95" Level="Error">Marque 'PracticaMaD.Model.dll' con CLSCompliant(true) porque expone tipos visibles externamente.</Issue>
-      </Message>
-     </Messages>
      <Namespaces>
       <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model">
        <Types>
@@ -17,14 +12,14 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Comentario.cs" Line="17">'Comentario.Comentario()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Comentario..ctor()&#xD;&#xA;Comentario.set_Etiqueta(ICollection&lt;Etiqueta&gt;):Void</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Etiqueta" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Comentario.Etiqueta' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -35,14 +30,14 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Etiqueta.cs" Line="17">'Etiqueta.Etiqueta()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Etiqueta..ctor()&#xD;&#xA;Etiqueta.set_Comentario(ICollection&lt;Comentario&gt;):Void</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Comentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Etiqueta.Comentario' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -53,7 +48,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Evento.cs" Line="17">'Evento.Evento()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Evento..ctor()&#xD;&#xA;Evento.set_Comentario(ICollection&lt;Comentario&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Evento.cs" Line="17">'Evento.Evento()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Evento..ctor()&#xD;&#xA;Evento.set_Recomendacion(ICollection&lt;Recomendacion&gt;):Void</Issue>
             </Message>
@@ -61,14 +56,14 @@
           </Member>
           <Member Name="#Comentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Evento.Comentario' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Recomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Evento.Recomendacion' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -79,7 +74,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Grupo.cs" Line="17">'Grupo.Grupo()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Grupo..ctor()&#xD;&#xA;Grupo.set_Recomendacion(ICollection&lt;Recomendacion&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Grupo.cs" Line="17">'Grupo.Grupo()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Grupo..ctor()&#xD;&#xA;Grupo.set_UserProfile(ICollection&lt;UserProfile&gt;):Void</Issue>
             </Message>
@@ -87,14 +82,14 @@
           </Member>
           <Member Name="#Recomendacion" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Grupo.Recomendacion' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#UserProfile" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Grupo.UserProfile' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -105,14 +100,14 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="Recomendacion.cs" Line="17">'Recomendacion.Recomendacion()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;Recomendacion..ctor()&#xD;&#xA;Recomendacion.set_Grupo(ICollection&lt;Grupo&gt;):Void</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Grupo" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'Recomendacion.Grupo' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -123,7 +118,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="UserProfile.cs" Line="17">'UserProfile.UserProfile()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;UserProfile..ctor()&#xD;&#xA;UserProfile.set_Comentario(ICollection&lt;Comentario&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Pedro\Documents\VVS\Model" File="UserProfile.cs" Line="17">'UserProfile.UserProfile()' contiene una cadena de llamada que da como resultado un llamada a un método virtual definido por la clase. Revise la siguiente pila de llamadas para comprobar las consecuencias no intencionadas: &#xD;&#xA;&#xD;&#xA;UserProfile..ctor()&#xD;&#xA;UserProfile.set_Grupo(ICollection&lt;Grupo&gt;):Void</Issue>
             </Message>
@@ -131,14 +126,14 @@
           </Member>
           <Member Name="#Comentario" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'UserProfile.Comentario' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Grupo" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning">Cambie 'UserProfile.Grupo' para que sea de solo lectura quitando el establecedor de propiedades.</Issue>
             </Message>
            </Messages>
@@ -153,14 +148,14 @@
          <Members>
           <Member Name="#BuscarEventos(System.Collections.ObjectModel.Collection`1&lt;System.String&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="c:\Users\Pedro\Documents\VVS\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="17">En el miembro 'EventoDaoEntityFramework.BuscarEventos(Collection&lt;string&gt;)', cambie el nombre del parámetro 'keyWords' a 'palabrasClave' para que coincida con el identificador tal como se ha declarado en 'IEventoDao.BuscarEventos(Collection&lt;string&gt;)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BuscarEventos(System.Collections.ObjectModel.Collection`1&lt;System.String&gt;,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="c:\Users\Pedro\Documents\VVS\Model\EventoDao" File="EventoDaoEntityFramework.cs" Line="31">En el miembro 'EventoDaoEntityFramework.BuscarEventos(Collection&lt;string&gt;, int, int)', cambie el nombre del parámetro 'keyWords' a 'palabrasClave' para que coincida con el identificador tal como se ha declarado en 'IEventoDao.BuscarEventos(Collection&lt;string&gt;, int, int)'.</Issue>
             </Message>
            </Messages>
@@ -175,35 +170,35 @@
          <Members>
           <Member Name="#BusquedaEventos(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService" File="ServicioEventos.cs" Line="36">En el miembro 'ServicioEventos.BusquedaEventos(string)', cambie el nombre del parámetro 'busqueda' a 'keyWords' para que coincida con el identificador tal como se ha declarado en 'IEventoService.BusquedaEventos(string)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BusquedaEventos(System.String,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService" File="ServicioEventos.cs" Line="41">En el miembro 'ServicioEventos.BusquedaEventos(string, int, int)', cambie el nombre del parámetro 'busqueda' a 'keyWords' para que coincida con el identificador tal como se ha declarado en 'IEventoService.BusquedaEventos(string, int, int)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CrearEtiqueta(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validar argumentos de métodos públicos" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService" File="ServicioEventos.cs" Line="419">En el método 'ServicioEventos.CrearEtiqueta(string)' visible externamente, valide el parámetro 'nombreEtiqueta' antes de usarlo.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MostrarComentariosEtiqueta(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService" File="ServicioEventos.cs" Line="505">En el miembro 'ServicioEventos.MostrarComentariosEtiqueta(string)', cambie el nombre del parámetro 'nombreEtiqueta' a 'etiqueta' para que coincida con el identificador tal como se ha declarado en 'IEventoService.MostrarComentariosEtiqueta(string)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RecomendarEvento(System.Int64,System.Collections.ObjectModel.Collection`1&lt;Es.Udc.DotNet.PracticaMaD.Model.Grupo&gt;,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="2#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="Breaking">
+            <Message Id="2#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService" File="ServicioEventos.cs" Line="298">En el miembro 'ServicioEventos.RecomendarEvento(long, Collection&lt;Grupo&gt;, string)', cambie el nombre del parámetro 'textoRecomendacion' a 'texto' para que coincida con el identificador tal como se ha declarado en 'IEventoService.RecomendarEvento(long, Collection&lt;Grupo&gt;, string)'.</Issue>
             </Message>
            </Messages>
@@ -214,7 +209,7 @@
          <Members>
           <Member Name="#.ctor(System.String,System.Exception)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="exception" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="DependsOnFix">
+            <Message Id="exception" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService\Excepciones" File="UsuarioNoPropietarioException.cs" Line="48">Nunca se usa el parámetro 'exception' de 'UsuarioNoPropietarioException.UsuarioNoPropietarioException(string, Exception)'. Quite el parámetro o utilícelo en el cuerpo del método.</Issue>
             </Message>
            </Messages>
@@ -229,7 +224,7 @@
          <Members>
           <Member Name="#.ctor(System.String,System.Exception)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="exception" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-11-23 16:17:15Z" FixCategory="DependsOnFix">
+            <Message Id="exception" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-11-23 16:56:24Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="c:\Users\Pedro\Documents\VVS\Model\UserService\Exceptions" File="IncorrectPasswordException.cs" Line="31">Nunca se usa el parámetro 'exception' de 'IncorrectPasswordException.IncorrectPasswordException(string, Exception)'. Quite el parámetro o utilícelo en el cuerpo del método.</Issue>
             </Message>
            </Messages>
@@ -263,16 +258,6 @@
    <Email>[none]</Email>
    <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
    <File Name="usagerules.dll" Version="12.0.0.0" />
-  </Rule>
-  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
-   <Name>Marque los ensamblados con CLSCompliantAttribute</Name>
-   <Description>Los ensamblados deben establecer explícitamente ser conformes a CLS usando el atributo CLSCompliant. Un ensamblado sin este atributo no es conforme a CLS. Los ensamblados, módulos y tipos pueden ser conformes a CLS incluso si alguna parte del ensamblado, módulo o tipo no son conformes a CLS. Se aplican las siguientes reglas: 1) Si el elemento está marcado como CLSCompliant, cualquier miembro no compatible debe tener el atributo CLSCompliant presente con el argumento establecido como false. 2) Se debe proporcionar un miembro alternativo conforme a CLS comparable con cada miembro que no sea conforme a CLS.</Description>
-   <Resolution Name="Default">Marque {0} con CLSCompliant(true) porque expone tipos visibles externamente.</Resolution>
-   <Owner />
-   <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
-   <Email>[none]</Email>
-   <MessageLevel Certainty="95">Error</MessageLevel>
-   <File Name="designrules.dll" Version="12.0.0.0" />
   </Rule>
   <Rule TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725">
    <Name>Los nombres de parámetro deberían coincidir con la declaración base</Name>
