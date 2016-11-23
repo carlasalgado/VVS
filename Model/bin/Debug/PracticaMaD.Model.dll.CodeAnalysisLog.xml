@@ -1,58 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="12.0">
- <Targets>
-  <Target Name="C:\Users\Pedro\Documents\VVS\Model\bin\Debug\PracticaMaD.Model.dll">
-   <Modules>
-    <Module Name="practicamad.model.dll">
-     <Namespaces>
-      <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model.EventoService">
-       <Types>
-        <Type Name="UsuarioNoPropietarioException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Members>
-          <Member Name="#.ctor(System.String,System.Exception)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message Id="exception" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-11-23 17:55:05Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Pedro\Documents\VVS\Model\EventoService\Excepciones" File="UsuarioNoPropietarioException.cs" Line="48">Nunca se usa el parámetro 'exception' de 'UsuarioNoPropietarioException.UsuarioNoPropietarioException(string, Exception)'. Quite el parámetro o utilícelo en el cuerpo del método.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-         </Members>
-        </Type>
-       </Types>
-      </Namespace>
-      <Namespace Name="Es.Udc.DotNet.PracticaMaD.Model.UserService">
-       <Types>
-        <Type Name="IncorrectPasswordException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Members>
-          <Member Name="#.ctor(System.String,System.Exception)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message Id="exception" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2016-11-23 17:55:05Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Pedro\Documents\VVS\Model\UserService\Exceptions" File="IncorrectPasswordException.cs" Line="31">Nunca se usa el parámetro 'exception' de 'IncorrectPasswordException.IncorrectPasswordException(string, Exception)'. Quite el parámetro o utilícelo en el cuerpo del método.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-         </Members>
-        </Type>
-       </Types>
-      </Namespace>
-     </Namespaces>
-    </Module>
-   </Modules>
-  </Target>
- </Targets>
- <Rules>
-  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
-   <Name>Revisar parámetros sin utilizar</Name>
-   <Description>Revise los parámetros de los métodos no virtuales que no se usan en el cuerpo del método para asegurar que no existe corrección al error de acceso a los mismos. Los parámetros sin usar conllevan un costo por mantenimiento y rendimiento. Algunas veces la infracción de esta regla puede señalar un error de implementación en el método (por ejemplo el parámetro debe haberse usado en el cuerpo del método). Excluya las advertencias de esta regla si el parámetro debe existir por compatibilidad con versiones anteriores.</Description>
-   <Resolution Name="Default">Nunca se usa el parámetro {0} de {1}. Quite el parámetro o utilícelo en el cuerpo del método.</Resolution>
-   <Owner />
-   <Url>http://msdn.microsoft.com/library/ms182268.aspx</Url>
-   <Email>[none]</Email>
-   <MessageLevel Certainty="95">Warning</MessageLevel>
-   <File Name="usagerules.dll" Version="12.0.0.0" />
-  </Rule>
- </Rules>
  <Localized>
   <String Key="Category">Categoría</String>
   <String Key="Certainty">Certeza</String>

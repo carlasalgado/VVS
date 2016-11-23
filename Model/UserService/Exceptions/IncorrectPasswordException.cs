@@ -29,7 +29,7 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         }
 
         public IncorrectPasswordException(string loginName, Exception exception) 
-                        : base("Incorrect password exception => loginName = " + loginName)
+                        : base("Incorrect password exception => loginName = " + loginName + "Exception: " + ((exception!= null)?exception.Message:""))
         {}
 
 
