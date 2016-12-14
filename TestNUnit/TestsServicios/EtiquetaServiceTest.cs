@@ -3,6 +3,7 @@ using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoService;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
+using FsCheck;
 using Microsoft.Practices.Unity;
 using NUnit.Framework;
 using System;
@@ -383,6 +384,20 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         }
 
 
+
+        /// <summary>
+        ///A test for create random tags
+        ///</summary>
+        [Test]
+        public void PR_AL_10()
+        {
+            List<string> cadenasRepetidas = new List<string>();
+            for (int i = 0; i < 100; i++)
+            {
+                string s = GeneradoresAleatorios.randomDistinctString(cadenasRepetidas, 15);
+                EventoService.CrearEtiqueta(s);
+            }
+        }
         #endregion
     }
 }

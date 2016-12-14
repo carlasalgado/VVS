@@ -115,3 +115,9 @@ C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\nunit.framework.xml
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.dll
 C:\Users\Pedro\Documents\VVS\TestNUnit\obj\Debug\PracticaMaD.TestNUnit.pdb
+C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\FsCheck.dll
+C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\FSharp.Core.dll
+C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\FsCheck.pdb
+C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\FsCheck.xml
+C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\FSharp.Core.xml
+C:\Users\Pedro\Documents\VVS\TestNUnit\bin\Debug\es\FSharp.Core.resources.dll

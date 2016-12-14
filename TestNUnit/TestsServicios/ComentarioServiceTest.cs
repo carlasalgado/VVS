@@ -3,6 +3,7 @@ using Es.Udc.DotNet.PracticaMaD.Model;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoDao;
 using Es.Udc.DotNet.PracticaMaD.Model.EventoService;
 using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
+using FsCheck;
 using Microsoft.Practices.Unity;
 using Moq;
 using NUnit.Framework;
@@ -133,7 +134,11 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         }
 
 
+
         #region AñadirComentarios Test
+
+
+
         /// <summary>
         ///A test for Add Comment
         ///</summary>
@@ -184,6 +189,29 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
                 Assert.IsTrue(true);
             }
         }
+
+
+        /// <summary>
+        ///A test for Add Comment Random Comment
+        ///</summary>
+        [Test]
+        public void PR_AL_05()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                String comentario = GeneradoresAleatorios.RandomString();
+
+                long idComentario = EventoService.AnadirComentario(evento1.idEvento, user.usrId, comentario);
+
+                Comentario c = ComentarioDao.Find(idComentario);
+
+                Assert.AreEqual(comentario, c.texto);
+                Assert.AreEqual(user, c.UserProfile);
+                Assert.AreEqual(evento1, c.Evento);
+            }
+        }
+
+
         #endregion
 
         #region ModificarComentarios Test
@@ -272,6 +300,26 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             }
         }
 
+        /// <summary>
+        ///A test for Update Comment with a random text
+        ///</summary>
+        [Test]
+        public void PR_AL_06()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                String comentario = GeneradoresAleatorios.RandomString();
+                long idComentario = EventoService.AnadirComentario(evento1.idEvento, user.usrId, "Primer Comentario!");
+
+                Comentario c = ComentarioDao.Find(idComentario);
+
+                EventoService.ModificarComentario(c.idComentario, c.UserProfile.usrId, comentario);
+
+                Assert.AreEqual(comentario, c.texto);
+                Assert.AreEqual(user, c.UserProfile);
+                Assert.AreEqual(evento1, c.Evento);
+            }
+        }
         #endregion
 
         #region EliminarComentario Test
@@ -382,7 +430,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             comentariosEsperados.Add(dto1);
             comentariosEsperados.Add(dto2);
 
-            BloqueComentarios comentariosObtenidos = EventoService.VerComentarios(evento1.idEvento,0,0);
+            BloqueComentarios comentariosObtenidos = EventoService.VerComentarios(evento1.idEvento, 0, 0);
 
             Assert.IsFalse(comentariosObtenidos.ExistenMasComentarios);
             Assert.AreEqual(2, comentariosObtenidos.Comentarios.Count);
@@ -420,7 +468,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         [Test]
         public void PR_IN_14()
         {
-            BloqueComentarios comentariosObtenidos = EventoService.VerComentarios(evento1.idEvento,0,0);
+            BloqueComentarios comentariosObtenidos = EventoService.VerComentarios(evento1.idEvento, 0, 0);
 
             Assert.AreEqual(0, comentariosObtenidos.Comentarios.Count);
         }
@@ -433,7 +481,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
         {
             try
             {
-                EventoService.VerComentarios(NON_EXISTING_EVENT,0,0);
+                EventoService.VerComentarios(NON_EXISTING_EVENT, 0, 0);
                 Assert.IsTrue(false);
             }
             catch (InstanceNotFoundException)
@@ -512,6 +560,33 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 
             Assert.AreEqual(1, comentariosObtenidos.Count);
             Assert.IsTrue(comentariosObtenidos.Contains(dto1));
+        }
+
+        /// <summary>
+        ///A test for Search comments by user with a random start index
+        ///</summary>
+        [Test]
+        public void PR_AL_07()
+        {
+
+            for (int i = 0; i < 100; i++)
+            {
+                EventoService.VerComentarios(evento1.idEvento, GeneradoresAleatorios.RandomInteger(), 10);
+            }
+
+        }
+
+        /// <summary>
+        ///A test for Search comments by user with a random count
+        ///</summary>
+        [Test]
+        public void PR_AL_08()
+        {
+
+            for (int i = 0; i < 100; i++)
+            {
+                EventoService.VerComentarios(evento1.idEvento, 0, GeneradoresAleatorios.RandomInteger());
+            }
         }
         /// <summary>
         ///A test for Search comments by user 

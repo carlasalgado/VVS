@@ -7,6 +7,7 @@ using Es.Udc.DotNet.PracticaMaD.Model;
 using System.Transactions;
 using System.Collections.Generic;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
+using FsCheck;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 {
@@ -139,7 +140,7 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             eventosEsperados.Add(dto3);
             eventosEsperados.Add(dto4);
 
-            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos("evento",0,0);
+            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos("evento", 0, 0);
 
             Assert.AreEqual(4, eventosObtenidos.Eventos.Count);
 
@@ -148,50 +149,56 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 
         }
 
-        /// <summary>
-        ///A test for Find Events without events
-        ///</summary>
-        [Test]
-        public void PR_IN_31()
-        {
-            BloqueEventos eventosObtenidos = EventoService.BusquedaEventos(NON_EXISTING_EVENT_NAME,0,0);
 
-            Assert.AreEqual(0, eventosObtenidos.Eventos.Count);
-        }
 
         /// <summary>
-        ///A test for Find Event with one id
+        ///Buscar eventos con palabras clave aleatorias
         ///</summary>
         [Test]
-        public void PR_IN_32()
+        public void PR_AL_01()
         {
-            EventoDTO dtoObtenido = new EventoDTO();
-            EventoDTO dtoEsperado = new EventoDTO();
-
-            dtoEsperado.idEvento = evento1.idEvento;
-            dtoEsperado.nombre = evento1.nombre;
-            dtoEsperado.reseña = evento1.reseña;
-            dtoEsperado.fecha = evento1.fecha;
-
-            dtoObtenido = EventoService.BuscarEvento(evento1.idEvento);
-
-            Assert.AreEqual(dtoEsperado, dtoObtenido);
-        }
-
-        /// <summary>
-        ///A test for Find Event non existing event
-        ///</summary>
-        [Test]
-        public void PR_IN_33()
-        {
-            try
+            for (int i = 0; i < 100; i++)
             {
-                EventoService.BuscarEvento(NON_EXISTING_EVENT);
-                Assert.IsTrue(false);
+                string s = GeneradoresAleatorios.RandomString();
+                EventoService.BusquedaEventos(s);
             }
-            catch (InstanceNotFoundException)
+        }
+
+        /// <summary>
+        ///Buscar eventos con palabras clave aleatorias
+        ///</summary>
+        [Test]
+        public void PR_AL_02()
+        {
+            for (int i = 0; i < 100; i++)
             {
-                Assert.IsTrue(true);
+                string s = GeneradoresAleatorios.RandomString();
+                EventoService.BusquedaEventos(s, 0, 10);
+            }
+        }
+
+        /// <summary>
+        ///Buscar eventos con startindex aleatorio
+        ///</summary>
+        ///
+        [Test]
+        public void PR_AL_03()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                EventoService.BusquedaEventos("Busqueda", GeneradoresAleatorios.RandomInteger(), 10);
+            }
+        }
+
+        /// <summary>
+        ///Buscar eventos con count aleatorio
+        ///</summary>
+        [Test]
+        public void PR_AL_04()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                EventoService.BusquedaEventos("Busqueda", 0, GeneradoresAleatorios.RandomInteger());
             }
         }
     }

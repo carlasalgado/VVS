@@ -9,6 +9,7 @@ using System.Transactions;
 using System.Collections.Generic;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
 using System.Collections.ObjectModel;
+using FsCheck;
 
 namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
 {
@@ -152,7 +153,6 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             transaction.Dispose();
         }
 
-
         /// <summary>
         ///A test for Recommend one event to some groups
         ///</summary>
@@ -169,6 +169,22 @@ namespace Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios
             Assert.IsTrue(GrupoDao.Find(grupos[1].idGrupo).Recomendacion.Contains(recomendacion));
         }
 
+        /// <summary>
+        ///A test for Recommend one event to some groups random comment
+        ///</summary>
+        [Test]
+        public void PR_AL_09()
+        {
+            Collection<Grupo> grupos = new Collection<Grupo>();
+            grupos.Add(grupo);
+            grupos.Add(grupo2);
+
+            for (int i = 0; i < 100; i++)
+            {
+                String comentario = GeneradoresAleatorios.RandomString();
+                Recomendacion recomendacion = EventoService.RecomendarEvento(evento1.idEvento, grupos, comentario);
+            }
+        }
 
         /// <summary>
         ///A test for Recommend one inexisteng event

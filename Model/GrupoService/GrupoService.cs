@@ -48,13 +48,13 @@ namespace Es.Udc.DotNet.PracticaMaD.Model.UserService
         {
             GrupoDTO dto = new GrupoDTO();
             Collection<GrupoDTO> gruposDTO = new Collection<GrupoDTO>();
-            int aux = count ++;
-            Collection<Grupo> grupos = grupoDao.MostrarGrupos(startIndex, aux);
+            
+            Collection<Grupo> grupos = grupoDao.MostrarGrupos(startIndex, count + 1);
             List<Recomendacion> recomendaciones = new List<Recomendacion>();
-            bool existenMasGrupos = (grupos.Count == aux);
+            bool existenMasGrupos = (grupos.Count == count + 1);
 
             if (existenMasGrupos)
-                grupos.RemoveAt(count);
+                grupos.RemoveAt(count + 1);
 
             foreach (Grupo g in grupos)
             {

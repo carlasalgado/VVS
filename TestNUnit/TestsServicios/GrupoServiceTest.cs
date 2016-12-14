@@ -8,6 +8,7 @@ using Es.Udc.DotNet.PracticaMaD.Model.GrupoDao;
 using Es.Udc.DotNet.ModelUtil.Exceptions;
 using Es.Udc.DotNet.PracticaMaD.Model.UserService;
 using System.Collections.ObjectModel;
+using Es.Udc.DotNet.PracticaMaD.TestNUnit.TestsServicios;
 
 namespace es.udc.dotnet.practicamad.testnunit.testsservicios
 {
@@ -311,6 +312,31 @@ namespace es.udc.dotnet.practicamad.testnunit.testsservicios
             grupoService.BajaGrupo(user.usrId, g1.idGrupo);
 
             Assert.AreEqual(grupoService.VerGrupos(0, 20).Grupos.Count, 0);
+        }
+
+
+        /// <summary>
+        ///A test for view groups with a random startIndex
+        ///</summary>
+        [Test]
+        public void PR_AL_11()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                grupoService.VerGrupos(GeneradoresAleatorios.RandomInteger(), 20);
+            }
+        }
+        /// <summary>
+        ///A test for view groups with a random count
+        ///</summary>
+        [Test]
+        public void PR_AL_12()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                int ia = GeneradoresAleatorios.RandomInteger();
+                grupoService.VerGrupos(0, ia);
+            }
         }
 
         /// <summary>
